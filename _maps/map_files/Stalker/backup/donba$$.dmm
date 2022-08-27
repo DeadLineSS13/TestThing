@@ -1,0 +1,308 @@
+"aa" = (/obj/effect/landmark/latejoin/ua_trooper,/turf/stalker/floor/digable/grass/with_grass,/area/stalker/blowout/outdoor)
+"ab" = (/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"ac" = (/turf/simulated/wall/stalker/beton,/area/stalker/blowout/outdoor)
+"ad" = (/turf/stalker/floor/water/river,/area/stalker/blowout/outdoor)
+"ae" = (/turf/simulated/wall/stalker/beton,/area/stalker/buildings)
+"af" = (/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"ag" = (/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"ah" = (/obj/structure/table/stalker/wood/bar,/obj/structure/BIG_RED_BUTTON/UA,/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"ai" = (/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"aj" = (/obj/structure/stalker/blocks/vanish/block2/l,/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"ak" = (/obj/structure/stalker/blocks/vanish/block1/l,/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"al" = (/obj/structure/stalker/blocks/vanish/block1/m,/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"am" = (/turf/stalker/floor/digable/grass,/area/stalker)
+"an" = (/obj/effect/landmark/start,/turf/stalker/floor/digable/grass,/area/stalker)
+"ao" = (/obj/overlay,/turf/indestructible/splashscreen{icon_state = "lobby"},/area/stalker)
+"ap" = (/obj/structure/stalker/blocks/vanish/block1/r,/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"aq" = (/obj/structure/stalker/blocks/vanish/block2/r,/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"ar" = (/turf/simulated/wall/stalker/bricks_white,/area/stalker/buildings)
+"as" = (/obj/structure/stalker/bochkapiva,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"at" = (/obj/structure/stalker/blocks/vanish/pipe/pipe2{icon_state = "truba2"; dir = 1},/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"au" = (/obj/structure/stalker/blocks/vanish/pipe/pipe3,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"av" = (/obj/structure/stalker/blocks/vanish/pipe/pipe2,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"aw" = (/obj/structure/stalker/blocks/vanish/pipe/pipe3,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"ax" = (/obj/structure/stalker/blocks/vanish/pipe/pipe2,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"ay" = (/obj/structure/stalker/blocks/vanish/block2/l,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"az" = (/obj/structure/stalker/blocks/vanish/block2/m,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"aA" = (/obj/structure/stalker/blocks/vanish/block2/m,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"aB" = (/obj/structure/stalker/blocks/vanish/block2/r,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"aC" = (/obj/structure/stalker/blocks/block2/l,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"aD" = (/obj/structure/stalker/blocks/block2/l,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"aE" = (/obj/structure/stalker/blocks/block2/r,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"aF" = (/obj/structure/stalker/blocks/vanish/block2/m,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"aG" = (/obj/structure/stalker/blocks/block2/l,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"aH" = (/obj/structure/stalker/blocks/block2/r,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"aI" = (/obj/structure/stalker/blocks/block2/r,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"aJ" = (/obj/structure/stalker/blocks/vanish/block2/l,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"aK" = (/obj/structure/stalker/blocks/vanish/block2/r,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"aL" = (/obj/structure/stalker/blocks/vanish/pipe/pipe2{icon_state = "truba2"; dir = 1},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"aM" = (/obj/structure/stalker/blocks/vanish/pipe/pipe3,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"aN" = (/obj/structure/stalker/blocks/vanish/pipe/pipe2,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"aO" = (/turf/simulated/wall/stalker/bricks,/area/stalker/buildings)
+"aP" = (/obj/effect/landmark/latejoin/ua_soldier,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"aQ" = (/obj/structure/toilet,/turf/stalker/floor/plasteel/plitka,/area/stalker/buildings)
+"aR" = (/turf/stalker/floor/plasteel/plitka,/area/stalker/buildings)
+"aS" = (/obj/structure/stalker/porog{icon_state = "porog1"; dir = 1},/turf/stalker/floor/wood/oldgor,/area/stalker/buildings)
+"aT" = (/obj/structure/stalker/okno/double1,/turf/simulated/wall/stalker/bricks_white{opacity = 0},/area/stalker/buildings)
+"aU" = (/obj/structure/stalker/okno/double2,/turf/simulated/wall/stalker/bricks_white{opacity = 0},/area/stalker/buildings)
+"aV" = (/obj/structure/stalker/okno/double1,/turf/simulated/wall/stalker/bricks{opacity = 0},/area/stalker/buildings)
+"aW" = (/obj/structure/stalker/okno/double2,/turf/simulated/wall/stalker/bricks{opacity = 0},/area/stalker/buildings)
+"aX" = (/turf/stalker/floor/digable/grass,/turf/simulated/wall/stalker/bricks,/area/stalker/buildings)
+"aY" = (/obj/structure/stalker/okno/double1{icon_state = "window_two1"; dir = 8},/turf/simulated/wall/stalker/bricks_white{opacity = 0},/area/stalker/buildings)
+"aZ" = (/obj/structure/stalker/battery{icon_state = "gazovaya_truba"; dir = 4},/turf/stalker/floor/plasteel/plitka,/area/stalker/buildings)
+"ba" = (/obj/machinery/light/small{icon_state = "bulb1"; dir = 4},/turf/stalker/floor/plasteel/plitka,/area/stalker/buildings)
+"bb" = (/turf/stalker/floor/wood/oldgor,/area/stalker/buildings)
+"bc" = (/obj/structure/bed/chair/wood/normal{icon_state = "wooden_chair"; dir = 4},/turf/stalker/floor/wood/oldgor,/area/stalker/buildings)
+"bd" = (/obj/structure/table/stalker/wood,/turf/stalker/floor/wood/oldgor,/area/stalker/buildings)
+"be" = (/obj/structure/bed/chair/wood/normal{icon_state = "wooden_chair"; dir = 8},/turf/stalker/floor/wood/oldgor,/area/stalker/buildings)
+"bf" = (/obj/machinery/light/small{icon_state = "bulb1"; dir = 8},/turf/stalker/floor/plasteel/plitka,/area/stalker/buildings)
+"bg" = (/obj/structure/stalker/battery{icon_state = "gazovaya_truba"; dir = 8},/turf/stalker/floor/plasteel/plitka,/area/stalker/buildings)
+"bh" = (/obj/machinery/light/small{icon_state = "bulb1"; dir = 4},/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"bi" = (/obj/machinery/light/small{icon_state = "bulb1"; dir = 8},/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"bj" = (/obj/structure/stalker/vanna,/turf/stalker/floor/plasteel/plitka,/area/stalker/buildings)
+"bk" = (/obj/structure/stalker/porog{icon_state = "porog1"; dir = 8},/turf/stalker/floor/wood/oldgor,/area/stalker/buildings)
+"bl" = (/obj/structure/stalker/okno/double2{icon_state = "window_two2"; dir = 4},/turf/simulated/wall/stalker/bricks{opacity = 0},/area/stalker/buildings)
+"bm" = (/obj/structure/stalker/okno/double2{icon_state = "window_two2"; dir = 8},/turf/simulated/wall/stalker/bricks_white{opacity = 0},/area/stalker/buildings)
+"bn" = (/obj/structure/stalker/porog{icon_state = "porog1"; dir = 4},/turf/stalker/floor/wood/oldgor,/area/stalker/buildings)
+"bo" = (/obj/structure/stalker/battery{icon_state = "gazovaya_truba"; dir = 4},/turf/stalker/floor/wood/oldgor,/area/stalker/buildings)
+"bp" = (/obj/structure/stalker/okno/double1{icon_state = "window_two1"; dir = 4},/turf/simulated/wall/stalker/bricks{opacity = 0},/area/stalker/buildings)
+"bq" = (/obj/structure/stalker/okno/one{icon_state = "window_one"; dir = 4},/turf/simulated/wall/stalker/bricks{opacity = 0},/area/stalker/buildings)
+"br" = (/obj/structure/stalker/battery{icon_state = "gazovaya_truba"; dir = 8},/turf/stalker/floor/wood/oldgor,/area/stalker/buildings)
+"bs" = (/obj/structure/bed/chair/stalker/divan,/turf/stalker/floor/wood/oldgor,/area/stalker/buildings)
+"bt" = (/obj/structure/bed/chair/stalker/divan/divan2,/turf/stalker/floor/wood/oldgor,/area/stalker/buildings)
+"bu" = (/turf/stalker/floor/tropa,/area/stalker/blowout/outdoor)
+"bv" = (/obj/machinery/light/small,/turf/stalker/floor/wood/oldgor,/area/stalker/buildings)
+"bw" = (/obj/machinery/light/small{icon_state = "bulb1"; dir = 1},/turf/stalker/floor/wood/oldgor,/area/stalker/buildings)
+"bx" = (/obj/machinery/light/small,/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"by" = (/obj/structure/bed/chair/wood/normal{icon_state = "wooden_chair"; dir = 1},/turf/stalker/floor/wood/oldgor,/area/stalker/buildings)
+"bz" = (/obj/structure/stalker/okno/one{icon_state = "window_one"; dir = 8},/turf/simulated/wall/stalker/bricks_white,/area/stalker/buildings)
+"bA" = (/obj/machinery/light/small,/turf/stalker/floor/digable/grass/with_grass,/area/stalker/blowout/outdoor)
+"bB" = (/obj/machinery/light/small{icon_state = "bulb1"; dir = 4},/turf/stalker/floor/digable/grass/with_grass,/area/stalker/blowout/outdoor)
+"bC" = (/obj/structure/stalker/okno/farm{icon_state = "window_farm"; dir = 4},/turf/simulated/wall/stalker/bricks_white{opacity = 0},/area/stalker/buildings)
+"bD" = (/obj/machinery/light/small{icon_state = "bulb1"; dir = 8},/turf/stalker/floor/digable/grass/with_grass,/area/stalker/blowout/outdoor)
+"bE" = (/obj/structure/table/stalker/wood,/obj/structure/stalker/televizor,/turf/stalker/floor/wood/oldgor,/area/stalker/buildings)
+"bF" = (/obj/structure/stalker/okno/double2{icon_state = "window_two2"; dir = 1},/turf/simulated/wall/stalker/bricks_white{opacity = 0},/area/stalker/buildings)
+"bG" = (/obj/structure/stalker/okno/double1{icon_state = "window_two1"; dir = 1},/turf/simulated/wall/stalker/bricks_white{opacity = 0},/area/stalker/buildings)
+"bH" = (/obj/structure/stalker/okno/double2{icon_state = "window_two2"; dir = 1},/turf/simulated/wall/stalker/bricks{opacity = 0},/area/stalker/buildings)
+"bI" = (/obj/effect/landmark/latejoin/ua_soldier,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"bJ" = (/obj/structure/stalker/car/gryzovik_army/south,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"bK" = (/obj/structure/stalker/car/gryzovik_army/south{icon_state = "2"},/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"bL" = (/obj/structure/stalker/car/gryzovik_army/south,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"bM" = (/obj/structure/stalker/car/gryzovik_army/south{icon_state = "2"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"bN" = (/obj/structure/stalker/car/gryzovik_army/south{icon_state = "3"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"bO" = (/obj/structure/stalker/car/gryzovik_army/south{icon_state = "4"},/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"bP" = (/obj/structure/stalker/car/gryzovik_army/south{icon_state = "3"},/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"bQ" = (/obj/structure/stalker/car/gryzovik_army/south{icon_state = "4"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"bR" = (/obj/structure/stalker/car/gryzovik_army/south{icon_state = "5"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"bS" = (/obj/structure/stalker/car/gryzovik_army/south{icon_state = "6"},/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"bT" = (/obj/structure/stalker/car/gryzovik_army/south{icon_state = "5"},/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"bU" = (/obj/structure/stalker/car/gryzovik_army/south{icon_state = "6"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"bV" = (/obj/structure/stalker/car/gryzovik_army/south{icon_state = "7"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"bW" = (/obj/structure/stalker/car/gryzovik_army/south{icon_state = "8"},/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"bX" = (/obj/structure/stalker/car/gryzovik_army/south{icon_state = "7"},/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"bY" = (/obj/structure/stalker/car/gryzovik_army/south{icon_state = "8"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"bZ" = (/obj/structure/stalker/blocks/vanish/shlagbaum1,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"ca" = (/obj/structure/stalker/blocks/vanish/shlagbaum1{icon_state = "shlagbaum1"; dir = 1},/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"cb" = (/obj/structure/stalker/blocks/vanish/shlagbaum1{icon_state = "shlagbaum1"; dir = 4},/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"cc" = (/obj/structure/grille/stalker/beton,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"cd" = (/obj/structure/stalker/okno/double1{icon_state = "window_two1"; dir = 1},/turf/simulated/wall/stalker/bricks{opacity = 0},/area/stalker/buildings)
+"ce" = (/obj/structure/bed/chair/stalker/matras,/turf/stalker/floor/wood/oldvert,/area/stalker/buildings)
+"cf" = (/obj/structure/stalker/blocks/vanish/block1/l,/turf/stalker/floor/tropa,/area/stalker/blowout/outdoor)
+"cg" = (/obj/structure/stalker/blocks/vanish/block1/m,/turf/stalker/floor/tropa,/area/stalker/blowout/outdoor)
+"ch" = (/obj/structure/stalker/blocks/block3/l,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"ci" = (/obj/structure/stalker/blocks/block3/r,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"cj" = (/obj/structure/stalker/blocks/vanish/block1/r,/turf/stalker/floor/tropa,/area/stalker/blowout/outdoor)
+"ck" = (/obj/structure/stalker/car/moskvich/south,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"cl" = (/obj/structure/stalker/blocks/block3/r,/turf/stalker/floor/tropa,/area/stalker/blowout/outdoor)
+"cm" = (/obj/structure/stalker/blocks/block3/l,/turf/stalker/floor/tropa,/area/stalker/blowout/outdoor)
+"cn" = (/obj/structure/stalker/car/moskvich/south{icon_state = "2"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"co" = (/obj/structure/stalker/blocks/block1,/turf/stalker/floor/tropa,/area/stalker/blowout/outdoor)
+"cp" = (/obj/structure/stalker/car/moskvich/south{icon_state = "3"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"cq" = (/obj/structure/stalker/car/moskvich/south{icon_state = "4"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"cr" = (/obj/structure/stalker/okno/farm{icon_state = "window_farm"; dir = 8},/turf/simulated/wall/stalker/bricks{opacity = 0},/area/stalker/buildings)
+"cs" = (/turf/stalker/floor/wood/oldvert,/area/stalker/buildings)
+"ct" = (/obj/machinery/light/small{icon_state = "bulb1"; dir = 8},/turf/stalker/floor/wood/oldvert,/area/stalker/buildings)
+"cu" = (/obj/machinery/light/small{icon_state = "bulb1"; dir = 4},/turf/stalker/floor/wood/oldvert,/area/stalker/buildings)
+"cv" = (/obj/structure/stalker/porog{icon_state = "porog1"; dir = 8},/turf/stalker/floor/wood/oldvert,/area/stalker/buildings)
+"cw" = (/obj/structure/stalker/porog{icon_state = "porog1"; dir = 4},/turf/stalker/floor/wood/oldvert,/area/stalker/buildings)
+"cx" = (/obj/structure/bed/chair/stalker/matras{icon_state = "matras"; dir = 8},/turf/stalker/floor/wood/oldvert,/area/stalker/buildings)
+"cy" = (/obj/structure/bed/chair/stalker/matras{icon_state = "matras"; dir = 4},/turf/stalker/floor/wood/oldvert,/area/stalker/buildings)
+"cz" = (/turf/stalker/floor/gryaz,/area/stalker/buildings)
+"cA" = (/obj/structure/grille/stalker/beton,/turf/simulated/wall/stalker/bricks_white,/area/stalker/blowout/outdoor)
+"cB" = (/obj/structure/stalker/car/bmp{icon_state = "0,2"},/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"cC" = (/obj/structure/stalker/car/bmp{icon_state = "1,2"},/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"cD" = (/obj/structure/stalker/car/bmp{icon_state = "0,1"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"cE" = (/obj/structure/stalker/car/bmp{icon_state = "1,1"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"cF" = (/obj/structure/stalker/car/bmp{icon_state = "0,0"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"cG" = (/obj/structure/stalker/car/bmp{icon_state = "1,0"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"cH" = (/obj/structure/stalker/blocks/vanish/block1/l,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"cI" = (/obj/structure/stalker/blocks/vanish/block1/m,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"cJ" = (/obj/structure/stalker/blocks/vanish/pipe/pipe2{icon_state = "truba2"; dir = 4},/turf/stalker/floor/digable/grass/with_grass,/area/stalker/blowout/outdoor)
+"cK" = (/obj/structure/stalker/blocks/vanish/pipe/pipe3{icon_state = "truba3"; dir = 8},/turf/stalker/floor/digable/grass/with_grass,/area/stalker/blowout/outdoor)
+"cL" = (/obj/structure/stalker/blocks/vanish/pipe/pipe2{icon_state = "truba2"; dir = 4},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"cM" = (/turf/simulated/wall/stalker/bricks_white,/area/stalker/blowout/outdoor)
+"cN" = (/turf/simulated/wall/stalker/bricks,/area/stalker/blowout/outdoor)
+"cO" = (/turf/stalker/floor/plasteel/plitochka,/area/stalker/blowout/outdoor)
+"cP" = (/turf/stalker/floor/tropa,/area/stalker/buildings)
+"cQ" = (/obj/structure/stalker/okno/farm{icon_state = "window_farm"; dir = 4},/turf/simulated/wall/stalker/bricks{opacity = 0},/area/stalker/buildings)
+"cR" = (/obj/structure/stalker/blocks/block2/m,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"cS" = (/obj/structure/stalker/blocks/block2/m,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"cT" = (/obj/structure/stalker/blocks/vanish/block2/r,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"cU" = (/obj/structure/stalker/blocks/block1/l,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"cV" = (/obj/structure/stalker/blocks/block1/r,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"cW" = (/obj/structure/stalker/blocks/vanish/pipe/pipe2{icon_state = "truba2"; dir = 1},/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"cX" = (/obj/structure/stalker/okno/farm,/turf/simulated/wall/stalker/bricks_white{opacity = 0},/area/stalker/buildings)
+"cY" = (/obj/structure/stalker/okno/farm{icon_state = "window_farm"; dir = 1},/turf/simulated/wall/stalker/bricks_white{opacity = 0},/area/stalker/buildings)
+"cZ" = (/obj/structure/stalker/okno/farm,/turf/simulated/wall/stalker/bricks{opacity = 0},/area/stalker/buildings)
+"da" = (/obj/structure/stalker/okno/one{icon_state = "window_one"; dir = 8},/turf/simulated/wall/stalker/bricks_white{opacity = 0},/area/stalker/buildings)
+"db" = (/obj/effect/landmark/latejoin/ua_hunter,/turf/stalker/floor/digable/grass/with_grass,/area/stalker/blowout/outdoor)
+"dc" = (/obj/structure/stalker/katushka,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"dd" = (/obj/structure/stalker/blocks/vanish/block2/l,/obj/machinery/light/small,/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"de" = (/obj/structure/stalker/blocks/vanish/pipe/pipe2{icon_state = "truba2"; dir = 4},/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"df" = (/obj/structure/stalker/blocks/vanish/pipe/pipe2{icon_state = "truba2"; dir = 8},/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"dg" = (/obj/structure/stalker/blocks/vanish/pipe/pipe2{icon_state = "truba2"; dir = 1},/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"dh" = (/obj/structure/stalker/blocks/vanish/pipe/pipe2,/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"di" = (/obj/structure/stalker/blocks/vanish/pipe/pipe3{icon_state = "truba3"; dir = 8},/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"dj" = (/obj/structure/stalker/katushka,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"dk" = (/obj/structure/stalker/blocks/block3/l,/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"dl" = (/obj/structure/stalker/blocks/block3/r,/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"dm" = (/obj/structure/stalker/blocks/vanish/block2/r,/turf/stalker/floor/gryaz,/area/stalker/buildings)
+"dn" = (/obj/structure/stalker/blocks/vanish/block1/l,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"do" = (/obj/structure/stalker/blocks/vanish/block1/m,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"dp" = (/obj/structure/stalker/blocks/vanish/block1/r,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"dq" = (/obj/structure/stalker/blocks/vanish/block1/m,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"dr" = (/obj/structure/stalker/blocks/vanish/block1/r,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"ds" = (/obj/effect/landmark/latejoin/ru_trooper,/turf/stalker/floor/digable/grass/with_grass,/area/stalker/blowout/outdoor)
+"dt" = (/obj/effect/landmark/latejoin/ru_soldier,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"du" = (/obj/structure/stalker/propane/dual,/turf/stalker/floor/tropa,/area/stalker/buildings)
+"dv" = (/obj/effect/landmark/latejoin/ru_soldier,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"dw" = (/obj/effect/landmark/latejoin/ru_hunter,/turf/stalker/floor/digable/grass/with_grass,/area/stalker/blowout/outdoor)
+"dx" = (/obj/structure/stalker/car/moskvich/south{icon_state = "5"},/turf/stalker/floor/tropa,/area/stalker/blowout/outdoor)
+"dy" = (/obj/structure/stalker/car/moskvich/south{icon_state = "6"},/turf/stalker/floor/tropa,/area/stalker/blowout/outdoor)
+"dz" = (/obj/structure/stalker/porog{icon_state = "porog1"; dir = 1},/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"dA" = (/obj/structure/stalker/shina/gruda/three/floor,/turf/stalker/floor/tropa,/area/stalker/buildings)
+"dB" = (/obj/structure/stalker/porog,/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"dC" = (/obj/structure/stalker/shina/gruda/three/floor,/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"dD" = (/turf/stalker/floor/digable/grass,/area/stalker/buildings)
+"dE" = (/obj/structure/stalker/blocks/vanish/pipe/pipe3,/turf/stalker/floor/tropa,/area/stalker/blowout/outdoor)
+"dF" = (/obj/structure/stalker/blocks/block1,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"dG" = (/obj/structure/stalker/luk,/obj/machinery/light/small{icon_state = "bulb1"; dir = 4},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"dH" = (/obj/structure/stalker/luk,/obj/machinery/light/small{icon_state = "bulb1"; dir = 8},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"dI" = (/obj/machinery/light/small{icon_state = "bulb1"; dir = 1},/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"dJ" = (/obj/structure/stalker/blocks/vanish/pipe/pipe3{icon_state = "truba3"; dir = 8},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"dK" = (/obj/structure/stalker/blocks/vanish/pipe/pipe2{icon_state = "truba2"; dir = 8},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"dL" = (/obj/structure/grille/stalker/beton{icon_state = "|3"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"dM" = (/obj/structure/grille/stalker/beton{icon_state = "l4"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"dN" = (/turf/stalker/floor/digable/grass/with_grass,/area/stalker/blowout/outdoor)
+"dO" = (/obj/structure/table/stalker/wood/bar,/obj/structure/BIG_RED_BUTTON/RU,/turf/stalker/floor/plasteel/plitochka,/area/stalker/buildings)
+"dP" = (/obj/structure/stalker/blocks/vanish/block1/r,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"dQ" = (/obj/effect/landmark/latejoin/ru_bandit,/turf/stalker/floor/digable/grass/with_grass,/area/stalker/blowout/outdoor)
+"dR" = (/obj/effect/landmark/latejoin/ua_bandit,/turf/stalker/floor/digable/grass/with_grass,/area/stalker/blowout/outdoor)
+"dS" = (/obj/effect/landmark/latejoin/ua_supersoldier,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"dT" = (/obj/effect/landmark/latejoin/ru_supersoldier,/turf/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+
+(1,1,1) = {"
+aeaeaeaeaeaeaeaeaeaeaeaeaedDdDdDdDdDdDdDdDdDdDdDdDdDdDdDdDdDdDdDdDarccccccccccccccccccccccccccccadadadadccccccccccccccccccccccccccccaOdDdDdDdDdDdDdDdDdDdDdDdDdDdDdDdDdDdDdDdDaeaeaeaeaeaeaeaeaeaeaeaeae
+aeagdIagagagdIagagagdIagaedDdDdDdDarararardDdDdDdDdDdDdDdDdDdDdDdDardNdNdNdNdNdNdNdNdNaLdNdNdNabadadadadabdNdNdNaLdNdNdNdNdNdNdNdNdNaOdDdDdDdDdDdDdDdDdDdDdDdDaOaOaOaOdDdDdDdDaeagdIagagagdIagagagdIagae
+aeakapagagagahagagagakapaedDdDdDdDarafafarararardDdDdDdDdDdDdDdDdDardNdNdNdNdNdNdNdNdNaMdNdNdNabadadadadabdNdNdNaMdNdNdNdNdNdNdNdNdNaOdDdDdDdDdDdDdDdDdDaOaOaOaOafafaOdDdDdDdDaeakapagagagdOagagagakapae
+aeagagagagagaeagagagagagaedDdDdDdDarafcMafafafardDdDdDdDdDdDdDdDdDardNdNdNdNdNdNdNdNdNaNdNdNdNabadadadadabdNdNdNaNdNdNdNdNdNdNdNdNdNaOdDdDdDdDdDdDdDdDdDaOafafafcNafaOdDdDdDdDaeagagagagagaeagagagagagae
+aeagagakapagagagakapagagaearararararafafafcMafararararararararararardNdNdNdNdNdNdNdNdNdNdNdNdNabadadadadabdNdNdNdNdNdNdNdNdNdNdNdNdNaOaOaOaOaOaOaOaOaOaOaOafcNafafafaOaOaOaOaOaeagagakapagagagakapagagae
+aeagagagagagagagagagagagaedNdNdNdNdNafafafafdNdNdNdNdNdNdNdNdNdNdNdNdNdNababdNdNdNararararardNabadadadadabdNaOaOaOaOaOdNdNdNababdNdNdNdNdNdNdNdNdNdNdNdNdNafafafafdNdNdNdNdNdNaeagagagagagagagagagagagae
+aeagagagagagagagagagagagaedNdNdNdNdNdNdNdNdNdNdNdNdNdNdNafdNdNdNdNdNdNabckcnbububucPcPducPardNabadadadadabdNaOcPducPcPbububuckcnabdNdNdNdNdNdNdNafdNdNdNdNdNdNdNdNdNdNdNdNdNdNaeagagagagagagagagagagagae
+aeagbxagagajbxajagagbxagaedNdNafdNdNdNdNdNdNdNdNdNdNafafatafafafdNdNdNabcpcqbububucPcPcPcPardNabadadadadabdNaOcPcPcPcPbububucpcqabdNdNdNafafafatafafdNdNdNdNdNdNdNdNafafafafdNaeagbxagagajbxajagagbxagae
+aeaeaeaeagaeaeaeagaeaeaeaedNafafafbubububububububububuafauafbubububububudxdybububucPcPcPcPardNabadadadadabdNaOcPcPcPcPbububudxdybububububububuauafafafbubububububububuafafafafaeaeaeaeagaeaeaeagaeaeaeae
+aeagagagagagagagagagagagaeafafafbubububububububububububudEbububububububuafafafbudcararararardNabadadadadabdNaOaOaOaOaOdcbubuafafbububububububudEbubububububububububububuafafdNaeagagagagagagagagagagagae
+aeagagddagakalapagddagagaedNafbubudNdNdNabdNdNdNdNdNdNdNaNdNdNababdNdNdNafafafbubucPcPcPafafdNabadadadadabdNafafcPcPcPbubuafafafdNdNdNabdNdNdNaNdNdNdNdNdNdNdNabdNdNdNbubuafdNaeagagddagakalapagddagagae
+aeagagaeagagagagagaeagagaedNdNbubudNarardzararardNdNdNdNafdNdNabababdNdNdNafbububucPcParafafafabadadadadabafafafaOcPcPbubuafafdNdNdNabababdNdNdNdNdNdNdNaOaOaOdzaOaOdNbubudNdNaeagagaeagagagagagaeagagae
+aeagaeaeaeaeagaeaeaeaeagaedNdNcfcjdFaragagagagardNdNdNafafafafdNabdNdNdNdNdNbububucPcPczafafcMabadadadadabcNafafczcPcPbububudNdNdNdNdNababdNafafafdNdNdNaOagagagagaOdFcfcjdNdNaeagaeaeaeaeagaeaeaeaeagae
+aebiagagagagbxagagagagbhaedNdNbubudNbCagagagbharcMcMafafafafcMardzararardNdNbubudGarararafafdNabadadadadabdNafafaOaOaOdHbubudNdNaOaOaOdzaOcNafafafafcNcNaObiagagagcrdNbubudNdNaebiagagagagbxagagagagbhae
+aeagaeaeaeaeaeaeaeaeaeagaedNdNbubudNbCagdedfagarcOafafafafafafagagagagardNdNbububucPcPcPafcMdNabadadadadabdNcNafcPcPcPbububudNdNaOagagagczafafafafafcOcOaOagdedfagcrdNbubudNdNaeagaeaeaeaeaeaeaeaeaeagae
+aeagagagagaqagaqagagagagaedNdNbubudNaragagagagarcOcOafafafafafagagagagbCdNdNbububucPcPcPcPardNabadadadadabdNaOcPcPcPcPbububudNdNcQagagagagafafafafafafcOaOagagagagaOdNbubudNdNaeagagagagaqagaqagagagagae
+aeagagddagagagagagddagagaedFdncjbudNarararagarararczczagaragaragagagagardNdNbububucPcPcPdAardNabadadadadabdNaOdAcPcPcPbububudNdNaOagagagagaOagaOagczagaOaOaOagaOaOaOdNbucfdpdFaeagagddagagagagagddagagae
+aeaeaeaeaeaedBaeaeaeaeaeaedNdNbubudNaragagagdgagagagarczaragagagagagagbCdNdNbubudNararararardNabadadadadabdNaOaOaOaOaOdNbubudNdNcQagagagagagagaOagaOagagagdgagagagaOdNbubudNdNaeaeaeaeaeaedBaeaeaeaeaeae
+acafafafafafafafafafasafacdNdNbubudNbCagagagdhagagagagagaragdedididfagardNdNbubudNdNdNdNdNdNdNabadadadadabdNdNdNdNdNdNdNbubudNdNaOagdedididfagaOagagagagagdhagagagcrdNbubudNdNacafasafafafafafafafafafac
+acafafafafafafafafafafafacdNdNbubudNbCagagagagagagdgagagagagagagagagagbCdNdNbubudNdNdNdNdNdNdNaLadadadadaLdNdNdNdNdNdNdNbubudNdNcQagagagagagagagagagdgagagagagagagcrdNbubudNdNacafafafafafafafafafafafac
+dLafafafafafafafafafatafafafdNbubudNaragbxagagagagdhagagaragagagbxagagardNdNbubudNdNabdNdNdNdNaMadadadadaMdNdNdNdNabdNdNbubudNdNaOagagbxagagagaOagagdhagagagagbxagaOdNbubudNdNafafatafafafafafafafafafdM
+dLdNafafafafafafafafauafafafafbubudNararararcXarcXarcXarararcXararcYarardNdNbubudNabayabdNdNdNaNadadadadaNabdNdNabayabdNbubudNdNaOaOcZaOaOcZaOaOaOcZaOcZaOcZaOaOaOaOdNbubudNafafafauafafafafafafafafdNdM
+dLdNafafafafafatafafavafafafafbubudNdNdNaCaCdNdNafafafdNdNdNdNdNdNdNdNdNdNdNafbuafabazabdNdNababadadadadabababafafaAabdNbubudNdNdNdNdNafafdNdNdNdNdNdNdNdNdNaCaCdNdNdNbubuafafafafavafafatafafafafdNdNdM
+dLdNdNafafafafauafafafafafafafbubuafafaJcRcRabafafafafafafafafaLabababababafafafafafaBababaCababadadadadabafaDafafaBafabbubuabafafafafafafafafabaLabababafafcScSaJafafbubuafafafafafafafauafafafafdNdNdM
+dLdNdNafafafaiawaiaiafafafafafaiaiaiaiaFaEaEaiaiaiafafaiaiaiaiawaiaiaiaiafafafaiaiaiaiaiaiaEaiaiaiaiaiaiaiaiaEaiafafaiaiaiaiaiaiaiaiafafaiaiaiaiawaiaiaiaiafaHaHaFaiaiaiaiaiaiaiaiaiaiaiawaiafafafdNdNdM
+dLdNdNafafaiaiaxaiaiaiaiaiaiaiaiaiaiaicTcUcVaiaiaiaiaiaiaiaiaiaxaiaiaiaiaiaiaiaiaiaiaiaiaiaFaiaiaiaiaiaiaiaiaFaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaxaiaiaiaiaicUcVcTaiaiaiaiaiaiaiaiaiaiaiaxaiaiafafdNdNdM
+dLdNdNafaiaiaiaiaiaiaiaiaiaiaiaiafafaiaicWaiafafaiaiaiaiaiaiafafafafaiaiaiaiaiaiaiaiafafaiaGaiaiaiaiaiaiaiaiaGaiaiaiaiaiafafaiaiaiaiaiaiafafaiaiaiaiafafaiaiaicWaiaiaiaiaiafafaiaiaiaiaiaiaiaiaiafdNdNdM
+dLdNdNabaiaiaiafafafabababafafafafafcBcCaNabdjafafafafabbubuafafafafafafafafababayafafafafaHababadadadadababaIababafafaJafafafafabababafafafbubuafafafafafdcabaNcBcCafafafafafafafafafafafaiaiaiafdNdNdM
+dLdNdNabaiaiaiafdNdNdNdNdndodpdNafafcDcEababdNdNafafdNdNbububuafafafdNdNdNabababazabdNafafababaLadadadadaLababdNdNdNabaAafafdNdNdNdNdNdNdNafbubudNafafdNdNdNababcDcEabdNdNdndqdrafdNdNdNafaiaiaiabdNdNdM
+dLdNdNabaiaiafafdNdNdNdNabababdNdNabcFcGabababdNdNdNdNdNbububudNdNdNdNdNbAdNababaKabdNdNdNdNabaMadadadadaMabdNdNdNdNabaKababdNbAdNdNdNdNdNbububudNdNdNdNdNabababcFcGabdNdNabababdNdNdNdNafaiaiaiabdNdNdM
+dLdNdNafaiaiafafdNdNdNdNdNabdNdNdNcLdJdKabafafdNdNdNdNdNbububudNdNarararardNabdNdNdNdNdNdNdNdNaNadadadadaNdNdNdNdNdNdNdNdNabdNaOaOaOaOdNdNbububudNdNdNdNdNafafabcJcKdKdNdNdNabdNdNdNdNafafafaiaiabdNdNdM
+dLdNafafaiaiaiafdNdNdNarardzararararararafafafafdNdNdNdNbububudNbBaraQaRararaSararaTaUarardNdNabadadadadabdNdNaOaOaVaWaOaOaSaXaOaRaQaObDdNbububudNdNdNdNafafafafaOaOaOaOaOaOdzaOaOdNdNafafafaiaiabdNdNdM
+dLdNafafaiaiaiafdNdNdNaragagagagagaragczafafafafafdNdNdNbububudNdNaraZbaarbbbbarbbbcbdbeardNdNabadadadadabdNdNaObcbdbebbaObbbbaObfbgaOdNdNbububudNdNdNafafafafafczagaOagagagagagaOdNdNdNafaiaiaiabdNdNdM
+dLdNafafafaiaiabdNdNdNaragagagagbharbiagarafafafdNdNdNdNbububudNdNarbjaRbkbbbbbbbbbbbbbbaYdNdNabadadadadabdNdNblbbbbbbbbbbbbbbbnaRbjaOdNdNbububudNdNdNdNafafczaOagagaObiagagagagaOdNdNdNafaiaiaiafdNdNdM
+dLdNdNafafcHcIdpdNdNdNaragagagagdCaragagagagagardNdNdNdNbububudNdNararararbbbbarbobbbbbbbmdNdNabadadadadabdNdNbpbbbbbbbraObbbbaOaOaOaOdNdNbububudNdNdNdNaOagagagagagaOdCagagagagaOdNdNdNdncIdPafafdNdNdM
+dLdNdNabaiaiaiabdNdNdNararagarararararararagarardNdNdNdNbucfcgdpdNarbsbtararbbarbbbvbbbbardNdNabadadadadabdNdNaObbbbbvbbaObbaOaObsbtaOdNdNbububudNdNdNdNaOaOagaOaOaOaOaOaOaOagaOaOdNdNdNabaiaiafafdNdNdM
+dLdNdNabaiaiaiafdNdNdNaragagagagagagagagaragagardNdNdNdNbububudNdNarbbbbbwbbbbarararararardNdNabadadadadabdNdNaOaOaOaOaOaObbbbbwbbbbaOdNdncgcjbudNdNdNdNaOagagaOagagagagagagagagaOdNdNdNabaiaiafafdNdNdM
+dLdNdNabaiaiaiafdNdNdNaragagagbxagagagbxagaragardNdNdNdNbububudNdNarbobbbbbbbbarbbbwbdbdardNdNabadadadadabdNdNaObdbdbwbbaObbbbbbbbbraOdNdNbububudNdNdNdNaOagaOagbxagagagbxagagagaOdNdNdNabaiaiaiafdNdNdM
+dLdNdNabaiaiafafafdNdNararagarararararararararardNdNdNdNbububudNdNarbbbbbbbbbbbbbbbbbybbbzdNdNabadadadadabdNdNbqbbbybbbbbbbbbbbbbbbbaOdNdNbububudNdNdNdNaOaOaOaOaOaOaOaOaOaOagaOaOdNdNdNafaiaiaiabdNdNdM
+dLdNdNabaiaiafafafdNdNaragagdkdlagaragagagagagardNdNdNdNbububudNdNarbdbEbdbbbbarbbbbbbbbardNdNabadadadadabdNdNaObbbbbbbbaObbbbbdbEbdaOdNdNbububudNdNdNdNaOagagagagagaOagdkdlagagaOdNdNafafaiaiaiabdNdNdM
+dLdNdNabaiaiafafdNdNdNarbiakapagagaragagagczagardNdndpchclbubudNdNarararbFbGararararararardNdNabadadadadabdNdNaOaOaOaOaOaOaObHcdaOaOaOdNdNbubucmcidndpdNaOagczagagagaOagagakapbhaOdNdNafafafaiaiabdNdNdM
+dLdNdNabaiaiaiafdNdNdNaragagagagagagagczczagagardNdNdNdNbububudNdNdNdNdNdNdNdNdNdNaLdNdNdNdNdNabadadadadabdNdNdNdNdNaLdNdNdNdNdNdNdNdNdNdNbububudNdNdNdNaOagagczczagagagagagagagaOdNdNafafafaiaiabdNdNdM
+dLdNdNabaiaiaiabdNdNdNaragagagagagarafafafaragardNdNdNdNbububudNdNdNdNdNdNdNdNdNdNaMdNdNdNdNdNabadadadadabdNdNdNdNdNaMdNdNdNdNdNdNdNdNdNdNbububudNdNdNdNaOagaOafafafczagagagagagaOdNdNdNafaiaiaiabdNdNdM
+dLdNaaaPbIaibIaPaadNdNarararagararafafafafafagardNdNdNdNbubucodndpbBarararardNdNdNaNdNdNdNdNdNabadadadadabdNdNdNdNdNaNdNdNdNaOaOaOaObDdndpcobubudNdNdNdNaOagafafafafafaOaOagaOaOaOdNdNdsdtdvaidvdtdsdNdM
+dLdNdbbYbXaibWbVdbdNdNaragagagajczafafafafafarardNaLdNdNbububudNdNdNarcecsardNdNdNdNdNdNdNdNaLabadadadadabaLdNdNdNdNdNdNdNdNaOcsceaOdNdNdNbububudNdNaLdNaOaOafafafafafczajagagagaOdNdNdwbYbXaibWbVdwdNdM
+dLdNdbbUbTdSbSbRdbdNdNaragagagdmczafafafdNdNaLdNdNaMdNdNbububuababdNarctcsdadNdNdNdNdNdNdNdNaMabadadadadabaMdNdNdNdNdNdNdNdNbqcscuaOdNababbububudNdNaMdNdNaLdNafafafafczdmagagagaOdNdNdwbUbTdTbSbRdwdNdM
+dLdNdRbQbPaibObNdRdNdNaragagagagczafafafdNdNaNdNdNaMdNdNbububuabababcvcscsardNdNdNdNdNdNdNdNaNabadadadadabaNdNdNdNdNdNdNdNdNaOcscscwabababbububudNdNaMdNdNaNdNdNafafafczagagagagaOdNdNdQbQbPaibObNdQdNdM
+dLdNdNbMbLaibKbJdNdNdNaragagbxagczarafdNaLdNdNdNdNaNdNdNbububuababdNarcscxardNdNdNdNdNaLdNdNdNabadadadadabdNdNdNaLdNdNdNdNdNaOcycsaOdNababbububudNdNaNdNdNdNdNaLdNdNaOczagbxagagaOdNdNdNbMbLaibKbJdNdNdM
+dLdNdNabaiaiaiabdNdNdNararararararardNdNaNdNdNdNdNdNdNdNbububuabdNdNarararardNdNdNdNdNaNdNdNdNabadadadadabdNdNdNaNdNdNdNdNdNaOaOaOaOdNabdNbububudNdNdNdNdNdNdNaNdNdNaOaOaOaOaOaOaOdNdNdNabaiaiaiabdNdNdM
+abccccccbZcacbcccccccccccccccccccccAccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccadadadadccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccbZcacbcccccccc
+"}
+
+(1,1,2) = {"
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamanamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+amamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+aoamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamamam
+"}

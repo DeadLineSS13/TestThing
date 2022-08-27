@@ -1,0 +1,3 @@
+#undef FOV_ICON
+#undef FOV_HIDE_ALPHA
+#undef FOV_PHASE_IN_TIME

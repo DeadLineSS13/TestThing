@@ -1,0 +1,115 @@
+ECONOMIC 
+TT = 10 = 10 
+PM = 10 = 10 
+Fort-12 = 10 = 10 
+PYa = 5 = 5 
+Gyurza = 5 = 5 
+Beretta = 5 = 5 
+Colt = 5 = 5 
+Kiparis = 7 = 7 
+Veresk = 4 = 4 
+MP5 = 2 = 2 
+Bizon = 2 = 2 
+AK-74S = 2 = 2 
+SKS = 4 = 4 
+AK-74 = 2 = 2 
+AKM = 1 = 1 
+Sawn-off = 7 = 7 
+Horizontal shotgun = 7 = 7 
+Vertical shotgun = 7 = 7 
+Old pump shotgun = 4 = 4 
+Saiga = 2 = 2 
+Survival Knife = 20 = 20 
+Switchblade = 20 = 20 
+7.62x25mm Box = 40 = 40 
+9x18mm Box = 40 = 40 
+9x19mm Box = 30 = 30 
+9x19mm AP Box = 18 = 18 
+9x21mm Box = 18 = 18 
+.45 ACP Box = 20 = 20 
+12G Buckshot Box = 35 = 35 
+12F Slug Box = 15 = 15 
+5.45x39mm Box = 10 = 10 
+5.45x39mm AP Box = 5 = 5 
+7.62x39mm Box = 3 = 3 
+PM Magazine = 60 = 60 
+TT Magazine = 60 = 60 
+Fort-12 Magazine = 60 = 60 
+Colt M1911 Magazine = 60 = 60 
+Beretta 92 Magazine = 60 = 60 
+PYa Magazine = 60 = 60 
+Gyurza Magazine = 60 = 60 
+Kiparis Magazine = 30 = 30 
+Veresk Magazine = 30 = 30 
+MP-5 Magazine = 30 = 30 
+Bizon Magazine = 15 = 15 
+AK Magazine = 15 = 15 
+AKM Magazine = 15 = 15 
+Saiga Magazine = 10 = 10 
+SKS Clip = 30 = 30 
+Old armor vest = 7 = 7 
+'Kazak' armor vest = 3 = 3 
+Leather jacket = 30 = 30 
+Black trenchcoat = 20 = 20 
+Brown trenchcoat = 20 = 20 
+OZK = 7 = 7 
+Ukrainian beret = 20 = 20 
+Old gasmask = 15 = 15 
+M40 gasmask = 8 = 8 
+Steel helmet = 20 = 20 
+"Kazak" helmet = 7 = 7 
+Medicine kit = 10 = 10 
+Bandage = 100 = 100 
+Synthskin patch = 30 = 30 
+Cellular stimulator = 50 = 50 
+Cellular stimulator MkII = 10 = 10 
+Morphite = 50 = 50 
+Hyperstim = 50 = 50 
+Adrenaline injector = 50 = 50 
+Canned stew = 50 = 50 
+Premium canned stew = 25 = 25 
+Canned fish = 50 = 50 
+Salami = 50 = 50 
+Bread = 50 = 50 
+Canned soup = 25 = 25 
+Canned buckwheat = 25 = 25 
+Canned beans = 50 = 50 
+Canned fish = 50 = 50 
+Cream cheese = 25 = 25 
+Chocolate bar = 25 = 25 
+Biscuits = 50 = 50 
+Cerreal = 50 = 50 
+Snickers = 50 = 50 
+Mars = 50 = 50 
+Vodka "Kazaki" = 25 = 25 
+Energy drink "NonStop" = 50 = 50 
+Beer 'Ohota Strong' = 40 = 40 
+Beer 'Obolon' = 40 = 40 
+Beer 'Stepan Razin' = 40 = 40 
+Beer 'Zhatetsky Gus' = 40 = 40 
+Cauldron = 20 = 20 
+Flashlight = 40 = 40 
+Matches = 100 = 100 
+Simple lighter = 60 = 60 
+Zippo lighter = 20 = 20 
+Cigarettes "Maxim" = 100 = 100 
+Cigars = 5 = 5 
+Balaclava = 100 = 100 
+Rubber boots = 10 = 10 
+Rubber gloves = 10 = 10 
+Песий хвост = 50 = 50 
+Плотий глаз = 50 = 50 
+Кабаний ног = 50 = 50 
+Cноркий рук = 50 = 50 
+Кровососий щупалец = 50 = 50 
+Псевдопесий хвост = 50 = 50 
+Контроллерий мозг = 50 = 50 
+Artefact = 0 = 0 
+50 RU = 0 = 0 
+100 RU = 0 = 0 
+200 RU = 0 = 0 
+500 RU = 0 = 0 
+1000 RU = 0 = 0 
+2000 RU = 0 = 0 
+5000 RU = 0 = 0 
+

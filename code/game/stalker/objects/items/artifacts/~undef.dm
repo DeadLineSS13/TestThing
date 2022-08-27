@@ -1,0 +1,2 @@
+#undef HARD
+#undef SOFT

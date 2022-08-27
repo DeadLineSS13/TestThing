@@ -1,0 +1,119 @@
+ECONOMIC 
+TT = 0.01 = 0.02 
+PM = 0.01 = 0.02 
+Fort-12 = 0.02 = 0.04 
+PYa = 0 = 0 
+Gyurza = 0.01 = 0 
+Beretta = 0.01 = 0 
+Colt = 0.01 = 0 
+Kiparis = 0 = 0.07 
+Veresk = 0.02 = 0.03 
+MP5 = 0.01 = 0.01 
+Bizon = 0 = 0 
+AK-74S = 0.02 = 0.01 
+SKS = 0.02 = 0.06 
+AK-74 = 0.01 = 0 
+AKM = 0.01 = 0 
+Sawn-off = 0.01 = 0.02 
+Horizontal shotgun = 0 = 0.02 
+Vertical shotgun = 0 = 0.03 
+Old pump shotgun = 0 = 0.05 
+Saiga = 0.02 = 0 
+Survival Knife = 0.04 = 0.03 
+Switchblade = 0.01 = 0.02 
+7.62x25mm Box = 0.02 = 0.02 
+9x18mm Box = 0.03 = 0.13 
+9x18mm +P+ Box = 0.01 = 0.01 
+9x19mm Box = 0.02 = 0 
+9x19mm AP Box = 0.02 = 0.02 
+9x21mm Box = 0.01 = 0.04 
+.45 ACP Box = 0 = 0 
+.45 ACP expansive Box = 0 = 0 
+.44 Magnum Box = 0 = 0 
+12G Buckshot Box = 0.01 = 0.1 
+12F Slug Box = 0.03 = 0.01 
+5.45x39mm Box = 0.01 = 0.01 
+5.45x39mm AP Box = 0.01 = 0 
+7.62x39mm Box = 0.03 = 0.01 
+PM Magazine = 0.03 = 0.04 
+TT Magazine = 0.02 = 0.02 
+Fort-12 Magazine = 0.05 = 0.04 
+Colt M1911 Magazine = 0.02 = 0 
+Beretta 92 Magazine = 0.03 = 0 
+PYa Magazine = 0 = 0 
+Gyurza Magazine = 0.02 = 0 
+Kiparis Magazine = 0.01 = 0.09 
+Veresk Magazine = 0.08 = 0.03 
+MP-5 Magazine = 0.02 = 0 
+Bizon Magazine = 0 = 0 
+AK Magazine = 0.08 = 0 
+AKM Magazine = 0.03 = 0.01 
+Saiga Magazine = 0.04 = 0 
+SKS Clip = 0.07 = 0.07 
+Old armor vest = 0.03 = 0.06 
+'Kazak' armor vest = 0.03 = 0 
+Leather jacket = 0.03 = 0.03 
+Black trenchcoat = 0.04 = 0.03 
+Brown trenchcoat = 0 = 0.01 
+OZK = 0.03 = 0 
+Ukrainian beret = 0.08 = 0.03 
+Old gasmask = 0 = 0.01 
+M40 gasmask = 0.03 = 0 
+Steel helmet = 0.01 = 0.03 
+"Kazak" helmet = 0.04 = 0 
+Medicine kit = 0.02 = 0.02 
+Bandage = 0.06 = 0.1 
+Synthskin patch = 0.03 = 0 
+Cellular stimulator = 0.09 = 0.04 
+Cellular stimulator MkII = 0.02 = 0.01 
+Morphite = 0.03 = 0.11 
+Hyperstim = 0.03 = 0.03 
+Adrenaline injector = 0.02 = 0.02 
+Canned stew = 0 = 0.26 
+Premium canned stew = 0.02 = 0.01 
+Canned fish = 0.01 = 0 
+Salami = 0.05 = 0.01 
+Bread = 0.07 = 0.01 
+Canned soup = 0 = 0.01 
+Canned buckwheat = 0 = 0 
+Canned beans = 0 = 0 
+Canned fish = 0 = 0 
+Cream cheese = 0.01 = 0 
+Chocolate bar = 0 = 0 
+Biscuits = 0.02 = 0 
+Cerreal = 0.03 = 0 
+Snickers = 0 = 0 
+Mars = 0 = 0 
+Vodka "Kazaki" = 0.03 = 0 
+Energy drink "NonStop" = 0.03 = 0 
+Beer 'Ohota Strong' = 0.01 = 0 
+Beer 'Obolon' = 0 = 0 
+Beer 'Stepan Razin' = 0 = 0 
+Beer 'Zhatetsky Gus' = 0 = 0 
+Guitar = 0 = 0 
+Cauldron = 0.03 = 0 
+Flashlight = 0.03 = 0.13 
+Matches = 0 = 0.08 
+Simple lighter = 0 = 0 
+Zippo lighter = 0 = 0 
+Cigarettes "Maxim" = 0.01 = 0 
+Cigars = 0 = 0 
+Balaclava = 0.04 = 0 
+Rubber boots = 0.03 = 0 
+Rubber gloves = 0.03 = 0 
+Песий хвост = 0 = 0 
+Плотий глаз = 0 = 0 
+Кабаний ног = 0 = 0 
+Cноркий рук = 0 = 0 
+Кровососий щупалец = 0 = 0 
+Псевдопесий хвост = 0 = 0 
+Контроллерий мозг = 0 = 0 
+Artefact = 0 = 0.01 
+50 RU = 0 = 0 
+100 RU = 0 = 0 
+200 RU = 0 = 0 
+500 RU = 0 = 0.02 
+1000 RU = 0 = 0.01 
+2000 RU = 0 = 0.01 
+5000 RU = 0 = 0.02 
+

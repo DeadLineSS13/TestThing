@@ -1,0 +1,349 @@
+body 
+{ 
+	padding: 0;
+	margin: 0;
+	background-color: #30271f;
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 170%;
+	cursor: cursor_green.ani;
+}
+
+hr
+{
+	background-color: #644132;
+	height: 1px;
+}
+
+a, a:link, a:visited, a:active, .linkOn, .linkOff
+{ 
+	color: #C58439; 
+	text-decoration: none;
+	background: #261f19;
+	border: 1px solid #73645A;
+	padding: 1px 4px 1px 4px;
+	margin: 0 2px 0 0;
+	cursor: cursor_green.ani;
+}
+
+a:hover 
+{ 
+	color: #C58439;
+	background: #73645A;
+}
+
+a.white
+{
+	color: #C58439;
+	margin-bottom: 6px;
+	text-decoration: none;
+	background-color: #261f19;
+	border-width: 5px;
+	border-style: outset;
+	border-color: #73645A;
+}
+
+a.white:linkOn
+{ 
+	color: #C58439;
+	background-color: #261f19;
+	border-width: 5px;
+	border-style: inset;
+	border-color: #73645A;
+}
+
+a.white:hover 
+{ 
+	color: #C58439;
+	background-color: #261f19;
+	border-width: 5px;
+	border-style: inset;
+	border-color: #73645A;
+}
+
+.linkOn, a.linkOn:link, a.linkOn:visited, a.linkOn:active, a.linkOn:hover
+{ 
+	color: #C58439;
+	margin-bottom: 6px;
+	text-decoration: none;
+	background-color: #261f19;
+	border-width: 5px;
+	border-style: inset;
+	border-color: #73645A;
+}
+
+.linkOff, a.linkOff:link, a.linkOff:visited, a.linkOff:active, a.linkOff:hover
+{ 
+	color: #C58439;
+	margin-bottom: 6px;
+	text-decoration: none;
+	background-color: #261f19;
+	border-width: 5px;
+	border-style: outset;
+	border-color: #73645A;
+
+}
+
+.linkOff:hover
+{
+	color: #C58439;
+	background-color: #261f19;
+	border-width: 5px;
+	border-style: inset;
+	border-color: #73645A;
+}
+
+a.icon, .linkOn.icon, .linkOff.icon
+{
+	position: relative;
+	padding: 1px 4px 2px 20px;
+}
+
+a.icon img, .linkOn.icon img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 18px;
+	height: 18px;
+}
+
+ul
+{
+	padding: 4px 0 0 10px;
+	margin: 0;
+	list-style-type: none;
+}
+
+li
+{
+	padding: 0 0 2px 0;
+}
+
+img, a img 
+{ 
+	border-style:none; 
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	margin: 0;
+	padding: 16px 0 8px 0; 
+	color: #517087;
+}
+
+h1
+{
+	font-size: 15px;
+}
+
+h2
+{
+	font-size: 14px;
+}
+
+h3
+{
+	font-size: 13px;
+}
+
+h4
+{
+	font-size: 12px;
+}
+
+.uiWrapper
+{
+
+	width: 100%;
+	height: 100%;
+}
+
+.uiTitle
+{
+	clear: both;
+	padding: 6px 8px 6px 8px;
+	border-bottom: 2px solid #161616;
+	background: #261f19;
+	color: #98B0C3;
+	font-size: 16px;
+}
+
+.uiTitle.icon
+{
+	padding: 6px 8px 6px 42px;
+	background-position: 2px 50%;
+	background-repeat: no-repeat;
+}
+
+.uiContent
+{	
+	clear: both;
+	padding: 8px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.good
+{
+	color: #00ff00;
+}
+
+.average
+{
+	color: #d09000;
+}
+
+.bad
+{
+	color: #ff0000;
+}
+
+.highlight
+{
+	color: #8BA5C4;
+}
+
+.dark
+{
+	color: #272727;
+}
+
+.notice
+{
+	position: relative;
+	background: #261f19;
+	color: #15345A;
+	font-size: 10px;
+	font-style: italic;
+	padding: 2px 4px 0 4px;
+	margin: 4px;
+}
+
+.notice.icon
+{	
+	padding: 2px 4px 0 20px;
+}
+
+.notice img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 16px;
+	height: 16px;
+}
+
+div.notice
+{
+	clear: both;
+}
+
+.statusDisplay
+{
+	background: #201d1a;
+	color: #ffffff;
+	border: 2px solid #C58439;
+	padding: 4px;
+	margin: 3px 0;
+}
+
+.statusLabel
+{
+	width: 138px;
+	float: left;
+	overflow: hidden;
+	color: #98B0C3;
+}
+
+.statusValue
+{
+	float: left;
+}
+
+.block
+{
+	padding: 8px;
+	margin: 10px 4px 4px 4px;
+	border: 1px solid #231d17;
+	background-color: #261f19;
+}
+
+.block h3
+{
+	padding: 0;
+}
+
+.progressBar
+{
+	width: 240px;
+	height: 14px;
+	border: 1px solid #666666;
+	float: left;
+	margin: 0 5px;
+	overflow: hidden;
+}
+
+.progressFill
+{
+	width: 100%;
+	height: 100%;
+	background: #40628a;
+	overflow: hidden;
+}
+
+.progressFill.good
+{
+	color: #ffffff;
+	background: #00ff00;
+}
+
+.progressFill.average
+{
+	color: #ffffff;
+	background: #d09000;
+}
+
+.progressFill.bad
+{
+	color: #ffffff;
+	background: #ff0000;
+}
+
+.progressFill.highlight
+{
+	color: #ffffff;
+	background: #8BA5C4;
+}
+
+.clearBoth
+{
+	clear: both;
+}
+
+.clearLeft
+{
+	clear: left;
+}
+
+.clearRight
+{
+	clear: right;
+}
+
+.line
+{
+	width: 100%;
+	clear: both;
+}
+
+.lenta_scroll
+{
+	background: #2e2e38;
+	color: white;
+	padding: 4px;
+	margin: 3px 0;
+	height: 520px;
+	overflow: auto;
+	border: 1px solid #ccc;
+	word-wrap: break-word;
+}
