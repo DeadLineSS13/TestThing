@@ -26,7 +26,7 @@ SUBSYSTEM_DEF(overlays)
 	..("Ov:[length(queue)]")
 
 
-/proc/render_stats(list/stats, user, sort = /proc/cmp_generic_stat_item_time)
+/proc/render_stats(list/stats, user, sort = GLOBAL_PROC_REF(cmp_generic_stat_item_time))
 	sortTim(stats, sort, TRUE)
 
 	var/list/lines = list()
