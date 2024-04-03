@@ -766,7 +766,7 @@ The _flatIcons list is a cache for generated icon files.
 						break
 				layers[current] = current_layer
 
-		//sortTim(layers, /proc/cmp_image_layer_asc)
+		//sortTim(layers, GLOBAL_PROC_REF(cmp_image_layer_asc))
 
 		var/icon/add // Icon of overlay being added
 

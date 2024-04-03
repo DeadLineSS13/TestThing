@@ -16,7 +16,7 @@
 		for(var/obj/effect/decal/cleanable/C in src.loc)
 			if(C != src && C.type == src.type)
 				replace_decal(C)
-	addtimer(CALLBACK(src, .proc/delete_decal), rand(CLEANABLE_CLEAN_DELAY * 0.75, CLEANABLE_CLEAN_DELAY * 1.25))
+	addtimer(CALLBACK(src, PROC_REF(delete_decal)), rand(CLEANABLE_CLEAN_DELAY * 0.75, CLEANABLE_CLEAN_DELAY * 1.25))
 	..()
 
 /obj/effect/decal/cleanable/proc/delete_decal()
