@@ -25,11 +25,11 @@
 				deattach_attachment(selection)
 
 			if(1)
-				//ДОДЕЛАТЬ
+				//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 				for (var/obj/item/weapon/attachment/A in addons)
 					deattach_attachment(A)
 			if(0)
-				//нужно что-то написать здесь
+				//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 				usr << "<span class='notice'>There are no attachments.</span>"
 				return
 	else
@@ -41,7 +41,6 @@
 	if(istype(A, /obj/item/weapon/attachment/suppressor))
 		var/obj/item/weapon/attachment/suppressor/S = A
 		if(usr.l_hand != src && usr.r_hand != src)
-			..()
 			return
 		usr << "<span class='notice'>You unscrew [A] from [src].</span>"
 		playsound (src.loc, 'sound/stalker/weapons/detach_addon.ogg', 50, 1, 0)
@@ -54,7 +53,6 @@
 	if(istype(A, /obj/item/weapon/attachment/scope))
 		var/obj/item/weapon/attachment/scope/S =A
 		if(usr.l_hand != src && usr.r_hand != src)
-			..()
 			return
 		usr << "<span class='notice'>You unscrew [A] from [src].</span>"
 		playsound (src.loc, 'sound/stalker/weapons/detach_addon.ogg', 50, 1, 0)
@@ -168,14 +166,14 @@
 					AM.dropped()
 					AM.forceMove(get_turf(src.loc))
 					user.remove_from_mob(AM)
-					user << "<span class='warning'>Твоя рука дрогнула и магазин упал!</span>"
+					user << "<span class='warning'>пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ!</span>"
 					return
 
 				playsound(user, loadsound, 50, 1, channel = "regular", time = 20)
-				user << user.client.select_lang("<span class='notice'>Ты тактически перезаряжаешь [name_ru], сменяя магазин.</span>", "<span class='notice'>You tactically reload [src] with a new magazine.</span>")
+				user << user.client.select_lang("<span class='notice'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ [name_ru], пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</span>", "<span class='notice'>You tactically reload [src] with a new magazine.</span>")
 
 			else
-				user << user.client.select_lang("<span class='notice'>Ты заряжаешь новый магазин в [name_ru].</span>", "<span class='notice'>You load a new magazine in [src].</span>")
+				user << user.client.select_lang("<span class='notice'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ [name_ru].</span>", "<span class='notice'>You load a new magazine in [src].</span>")
 				playsound(user, loadsound, 50, 1, channel = "regular", time = 20)
 				weight += AM.weight
 
@@ -263,7 +261,7 @@
 		magazine.update_icon()
 		magazine = null
 		playsound(usr, opensound, 50, 1, channel = "regular", time = 10)
-		usr << usr.client.select_lang("<span class='notice'>Ты извлекаешь магазин из [name_ru].</span>", "<span class='notice'>You pull the magazine out of [src].</span>")
+		usr << usr.client.select_lang("<span class='notice'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ [name_ru].</span>", "<span class='notice'>You pull the magazine out of [src].</span>")
 		update_icon()
 	else if(chambered)
 		if(jam)
@@ -279,16 +277,16 @@
 				flags &= ~IN_PROGRESS
 				if(M.rolld(dice6(3), dice))
 					jam = 0
-					usr << usr.client.select_lang("<span class='notice'>Оружие снова в норме.</span>", "<span class='notice'>Weapon is working again.</span>")
+					usr << usr.client.select_lang("<span class='notice'>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ.</span>", "<span class='notice'>Weapon is working again.</span>")
 
 		AC.loc = get_turf(src)
 		AC.SpinAnimation(10, 1)
 		weight -= AC.weight
 		chambered = null
-		usr << usr.client.select_lang( "<span class='notice'>Ты передергиваешь затвор [name_ru], освобождая патронник.</span>", "<span class='notice'>You pull the bolt of [src], clearing the chamber.</span>")
+		usr << usr.client.select_lang( "<span class='notice'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ [name_ru], пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</span>", "<span class='notice'>You pull the bolt of [src], clearing the chamber.</span>")
 
 	else
-		usr << usr.client.select_lang("<span class='notice'>Вот это дела. Оружие полностью разряжено.</span>", "<span class='notice'>How interesting. Weapon is completely unloaded.</span>")
+		usr << usr.client.select_lang("<span class='notice'>пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</span>", "<span class='notice'>How interesting. Weapon is completely unloaded.</span>")
 	update_icon()
 
 /obj/item/weapon/gun/projectile/RightClick(mob/user)
@@ -307,7 +305,7 @@
 
 /obj/item/weapon/gun/projectile/examine(mob/user)
 	..()
-	// user << "Внутри [get_ammo()] патрончиков."
+	// user << "пїЅпїЅпїЅпїЅпїЅпїЅ [get_ammo()] пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
 
 /obj/item/weapon/gun/projectile/proc/get_ammo(countchambered = 1)
 	var/boolets = 0 //mature var names for mature people
@@ -319,17 +317,17 @@
 
 /obj/item/weapon/gun/projectile/suicide_act(mob/user)
 	if (src.chambered && src.chambered.BB && !src.chambered.BB.nodamage)
-		user.visible_message("<span class='suicide'>[user] sticks the barrel in their mouth, ready to pull the trigger...</span>", message_ru = "<span class='suicide'>[user] сует ствол между зубов.</span>")
+		user.visible_message("<span class='suicide'>[user] sticks the barrel in their mouth, ready to pull the trigger...</span>", message_ru = "<span class='suicide'>[user] пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.</span>")
 		sleep(25)
 		if(user.l_hand == src || user.r_hand == src)
 			process_fire(user, user, 0, zone_override = "head")
-			user.visible_message("<span class='suicide'>[user] blows their brains out with a shot from [src.name]!</span>", message_ru = "<span class='suicide'>[user] вышибает себе мозги выстрелом из [src.name_ru]!</span>")
+			user.visible_message("<span class='suicide'>[user] blows their brains out with a shot from [src.name]!</span>", message_ru = "<span class='suicide'>[user] пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ [src.name_ru]!</span>")
 			return(BRUTELOSS)
 		else
-			user.visible_message("<span class='suicide'>[user] panics and begins to suffocate!</span>", message_ru = "<span class='suicide'>[user] паникует и начинает задыхаться!</span>")
+			user.visible_message("<span class='suicide'>[user] panics and begins to suffocate!</span>", message_ru = "<span class='suicide'>[user] пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!</span>")
 			return(OXYLOSS)
 	else
-		user.visible_message("<span class='suicide'>[user] pretends to blow their brains out!</span>", message_ru = "<span class='suicide'>[user] делает вид, что выстрелит себе в рот из [src.name_ru]!</b></span>")
+		user.visible_message("<span class='suicide'>[user] pretends to blow their brains out!</span>", message_ru = "<span class='suicide'>[user] пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ пїЅпїЅ [src.name_ru]!</b></span>")
 		playsound(loc, 'sound/stalker/weapons/pistol_empty.ogg', 50, 1, -1, channel = "regular", time = 10)
 		return (OXYLOSS)
 

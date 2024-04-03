@@ -31,22 +31,22 @@
 
 /proc
 	regEx_compare(str, exp)
-		return new /datum/regex(str, exp, call(LIBREGEX_LIBRARY, "regEx_compare")(str, exp))
+		return new /datum/regex(str, exp, call_ext(LIBREGEX_LIBRARY, "regEx_compare")(str, exp))
 
 	regex_compare(str, exp)
-		return new /datum/regex(str, exp, call(LIBREGEX_LIBRARY, "regex_compare")(str, exp))
+		return new /datum/regex(str, exp, call_ext(LIBREGEX_LIBRARY, "regex_compare")(str, exp))
 
 	regEx_find(str, exp)
-		return new /datum/regex(str, exp, call(LIBREGEX_LIBRARY, "regEx_find")(str, exp))
+		return new /datum/regex(str, exp, call_ext(LIBREGEX_LIBRARY, "regEx_find")(str, exp))
 
 	regex_find(str, exp)
-		return new /datum/regex(str, exp, call(LIBREGEX_LIBRARY, "regex_find")(str, exp))
+		return new /datum/regex(str, exp, call_ext(LIBREGEX_LIBRARY, "regex_find")(str, exp))
 
 	regEx_replaceall(str, exp, fmt)
-		return call(LIBREGEX_LIBRARY, "regEx_replaceall")(str, exp, fmt)
+		return call_ext(LIBREGEX_LIBRARY, "regEx_replaceall")(str, exp, fmt)
 
 	regex_replaceall(str, exp, fmt)
-		return call(LIBREGEX_LIBRARY, "regex_replaceall")(str, exp, fmt)
+		return call_ext(LIBREGEX_LIBRARY, "regex_replaceall")(str, exp, fmt)
 /*
 	replacetextEx510(str, exp, fmt)
 		return call(LIBREGEX_LIBRARY, "regEx_replaceallliteral")(str, exp, fmt)
@@ -55,16 +55,16 @@
 		return call(LIBREGEX_LIBRARY, "regex_replaceallliteral")(str, exp, fmt)
 */
 	regEx_replace(str, exp, fmt)
-		return call(LIBREGEX_LIBRARY, "regEx_replace")(str, exp, fmt)
+		return call_ext(LIBREGEX_LIBRARY, "regEx_replace")(str, exp, fmt)
 
 	regex_replace(str, exp, fmt)
-		return call(LIBREGEX_LIBRARY, "regex_replace")(str, exp, fmt)
+		return call_ext(LIBREGEX_LIBRARY, "regex_replace")(str, exp, fmt)
 
 	regEx_findall(str, exp)
-		return new /datum/regex(str, exp, call(LIBREGEX_LIBRARY, "regEx_findall")(str, exp))
+		return new /datum/regex(str, exp, call_ext(LIBREGEX_LIBRARY, "regEx_findall")(str, exp))
 
 	regex_findall(str, exp)
-		return new /datum/regex(str, exp, call(LIBREGEX_LIBRARY, "regex_findall")(str, exp))
+		return new /datum/regex(str, exp, call_ext(LIBREGEX_LIBRARY, "regex_findall")(str, exp))
 
 
 //upon calling a regex match or search, a /datum/regex object is created with str(haystack) and exp(needle) variables set

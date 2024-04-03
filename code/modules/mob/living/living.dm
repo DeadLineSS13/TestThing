@@ -1,7 +1,9 @@
 /* I am informed this was added by Giacom to reduce mob-stacking in escape pods.
 It's sorta problematic atm due to the shuttle changes I am trying to do
 Sorry Giacom. Please don't be mad :(
+*/
 /mob/living/Life()
+/*
 	..()
 	var/area/A = get_area(loc)
 	if(A && A.push_dir)
@@ -188,20 +190,20 @@ Sorry Giacom. Please don't be mad :(
 	if(istype(A, /obj/anomaly))
 		direct_visible_message("<b>DOER</b> points to anomaly.</span>",
 							"<b>DOER</b> points to anomaly.</span>",
-							"><b>DOER</b> показывает на аномалию.</span>",
-							"<b>DOER</b> показывает на аномалию.</span>",
+							"><b>DOER</b> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</span>",
+							"<b>DOER</b> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</span>",
 							null, src)
 	else if(istype(A, /obj/item/artefact))
 		direct_visible_message("<b>DOER</b> points to artefact.</span>",
 							"<b>DOER</b> points to artefact.</span>",
-							"><b>DOER</b> показывает на артефакт.</span>",
-							"<b>DOER</b> показывает на артефакт.</span>",
+							"><b>DOER</b> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</span>",
+							"<b>DOER</b> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</span>",
 							null, src)
 	else
 		direct_visible_message("<b>DOER</b> points to TARGET.</span>",
 							"<b>DOER</b> points to TARGET.</span>",
-							"<b>DOER</b> показывает на TARGET.</span>",
-							"<b>DOER</b> показывает на TARGET.</span>",
+							"<b>DOER</b> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ TARGET.</span>",
+							"<b>DOER</b> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ TARGET.</span>",
 							null, src, A)
 	return 1
 
@@ -395,7 +397,7 @@ Sorry Giacom. Please don't be mad :(
 	if(stamina_coef >= 3 && !resting)
 		if(!rolld(dice6(3), agi))
 			step_away(src, get_turf(src), 1)
-			src << "<span class='warning'>Ты оступился и вновь упал!</span>"
+			src << "<span class='warning'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ!</span>"
 	src << "<span class='notice'>You are now [resting ? "resting" : "getting up"].</span>"
 	update_canmove()
 	update_top_overlay()
@@ -823,8 +825,8 @@ Sorry Giacom. Please don't be mad :(
 		return
 	who.direct_visible_message("<span class='danger'>DOER tries to remove TARGET's [what.name].</span>",
 								"<span class='danger'>DOER tries to remove TARGET's [what.name].</span>",
-								"<span class='danger'>DOER пытается снять с TARGET [what.name_ru].</span>",
-								"<span class='danger'>DOER пытается снять с TARGET [what.name_ru].</span>","danger",src,who)
+								"<span class='danger'>DOER пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ TARGET [what.name_ru].</span>",
+								"<span class='danger'>DOER пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ TARGET [what.name_ru].</span>","danger",src,who)
 	what.add_fingerprint(src)
 	if(do_mob(src, who, what.strip_delay))
 		if(what && what == who.get_item_by_slot(where) && Adjacent(who))
@@ -844,7 +846,7 @@ Sorry Giacom. Please don't be mad :(
 			src << "<span class='warning'>\The [what.name] doesn't fit in that place!</span>"
 			return
 		direct_visible_message("<span class='notice'>DOER tries to put [what.name] on TARGET.</span>",
-					message_ru = "<span class='notice'>DOER пытается одеть [what.name_ru] на TARGET.</span>",
+					message_ru = "<span class='notice'>DOER пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ [what.name_ru] пїЅпїЅ TARGET.</span>",
 					span_class = "notice", doer = src, target = who)
 		if(do_mob(src, who, what.put_on_delay))
 			if(what && Adjacent(who))
@@ -1071,7 +1073,7 @@ mob/living/proc/let_justice_be_done(var/mob/killed_one)
 
 	var/mob/killer = get_killer()
 
-	/*Не самая лучшая реализация
+	/*пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	if(istype(killed_one, /mob/living/carbon/human))
 		var/mob/living/carbon/human/H1 = killed_one
 		var/datum/data/record/sk = find_record("sid", H1.sid, GLOB.data_core.stalkers)
@@ -1081,14 +1083,14 @@ mob/living/proc/let_justice_be_done(var/mob/killed_one)
 
 	if(istype(killer, /mob/living/carbon/human))
 
-		////////////////////////ПРОФИЛЬ УБИЙЦЫ///////////////////////////////////////
+		////////////////////////пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ///////////////////////////////////////
 		var/mob/living/carbon/human/killer_h = killer
 		var/datum/data/record/sk = find_record("sid", killer_h.sid, GLOB.data_core.stalkers)
 		/////////////////////////////////////////////////////////////////////////////
 
 		if(istype(killed_one, /mob/living/carbon/human))
 
-			////////////////////ПРОФИЛЬ УБИТОГО//////////////////////////////////////
+			////////////////////пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ//////////////////////////////////////
 			var/mob/living/carbon/human/H = killed_one
 			var/datum/data/record/sk_H = find_record("sid", H.sid, GLOB.data_core.stalkers)
 			/////////////////////////////////////////////////////////////////////////

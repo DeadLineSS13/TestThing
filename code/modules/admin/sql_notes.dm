@@ -170,7 +170,7 @@
 	usr << browse(output, "window=show_notes;size=900x500")
 
 /proc/regex_note_sql_extract(str, exp)
-	return new /datum/regex(str, exp, call(LIBREGEX_LIBRARY, "regEx_find")(str, exp))
+	return new /datum/regex(str, exp, call_ext(LIBREGEX_LIBRARY, "regEx_find")(str, exp))
 
 #define NOTESFILE "data/player_notes.sav"
 //if the AUTOCONVERT_NOTES is turned on, anytime a player connects this will be run to try and add all their notes to the databas

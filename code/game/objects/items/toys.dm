@@ -387,7 +387,7 @@
 					if(!remove_item_from_storage(M))
 						M.unEquip(src)
 					M.put_in_r_hand(src)
-				usr << "<span class='notice'>You pick up the deck.</span>"
+			usr << "<span class='notice'>You pick up the deck.</span>"
 	else
 		usr << "<span class='warning'>You can't reach it from here!</span>"
 

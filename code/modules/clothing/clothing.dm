@@ -468,7 +468,6 @@ BLIND     // can't see anything
 		usr << "<span class='notice'>You adjust the suit to wear it more casually.</span>"
 		src.adjusted = 1
 	usr.update_inv_w_uniform()
-	..()
 
 /*
 /obj/item/clothing/under/examine(mob/user)

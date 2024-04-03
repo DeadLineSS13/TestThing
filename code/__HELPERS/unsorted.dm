@@ -705,27 +705,27 @@ Turf and target are seperate in case you want to teleport some distance from a t
 	else return zone
 
 /proc/parse_zone_ru(zone)
-	if (zone == "chest") return "грудь"
-	else if (zone == "head") return "голову"
-//	else if (zone == "groin") return "пах"
-	else if (zone == "r_hand") return "правую руку"
-	else if (zone == "l_hand") return "левую руку"
-	else if (zone == "l_arm") return "левую руку"
-	else if (zone == "r_arm") return "правую руку"
-	else if (zone == "l_leg") return "левую ногу"
-	else if (zone == "r_leg") return "правую ногу"
-	else if (zone == "l_foot") return "левую ногу"
-	else if (zone == "r_foot") return "правую ногу"
+	if (zone == "chest") return "пїЅпїЅпїЅпїЅпїЅ"
+	else if (zone == "head") return "пїЅпїЅпїЅпїЅпїЅпїЅ"
+//	else if (zone == "groin") return "пїЅпїЅпїЅ"
+	else if (zone == "r_hand") return "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+	else if (zone == "l_hand") return "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+	else if (zone == "l_arm") return "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+	else if (zone == "r_arm") return "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+	else if (zone == "l_leg") return "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+	else if (zone == "r_leg") return "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+	else if (zone == "l_foot") return "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+	else if (zone == "r_foot") return "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
 	else return zone
 
 /proc/parse_zone_ru2(zone)
-	if (zone == "chest") return "грудь"
-	else if (zone == "head") return "голова"
-//	else if (zone == "groin") return "пах"
-	else if (zone == "l_arm") return "левая рука"
-	else if (zone == "r_arm") return "правая рука"
-	else if (zone == "l_leg") return "левая нога"
-	else if (zone == "r_leg") return "правая нога"
+	if (zone == "chest") return "пїЅпїЅпїЅпїЅпїЅ"
+	else if (zone == "head") return "пїЅпїЅпїЅпїЅпїЅпїЅ"
+//	else if (zone == "groin") return "пїЅпїЅпїЅ"
+	else if (zone == "l_arm") return "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+	else if (zone == "r_arm") return "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+	else if (zone == "l_leg") return "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+	else if (zone == "r_leg") return "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
 	else return zone
 
 
@@ -1197,9 +1197,6 @@ B --><-- A
 			//you might be thinking of adding more steps to this, or making it use a loop and a counter var
 			//	not worth it.
 #endif
-
-//datum may be null, but it does need to be a typed var
-#define NAMEOF(datum, X) (#X || ##datum.##X)
 
 #define VARSET_LIST_CALLBACK(target, var_name, var_value) CALLBACK(GLOBAL_PROC, /proc/___callbackvarset, ##target, ##var_name, ##var_value)
 //dupe code because dm can't handle 3 level deep macros

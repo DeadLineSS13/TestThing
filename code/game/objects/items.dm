@@ -62,7 +62,7 @@ var/global/image/fire_overlay = image("icon" = 'icons/effects/fire.dmi', "icon_s
 	var/needs_permit = 0			//Used by security bots to determine if this item is safe for public use.
 
 	var/list/attack_verb = list("hit") //Used in attackby() to say how something was attacked "[x] has been [z.attack_verb] by [y] with [z]"
-	var/list/attack_verb_ru = list("ударил")
+	var/list/attack_verb_ru = list("пїЅпїЅпїЅпїЅпїЅпїЅ")
 	var/list/species_exception = list()	// even if a species cannot put items in a certain slot, if the species id is in the item's exception list, it will be able to wear that item
 
 	var/suittoggled = 0
@@ -199,19 +199,19 @@ var/global/image/fire_overlay = image("icon" = 'icons/effects/fire.dmi', "icon_s
 	if(user.client.language == "Russian")
 		switch(src.w_class)
 			if(1)
-				size = "Крохотный"
+				size = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			if(2)
-				size = "Небольшой"
+				size = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			if(3)
-				size = "Крупный"
+				size = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			if(4)
-				size = "Габаритный"
+				size = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			if(5)
-				size = "Большущий"
+				size = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			if(6)
-				size = "Громадный"
+				size = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			if(7)
-				size = "Огромный"
+				size = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 	else
 		switch(src.w_class)
 			if(1)
@@ -236,11 +236,11 @@ var/global/image/fire_overlay = image("icon" = 'icons/effects/fire.dmi', "icon_s
 	else
 		pronoun = "It is"
 
-	user << user.client.select_lang("[size] предмет.","[pronoun] a [size] item.") //e.g. They are a small item. or It is a bulky item.
+	user << user.client.select_lang("[size] пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.","[pronoun] a [size] item.") //e.g. They are a small item. or It is a bulky item.
 
 	var/real_weight = round(get_weight(), 0.01)
 	if(weight <= 0)
-		user << user.client.select_lang("Ощущается совершенно невесомым.","Feels completely weightless.")
+		user << user.client.select_lang("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.","Feels completely weightless.")
 		return
 
 	var/ending = "a"
@@ -250,38 +250,38 @@ var/global/image/fire_overlay = image("icon" = 'icons/effects/fire.dmi', "icon_s
 	var/w_word_en
 	if(real_weight)
 		if(real_weight <= 0.1)
-			w_word = "много меньше"
+			w_word = "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
 			w_word_en = ""
 			nfe = null
 		else if(real_weight <= 0.3)
-			w_word = "четверть"
+			w_word = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			w_word_en = ""
 			nfe = null
 		else if(real_weight <= 0.5)
-			w_word = "половину"
+			w_word = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			w_word_en = ""
 			nfe = null
 		else if(real_weight <= 0.75)
-			w_word = "три четверти"
+			w_word = "пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			w_word_en = ""
 			nfe = null
 		else if(real_weight < 1)
-			w_word = "чуть меньше"
+			w_word = "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
 			w_word_en = ""
 		else if(real_weight <= INFINITY)
 			var/nfw = real_weight - round(real_weight)
 			if(nfw)
 				if(nfw <= 0.3)
-					w_word = "с четвертью"
+					w_word = "пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 					w_word_en = ""
 				else if(nfw <= 0.5)
-					w_word = "с половиной"
+					w_word = "пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 					w_word_en = ""
 				else if(nfw <= 0.75)
-					w_word = "с тремя четвертями"
+					w_word = "пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 					w_word_en = ""
 				else if(nfw < 1)
-					w_word = "чуть меньше чем"
+					w_word = "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ"
 					w_word_en = ""
 					need_ending = 1
 					nfe = nfe + 1
@@ -313,15 +313,15 @@ var/global/image/fire_overlay = image("icon" = 'icons/effects/fire.dmi', "icon_s
 						ending = "a"
 		if(w_word)
 			if(need_ending)
-				user << user.client.select_lang("Весит [w_word] [nfe] килограмм[ending].","Its weight is [w_word_en] [nfe]kg.")
+				user << user.client.select_lang("пїЅпїЅпїЅпїЅпїЅ [w_word] [nfe] пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ[ending].","Its weight is [w_word_en] [nfe]kg.")
 			else
-				user << user.client.select_lang("Весит [nfe] [w_word] килограмм[ending].","Its weight is [w_word_en] [nfe]kg.")
+				user << user.client.select_lang("пїЅпїЅпїЅпїЅпїЅ [nfe] [w_word] пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ[ending].","Its weight is [w_word_en] [nfe]kg.")
 		else
-			user << user.client.select_lang("Весит [nfe] килограмм[ending].","Its weight is [nfe]kg.")
+			user << user.client.select_lang("пїЅпїЅпїЅпїЅпїЅ [nfe] пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ[ending].","Its weight is [nfe]kg.")
 	else if(w_word)
-		user << user.client.select_lang("Весит [w_word] килограмм[ending].","Its weight is [w_word_en] kg.")
+		user << user.client.select_lang("пїЅпїЅпїЅпїЅпїЅ [w_word] пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ[ending].","Its weight is [w_word_en] kg.")
 	else
-		user << user.client.select_lang("Весит INFINITY килограмм[ending].","Its weight is INFINITY kg.")					//Такой хрени быть не должно
+		user << user.client.select_lang("пїЅпїЅпїЅпїЅпїЅ INFINITY пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ[ending].","Its weight is INFINITY kg.")					//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 
 
 	if(iscarbon(user))
@@ -381,11 +381,11 @@ var/global/image/fire_overlay = image("icon" = 'icons/effects/fire.dmi', "icon_s
 		else
 			var/obj/item/weapon/gun/G = src
 			playsound(src.loc, "rustle", 50, 1, -5, channel = "regular", time = 10)
-			user.visible_message("<span class='danger'>[user] starts to take out the weapon...</span>", "<span class='notice'>You start to take out [G]...</span>", "<span class='danger'>[user] тянется за оружием...</span>", "<span class='notice'>Ты тянешься к [G.name_ru]...</span>")
+			user.visible_message("<span class='danger'>[user] starts to take out the weapon...</span>", "<span class='notice'>You start to take out [G]...</span>", "<span class='danger'>[user] пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ...</span>", "<span class='notice'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ [G.name_ru]...</span>")
 			if(do_after_inventory(user, (G.weapon_weight * 15 + 5)*S.takeout_speed, 1, G))
 				playsound(src, G.drawsound, 30, 1, channel = "regular", time = 20)
 				S.remove_from_storage(src, user.loc)
-				user.visible_message("<span class='danger'>[user] took out [G].</span>", "<span class='notice'>You took out the [G].</span>", "<span class='danger'>[user] достает [G.name_ru].</span>", "<span class='notice'>Ты достаешь [G.name_ru].</span>")
+				user.visible_message("<span class='danger'>[user] took out [G].</span>", "<span class='notice'>You took out the [G].</span>", "<span class='danger'>[user] пїЅпїЅпїЅпїЅпїЅпїЅпїЅ [G.name_ru].</span>", "<span class='notice'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ [G.name_ru].</span>")
 
 	src.throwing = 0
 	if (loc == user)
@@ -656,9 +656,8 @@ var/global/image/fire_overlay = image("icon" = 'icons/effects/fire.dmi', "icon_s
 		if(item_action_slot_check(slot, user)) //some items only give their actions buttons when in a specific slot.
 			A.Grant(user)
 
-	. = ..()
 
-obj/item/proc/item_action_slot_check(slot, mob/user)
+/obj/item/proc/item_action_slot_check(slot, mob/user)
 	return 1
 
 //the mob M is attempting to equip this item into the slot passed through as 'slot'. Return 1 if it can do this and 0 if it can't.
@@ -712,7 +711,7 @@ obj/item/proc/item_action_slot_check(slot, mob/user)
 			(H.wear_mask && H.wear_mask.flags_cover & MASKCOVERSEYES) || \
 			(H.glasses && H.glasses.flags_cover & GLASSESCOVERSEYES))
 			// you can't stab someone in the eyes wearing a mask!
-			user << user.client.select_lang("<span class='danger'>Надо бы открыть личико.</span>", "<span class='danger'>I have to remove eye protection first</span>")
+			user << user.client.select_lang("<span class='danger'>пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ.</span>", "<span class='danger'>I have to remove eye protection first</span>")
 			return
 
 	src.add_fingerprint(user)
@@ -722,15 +721,15 @@ obj/item/proc/item_action_slot_check(slot, mob/user)
 	if(M != user)
 		M.visible_message("<span class='danger'>[user] has stabbed [M] in the eye with [src]!</span>", \
 							"<span class='userdanger'>[user] stabs you in the eye with [src]!</span>", \
-							"<span class='danger'>[user] воткнул [name_ru] в глаз [M]!</span>", \
-							"<span class='userdanger'>[user] воткнул тебе в глаз [name_ru]!</span>")
+							"<span class='danger'>[user] пїЅпїЅпїЅпїЅпїЅпїЅпїЅ [name_ru] пїЅ пїЅпїЅпїЅпїЅ [M]!</span>", \
+							"<span class='userdanger'>[user] пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ [name_ru]!</span>")
 		user.do_attack_animation(M)
 	else
 		user.visible_message( \
 			"<span class='danger'>[user] has stabbed themself in the eyes with [src].</span>", \
 			"<span class='userdanger'>You stab yourself in the eyes with [src].</span>", \
-			"<span class='danger'>[user] воткнул себе в глаз [name_ru].</span>", \
-			"<span class='userdanger'>Ты воткнул себе в глаз [name_ru]!</span>")
+			"<span class='danger'>[user] пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ [name_ru].</span>", \
+			"<span class='userdanger'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ [name_ru]!</span>")
 	if(is_human_victim)
 		var/mob/living/carbon/human/U = M
 		var/obj/item/organ/limb/affecting = U.get_organ("head")
@@ -747,20 +746,20 @@ obj/item/proc/item_action_slot_check(slot, mob/user)
 	if (M.eye_stat >= 10)
 		M.eye_blurry += 15+(0.1*M.eye_blurry)
 		if(M.stat != 2)
-			M << M.client.select_lang("<span class='danger'>Мои глаза кровоточат</span>", "<span class='danger'>Your eyes start to bleed.</span>")
+			M << M.client.select_lang("<span class='danger'>пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</span>", "<span class='danger'>Your eyes start to bleed.</span>")
 		if (!(M.disabilities & (NEARSIGHT | BLIND)))
 			M.disabilities |= NEARSIGHT
-			M << M.client.select_lang("<span class='danger'>Ты становишься близоручкой!</span>", "<span class='danger'>You become nearsighted!</span>")
+			M << M.client.select_lang("<span class='danger'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!</span>", "<span class='danger'>You become nearsighted!</span>")
 		if(prob(50))
 			if(M.stat != 2)
 				if(M.drop_item())
-					M << M.client.select_lang("<span class='danger'>Ты роняешь что держал и хватаешься за глазки.</span>", "<span class='danger'>You drop what you're holding and clutch at your eyes!</span>")
+					M << M.client.select_lang("<span class='danger'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ.</span>", "<span class='danger'>You drop what you're holding and clutch at your eyes!</span>")
 			M.eye_blurry += 10
 			M.Paralyse(1)
 			M.Weaken(2)
 		if (prob(M.eye_stat - 10 + 1) && !(M.disabilities & BLIND))
 			if(M.stat != 2)
-				M << M.client.select_lang("<span class='danger'>А вот и слепота.</span>", "<span class='danger'>Now you're blind.</span>")
+				M << M.client.select_lang("<span class='danger'>пїЅ пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</span>", "<span class='danger'>Now you're blind.</span>")
 			M.disabilities |= BLIND
 	return
 
@@ -804,7 +803,7 @@ obj/item/proc/item_action_slot_check(slot, mob/user)
 			I.pixel_x = rand(-16,16)
 			I.pixel_y = rand(-16,16)
 			I.desc = "Looks ugly."
-			I.desc_ru = "Страшновато смотрится."
+			I.desc_ru = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
 		if(istype(src,/obj/item/weapon/storage))
 			var/obj/item/weapon/storage/S = src
 			S.do_quick_empty() //melted storage item drops its content.

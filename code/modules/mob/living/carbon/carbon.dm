@@ -16,7 +16,6 @@
 //	prepare_data_huds()
 
 /mob/living/carbon/proc/prepare_data_huds()
-	..()
 //	med_hud_set_health()
 //	med_hud_set_status()
 
@@ -189,14 +188,14 @@
 				resting = 0
 			M.direct_visible_message("<span class='notice'>DOER shakes TARGET trying to get them up!</span>",\
 									"<span class='notice'>You shake TARGET trying to get them up!</span>",\
-									"<span class='notice'>DOER пытается помочь TARGET встать на ноги!</span>",\
-									"<span class='notice'>Ты пытаешься помочь TARGET встать на ноги!</span>",\
+									"<span class='notice'>DOER пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ TARGET пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ!</span>",\
+									"<span class='notice'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ TARGET пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ!</span>",\
 									"notice", M, src)
 		else
 			M.direct_visible_message("<span class='notice'>DOER hugs TARGET to make them feel better!</span>",\
 									"<span class='notice'>You hug TARGET to make them feel better!</span>",\
-									"<span class='notice'>DOER обнимает TARGET!</span>",\
-									"<span class='notice'>Ты обнимаешь TARGET!</span>",\
+									"<span class='notice'>DOER пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ TARGET!</span>",\
+									"<span class='notice'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ TARGET!</span>",\
 									"notice", M, src)
 
 		AdjustParalysis(-3)
@@ -328,7 +327,7 @@
 	if(item)
 		item.dir = dir
 		item.layer = initial(item.layer)
-		src.direct_visible_message("<span class='danger'>DOER has thrown [item].</span>", message_ru = "<span class='danger'>DOER кидает [item.name_ru].</span>",span_class = "danger", doer = src)
+		src.direct_visible_message("<span class='danger'>DOER has thrown [item].</span>", message_ru = "<span class='danger'>DOER пїЅпїЅпїЅпїЅпїЅпїЅ [item.name_ru].</span>",span_class = "danger", doer = src)
 		playsound(src, 'sound/effects/throw.ogg', 50, 1, channel = "regular", time = 10)
 		newtonian_move(get_dir(target, src))
 
