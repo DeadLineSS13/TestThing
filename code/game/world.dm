@@ -8,13 +8,14 @@ GLOBAL_VAR(restart_counter)
 
 	log_world("World loaded at [time_stamp()]!")
 
+	// First possible sleep()
+	InitTgs()
+
 	SetupExternalRSC()
 
 	GLOB.config_error_log = GLOB.world_manifest_log = GLOB.world_pda_log = GLOB.world_job_debug_log = GLOB.sql_error_log = GLOB.world_href_log = GLOB.world_runtime_log = GLOB.world_attack_log = GLOB.world_game_log = "data/logs/config_error.[GUID()].log" //temporary file used to record errors with loading config, moved to log directory once logging is set bl
 
 	make_datum_references_lists()	//initialises global lists for referencing frequently used datums (so that we only ever do it once)
-
-	GLOB.revdata = new
 
 	config.Load(params[OVERRIDE_CONFIG_DIRECTORY_PARAMETER])
 
@@ -50,6 +51,10 @@ GLOBAL_VAR(restart_counter)
 
 	if(TEST_RUN_PARAMETER in params)
 		HandleTestRun()
+
+/// Initializes TGS and loads the returned revising info into GLOB.revdata
+/world/proc/InitTgs()
+	TgsNew(new /datum/tgs_event_handler/impl, TGS_SECURITY_TRUSTED)
 
 /world/proc/HandleTestRun()
 	//trigger things to run the whole process
@@ -197,13 +202,37 @@ GLOBAL_VAR(restart_counter)
 		to_chat(world, "<span class='boldannounce'>Rebooting world...</span>")
 		Master.Shutdown()	//run SS shutdowns
 
-	if(TEST_RUN_PARAMETER in params)
-		FinishTestRun()
-		return
+	#ifdef UNIT_TESTS
+	FinishTestRun()
+	return
+	#else
+	if(TgsAvailable())
+		var/do_hard_reboot
+		// check the hard reboot counter
+		var/ruhr = CONFIG_GET(number/rounds_until_hard_restart)
+		switch(ruhr)
+			if(-1)
+				do_hard_reboot = FALSE
+			if(0)
+				do_hard_reboot = TRUE
+			else
+				if(GLOB.restart_counter >= ruhr)
+					do_hard_reboot = TRUE
+				else
+					text2file("[++GLOB.restart_counter]", RESTART_COUNTER_PATH)
+					do_hard_reboot = FALSE
+
+		if(do_hard_reboot)
+			log_world("World hard rebooted at [time_stamp()]")
+			TgsEndProcess()
+			return ..()
 
 	log_world("World rebooted at [time_stamp()]")
-//	shutdown_logging() // Past this point, no logging procs can be used, at risk of data loss.
+
+	TgsReboot() // TGS can decide to kill us right here, so it's important to do it last
+
 	..()
+	#endif
 
 /world/Del()
 	save_economic()
