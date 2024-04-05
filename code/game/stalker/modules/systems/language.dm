@@ -17,7 +17,7 @@
 
 	if(usr.client.language == "English")
 		usr.client.language = "Russian"
-		usr << "Òåïåğü âàø ÿçûê Ğóññêèé"
+		usr << "Ğ¢ĞµĞ¿ĞµÑ€ÑŒ Ğ²Ğ°Ñˆ ÑĞ·Ñ‹Ğº Ğ ÑƒÑÑĞºĞ¸Ğ¹"
 	else if(usr.client.language == "Russian")
 		usr.client.language = "English"
 		usr << "Now your language is English"

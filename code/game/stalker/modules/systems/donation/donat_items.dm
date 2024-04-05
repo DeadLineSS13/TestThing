@@ -1,6 +1,6 @@
 /obj/item/clothing/suit/hooded/kozhanka/strazh/atelerd
 	name = "letniy kombinezon"
-	desc = "Производимый ремесленниками группировки «Свобода» усиленный комбинезон сталкера. Средний армейский бронежилет плюс накладные усиливающие циркониевые элементы дают неплохую защиту от автоматных пуль и осколков на различных дистанциях. Материал костюма состоит из двух слоёв: специально обработанной кожи и ткани с асбестовой нитью. Даёт некоторую защиту от различных аномальных воздействий и радиации."
+	desc = "РџСЂРѕРёР·РІРѕРґРёРјС‹Р№ СЂРµРјРµСЃР»РµРЅРЅРёРєР°РјРё РіСЂСѓРїРїРёСЂРѕРІРєРё В«РЎРІРѕР±РѕРґР°В» СѓСЃРёР»РµРЅРЅС‹Р№ РєРѕРјР±РёРЅРµР·РѕРЅ СЃС‚Р°Р»РєРµСЂР°. РЎСЂРµРґРЅРёР№ Р°СЂРјРµР№СЃРєРёР№ Р±СЂРѕРЅРµР¶РёР»РµС‚ РїР»СЋСЃ РЅР°РєР»Р°РґРЅС‹Рµ СѓСЃРёР»РёРІР°СЋС‰РёРµ С†РёСЂРєРѕРЅРёРµРІС‹Рµ СЌР»РµРјРµРЅС‚С‹ РґР°СЋС‚ РЅРµРїР»РѕС…СѓСЋ Р·Р°С‰РёС‚Сѓ РѕС‚ Р°РІС‚РѕРјР°С‚РЅС‹С… РїСѓР»СЊ Рё РѕСЃРєРѕР»РєРѕРІ РЅР° СЂР°Р·Р»РёС‡РЅС‹С… РґРёСЃС‚Р°РЅС†РёСЏС…. РњР°С‚РµСЂРёР°Р» РєРѕСЃС‚СЋРјР° СЃРѕСЃС‚РѕРёС‚ РёР· РґРІСѓС… СЃР»РѕС‘РІ: СЃРїРµС†РёР°Р»СЊРЅРѕ РѕР±СЂР°Р±РѕС‚Р°РЅРЅРѕР№ РєРѕР¶Рё Рё С‚РєР°РЅРё СЃ Р°СЃР±РµСЃС‚РѕРІРѕР№ РЅРёС‚СЊСЋ. Р”Р°С‘С‚ РЅРµРєРѕС‚РѕСЂСѓСЋ Р·Р°С‰РёС‚Сѓ РѕС‚ СЂР°Р·Р»РёС‡РЅС‹С… Р°РЅРѕРјР°Р»СЊРЅС‹С… РІРѕР·РґРµР№СЃС‚РІРёР№ Рё СЂР°РґРёР°С†РёРё."
 	armor = list(melee = 30, bullet = 30, laser = 30,burn = 30, bomb = 15, bio = 30, rad = 30, electro = 30)
 	hoodtype = /obj/item/clothing/head/winterhood/stalker/strazh/atelerd
 
@@ -9,7 +9,7 @@
 
 /obj/item/clothing/suit/hooded/kozhanka/white/monolith
 	name = "strange jacket"
-	desc = "Плотная кожаная куртка довольно интересной раскраски. Ткань усилена очень легкими кевларовыми пластинами, что обеспечивает слегка повышенную защиту, но не замедляет носителя. Неэффективна против аномальных и других воздействий."
+	desc = "РџР»РѕС‚РЅР°СЏ РєРѕР¶Р°РЅР°СЏ РєСѓСЂС‚РєР° РґРѕРІРѕР»СЊРЅРѕ РёРЅС‚РµСЂРµСЃРЅРѕР№ СЂР°СЃРєСЂР°СЃРєРё. РўРєР°РЅСЊ СѓСЃРёР»РµРЅР° РѕС‡РµРЅСЊ Р»РµРіРєРёРјРё РєРµРІР»Р°СЂРѕРІС‹РјРё РїР»Р°СЃС‚РёРЅР°РјРё, С‡С‚Рѕ РѕР±РµСЃРїРµС‡РёРІР°РµС‚ СЃР»РµРіРєР° РїРѕРІС‹С€РµРЅРЅСѓСЋ Р·Р°С‰РёС‚Сѓ, РЅРѕ РЅРµ Р·Р°РјРµРґР»СЏРµС‚ РЅРѕСЃРёС‚РµР»СЏ. РќРµСЌС„С„РµРєС‚РёРІРЅР° РїСЂРѕС‚РёРІ Р°РЅРѕРјР°Р»СЊРЅС‹С… Рё РґСЂСѓРіРёС… РІРѕР·РґРµР№СЃС‚РІРёР№."
 	icon_state = "kozhanka_mono_wh"
 	item_state = "labcoat"
 	hoodtype = /obj/item/clothing/head/winterhood/stalker/kozhanka_wh/monolith
@@ -20,23 +20,23 @@
 	icon_state = "winterhood_kozhanka_mono_wh"
 
 /obj/item/clothing/under/color/switer/veteran
-	name_ru = "советская униформа"
+	name_ru = "СЃРѕРІРµС‚СЃРєР°СЏ СѓРЅРёС„РѕСЂРјР°"
 	name = "soviet uniform"
 	desc = ""
 	icon_state = "veteran"
 	item_state = "veteran"
 
 /obj/item/clothing/under/color/switer/samoderjes
-	name_ru = "офицерская униформа"
+	name_ru = "РѕС„РёС†РµСЂСЃРєР°СЏ СѓРЅРёС„РѕСЂРјР°"
 	name = "old officer uniform"
 	desc = ""
 	icon_state = "samoderjes"
 	item_state = "samoderjes"
 
 /obj/item/clothing/suit/olympic
-	name_ru = "олимпийка"
+	name_ru = "РѕР»РёРјРїРёР№РєР°"
 	name = "olympic jacket"
-	desc_ru = "Твоя стиляжность в безопасности."
+	desc_ru = "РўРІРѕСЏ СЃС‚РёР»СЏР¶РЅРѕСЃС‚СЊ РІ Р±РµР·РѕРїР°СЃРЅРѕСЃС‚Рё."
 	desc = "Your style is safe now."
 	icon_state = "jacket_feyerwerk"
 	blood_overlay_type = "leatherjacket"
@@ -82,9 +82,9 @@
 	icon_state = "jacket_jara"
 
 /obj/item/clothing/head/fez
-	name_ru = "феска"
+	name_ru = "С„РµСЃРєР°"
 	name = "fez"
-	desc_ru = "Феска из красной потрепанной ткани. Клево."
+	desc_ru = "Р¤РµСЃРєР° РёР· РєСЂР°СЃРЅРѕР№ РїРѕС‚СЂРµРїР°РЅРЅРѕР№ С‚РєР°РЅРё. РљР»РµРІРѕ."
 	desc = "Very good, very epic."
 	icon_state = "fez"
 	icon_ground = "fez_ground"
@@ -95,9 +95,9 @@
 	weight = 0.25
 
 /obj/item/clothing/head/veteran
-	name_ru = "старая фуражка"
+	name_ru = "СЃС‚Р°СЂР°СЏ С„СѓСЂР°Р¶РєР°"
 	name = "old army hat"
-	desc_ru = "Ни хера ж себе. Советская фуражечка..."
+	desc_ru = "РќРё С…РµСЂР° Р¶ СЃРµР±Рµ. РЎРѕРІРµС‚СЃРєР°СЏ С„СѓСЂР°Р¶РµС‡РєР°..."
 	desc = "Whoa. Is that... a soviet army major hat?"
 	icon_state = "veteran"
 	icon_ground = "veteran_ground"
@@ -108,9 +108,9 @@
 	weight = 0.25
 
 /obj/item/clothing/head/samoderjes
-	name_ru = "старая фуражка"
+	name_ru = "СЃС‚Р°СЂР°СЏ С„СѓСЂР°Р¶РєР°"
 	name = "old officer hat"
-	desc_ru = "Ни хера ж себе. Фуражечка..."
+	desc_ru = "РќРё С…РµСЂР° Р¶ СЃРµР±Рµ. Р¤СѓСЂР°Р¶РµС‡РєР°..."
 	desc = "Whoa. Is that... an old officer hat?"
 	icon_state = "samoderjes"
 	icon_ground = "samoderjes_ground"
@@ -121,9 +121,9 @@
 	weight = 0.25
 
 /obj/item/clothing/head/fashist
-	name_ru = "старая фуражка"
+	name_ru = "СЃС‚Р°СЂР°СЏ С„СѓСЂР°Р¶РєР°"
 	name = "old nazi hat"
-	desc_ru = "Ни хера ж себе. Фашистская фуражечка..."
+	desc_ru = "РќРё С…РµСЂР° Р¶ СЃРµР±Рµ. Р¤Р°С€РёСЃС‚СЃРєР°СЏ С„СѓСЂР°Р¶РµС‡РєР°..."
 	desc = "Whoa. Is that... a nazi army officer hat?"
 	icon_state = "fashist"
 	icon_ground = "fashist"
@@ -136,9 +136,9 @@
 
 
 /obj/item/weapon/sabre
-	name_ru = "сабелька"
+	name_ru = "СЃР°Р±РµР»СЊРєР°"
 	name = "sabre"
-	desc_ru = "Руби, казак, врагов своих!"
+	desc_ru = "Р СѓР±Рё, РєР°Р·Р°Рє, РІСЂР°РіРѕРІ СЃРІРѕРёС…!"
 	desc = "Slash, kazak, at your enemies!"
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "sabre"
@@ -153,14 +153,14 @@
 	throwforce = 15
 	w_class = 3
 	hitsound = 'sound/weapons/chop.ogg'
-	attack_verb_ru = list("рубанул", "порезал")
+	attack_verb_ru = list("СЂСѓР±Р°РЅСѓР»", "РїРѕСЂРµР·Р°Р»")
 	attack_verb = list("slashed", "sliced", "torn", "ripped", "diced", "cut")
 	sharpness = IS_SHARP_ACCURATE
 	weight = 1.5
 
 /obj/item/weapon/sheath
 	name = "sheath"
-	name_ru = "ножны"
+	name_ru = "РЅРѕР¶РЅС‹"
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "sheath"
 	w_class = 4
@@ -221,9 +221,9 @@
 
 
 /obj/item/weapon/sabrekazak
-	name_ru = "сабелька"
+	name_ru = "СЃР°Р±РµР»СЊРєР°"
 	name = "sabre"
-	desc_ru = "Руби, казак, врагов своих!"
+	desc_ru = "Р СѓР±Рё, РєР°Р·Р°Рє, РІСЂР°РіРѕРІ СЃРІРѕРёС…!"
 	desc = "Slash, kazak, at your enemies!"
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "kazak"
@@ -238,14 +238,14 @@
 	throwforce = 15
 	w_class = 3
 	hitsound = 'sound/weapons/chop.ogg'
-	attack_verb_ru = list("рубанул", "порезал")
+	attack_verb_ru = list("СЂСѓР±Р°РЅСѓР»", "РїРѕСЂРµР·Р°Р»")
 	attack_verb = list("slashed", "sliced", "torn", "ripped", "diced", "cut")
 	sharpness = IS_SHARP_ACCURATE
 	weight = 1.5
 
 /obj/item/weapon/sheathkazak
 	name = "sheath"
-	name_ru = "ножны"
+	name_ru = "РЅРѕР¶РЅС‹"
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "sheathk"
 	w_class = 4
@@ -305,9 +305,9 @@
 
 
 /obj/item/weapon/kitchen/knife/frostmorn
-	name_ru = "тяжелый нож"
+	name_ru = "С‚СЏР¶РµР»С‹Р№ РЅРѕР¶"
 	name = "heavy knife"
-	desc_ru = "Увесистый нож с рукоятью из красного стеклотекстолита, грубо сработанный каким-то энтузиастом на устаревшем оборудовании одного из заводов нашей необъятной родины. Несмотря на царапины, грязь и легкую ржавчину, на плоскости клинка реально различить на века вытравленную руническим шрифтом надпись 'Я ЕБЛАН'."
+	desc_ru = "РЈРІРµСЃРёСЃС‚С‹Р№ РЅРѕР¶ СЃ СЂСѓРєРѕСЏС‚СЊСЋ РёР· РєСЂР°СЃРЅРѕРіРѕ СЃС‚РµРєР»РѕС‚РµРєСЃС‚РѕР»РёС‚Р°, РіСЂСѓР±Рѕ СЃСЂР°Р±РѕС‚Р°РЅРЅС‹Р№ РєР°РєРёРј-С‚Рѕ СЌРЅС‚СѓР·РёР°СЃС‚РѕРј РЅР° СѓСЃС‚Р°СЂРµРІС€РµРј РѕР±РѕСЂСѓРґРѕРІР°РЅРёРё РѕРґРЅРѕРіРѕ РёР· Р·Р°РІРѕРґРѕРІ РЅР°С€РµР№ РЅРµРѕР±СЉСЏС‚РЅРѕР№ СЂРѕРґРёРЅС‹. РќРµСЃРјРѕС‚СЂСЏ РЅР° С†Р°СЂР°РїРёРЅС‹, РіСЂСЏР·СЊ Рё Р»РµРіРєСѓСЋ СЂР¶Р°РІС‡РёРЅСѓ, РЅР° РїР»РѕСЃРєРѕСЃС‚Рё РєР»РёРЅРєР° СЂРµР°Р»СЊРЅРѕ СЂР°Р·Р»РёС‡РёС‚СЊ РЅР° РІРµРєР° РІС‹С‚СЂР°РІР»РµРЅРЅСѓСЋ СЂСѓРЅРёС‡РµСЃРєРёРј С€СЂРёС„С‚РѕРј РЅР°РґРїРёСЃСЊ 'РЇ Р•Р‘Р›РђРќ'."
 	desc = "That's one hell of a melee weapon. Can do some nasty slashing damage."
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "frostmorn"
@@ -321,20 +321,20 @@
 	add_dmg = -1
 	w_class = 2
 	hitsound = 'sound/weapons/chop.ogg'
-	attack_verb_ru = list("ткнул", "кольнул")
+	attack_verb_ru = list("С‚РєРЅСѓР»", "РєРѕР»СЊРЅСѓР»")
 	attack_verb = list("attacked", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut")
 	sharpness = IS_SHARP_ACCURATE
 	weight = 0.75
 
 /obj/item/weapon/kitchen/knife/frostmorn/ledorub
-	name_ru = "Ледоруб"
+	name_ru = "Р›РµРґРѕСЂСѓР±"
 	desc_ru = null
 	icon_state = "ledorub"
 	icon_ground = "ledorub_ground"
 	item_state = "ledorub"
 
 /obj/item/weapon/kitchen/knife/frostmorn/omegasword
-	name_ru = "Меч омежки"
+	name_ru = "РњРµС‡ РѕРјРµР¶РєРё"
 	desc_ru = null
 	icon_state = "omegasword"
 	icon_ground = "omegasword_ground"
@@ -343,11 +343,11 @@
 /obj/item/device/artcontainer
 	icon = 'icons/stalker/items.dmi'
 	icon_state = "container_toxic"
-	name_ru = "Контейнер для артефактов"
+	name_ru = "РљРѕРЅС‚РµР№РЅРµСЂ РґР»СЏ Р°СЂС‚РµС„Р°РєС‚РѕРІ"
 	desc_ru = null
 	name = null
 	desc = null
 
 /obj/item/device/artcontainer/better
 	icon_state = "artcontainer_shock"
-	name_ru = "Контейнер для артефактов +"
+	name_ru = "РљРѕРЅС‚РµР№РЅРµСЂ РґР»СЏ Р°СЂС‚РµС„Р°РєС‚РѕРІ +"

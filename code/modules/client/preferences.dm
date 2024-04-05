@@ -133,11 +133,11 @@ var/list/preferences_datums = list()
 	user << browse_rsc(preview_icon, "previewicon.png")
 	var/dat = "<center>"
 
-	dat += user.client.select_lang("<a href='?_src_=prefs;preference=tab;tab=0' [current_tab == 0 ? "class='linkOn'" : "class='linkOff'"]>Настройки персонажа</a> ",
+	dat += user.client.select_lang("<a href='?_src_=prefs;preference=tab;tab=0' [current_tab == 0 ? "class='linkOn'" : "class='linkOff'"]>РќР°СЃС‚СЂРѕР№РєРё РїРµСЂСЃРѕРЅР°Р¶Р°</a> ",
 								"<a href='?_src_=prefs;preference=tab;tab=0' [current_tab == 0 ? "class='linkOn'" : "class='linkOff'"]>Characters settings</a> ")
-//	dat += user.client.select_lang("<a href='?_src_=prefs;preference=tab;tab=1' [current_tab == 1 ? "class='linkOn'" : ""]>Настройки игры</a>",
+//	dat += user.client.select_lang("<a href='?_src_=prefs;preference=tab;tab=1' [current_tab == 1 ? "class='linkOn'" : ""]>РќР°СЃС‚СЂРѕР№РєРё РёРіСЂС‹</a>",
 //								"<a href='?_src_=prefs;preference=tab;tab=1' [current_tab == 1 ? "class='linkOn'" : ""]>Game settings</a>")
-	dat += user.client.select_lang("<a href='?_src_=prefs;preference=tab;tab=2' [current_tab == 2 ? "class='linkOn'" : "class='linkOff'"]>Черты персонажа</a>",
+	dat += user.client.select_lang("<a href='?_src_=prefs;preference=tab;tab=2' [current_tab == 2 ? "class='linkOn'" : "class='linkOff'"]>Р§РµСЂС‚С‹ РїРµСЂСЃРѕРЅР°Р¶Р°</a>",
 								"<a href='?_src_=prefs;preference=tab;tab=2' [current_tab == 2 ? "class='linkOn'" : "class='linkOff'"]>Traits</a>")
 
 	if(!path)
@@ -158,7 +158,7 @@ var/list/preferences_datums = list()
 						S.cd = "/character[i]"
 						S["real_name"] >> name
 						if(!name)
-							name = user.client.select_lang("Персонаж №[i]",
+							name = user.client.select_lang("РџРµСЂСЃРѕРЅР°Р¶ в„–[i]",
 														"Character[i]")
 						//if(i!=1) dat += " | "
 						dat += "<a style='white-space:nowrap;' href='?_src_=prefs;preference=changeslot;num=[i];' [i == default_slot ? "class='linkOn'" : "class='white'"]>[name]</a> "
@@ -166,23 +166,23 @@ var/list/preferences_datums = list()
 
 //			dat += "<center><h2>Occupation Choices</h2>"
 //			dat += "<a href='?_src_=prefs;preference=job;task=menu'>Set Occupation Preferences</a><br></center>"
-			dat += user.client.select_lang("<h2>Расскажи о себе</h2>",
+			dat += user.client.select_lang("<h2>Р Р°СЃСЃРєР°Р¶Рё Рѕ СЃРµР±Рµ</h2>",
 										"<h2>Tell about yourself</h2>")
 			dat += "<table width='100%'><tr><td width='75%' valign='top'>"
 			if(appearance_isbanned(user))
 				dat += "<b>You are banned from using custom names and appearances. You can continue to adjust your characters, but you will be randomised once you join the game.</b><br>"
 
-			dat += user.client.select_lang("<b>Мое имя:</b> ",
+			dat += user.client.select_lang("<b>РњРѕРµ РёРјСЏ:</b> ",
 										"<b>My name is:</b> ")
 			dat += "<a href='?_src_=prefs;preference=name;task=input'>[real_name]</a><BR>"
 
-			dat += user.client.select_lang("<a href='?_src_=prefs;preference=name;task=random'>Я хочу случайное имя</A><BR>",
+			dat += user.client.select_lang("<a href='?_src_=prefs;preference=name;task=random'>РЇ С…РѕС‡Сѓ СЃР»СѓС‡Р°Р№РЅРѕРµ РёРјСЏ</A><BR>",
 									"<a href='?_src_=prefs;preference=name;task=random'>I'd like a random name</A><BR>")
-			// dat += "<a href='?_src_=prefs;preference=name'>ВСЕГДА СЛУЧАЙНОЕ ИМЯ? [be_random_name ? "Yes" : "No"]</a><BR>"
+			// dat += "<a href='?_src_=prefs;preference=name'>Р’РЎР•Р“Р”Рђ РЎР›РЈР§РђР™РќРћР• РРњРЇ? [be_random_name ? "Yes" : "No"]</a><BR>"
 
 			if(user.client.get_donation("Trap"))
 				dat += "<b>Gender:</b> <a href='?_src_=prefs;preference=gender'>[gender == MALE ? "Male" : "Female"]</a><BR>"
-			dat += user.client.select_lang("<b>Мой возраст: </b> <a href='?_src_=prefs;preference=age;task=input'>[age]</a> год/лет<BR>",
+			dat += user.client.select_lang("<b>РњРѕР№ РІРѕР·СЂР°СЃС‚: </b> <a href='?_src_=prefs;preference=age;task=input'>[age]</a> РіРѕРґ/Р»РµС‚<BR>",
 										"<b>My age is: </b> <a href='?_src_=prefs;preference=age;task=input'>[age]</a><BR>")
 
 //			dat += "<b>Special Names:</b><BR>"
@@ -200,9 +200,9 @@ var/list/preferences_datums = list()
 
 			dat += "</td></tr></table>"
 
-			dat += user.client.select_lang("<h2>Мое тело</h2>",
+			dat += user.client.select_lang("<h2>РњРѕРµ С‚РµР»Рѕ</h2>",
 									"<h2>My body</h2>")
-			dat += user.client.select_lang("<a href='?_src_=prefs;preference=all;task=random'>Случайное тело</A>",
+			dat += user.client.select_lang("<a href='?_src_=prefs;preference=all;task=random'>РЎР»СѓС‡Р°Р№РЅРѕРµ С‚РµР»Рѕ</A>",
 									"<a href='?_src_=prefs;preference=all;task=random'>Random Body</A>")
 //			dat += "<a href='?_src_=prefs;preference=all'>Always Random Body: [be_random_body ? "Yes" : "No"]</A><br>"
 
@@ -214,11 +214,11 @@ var/list/preferences_datums = list()
 //				dat += "We're all humans now.<BR>"
 
 			//dat += "<b>Blood Type:</b> [blood_type]<BR>"
-			dat += user.client.select_lang("<b>Нижнее белье:</b><BR><a href ='?_src_=prefs;preference=underwear;task=input'>[underwear]</a><BR>",
+			dat += user.client.select_lang("<b>РќРёР¶РЅРµРµ Р±РµР»СЊРµ:</b><BR><a href ='?_src_=prefs;preference=underwear;task=input'>[underwear]</a><BR>",
 									"<b>Underwear:</b><BR><a href ='?_src_=prefs;preference=underwear;task=input'>[underwear]</a><BR>")
-	/*		dat += user.client.select_lang("<b>Майка:</b><BR><a href ='?_src_=prefs;preference=undershirt;task=input'>[undershirt]</a><BR>",
+	/*		dat += user.client.select_lang("<b>РњР°Р№РєР°:</b><BR><a href ='?_src_=prefs;preference=undershirt;task=input'>[undershirt]</a><BR>",
 									"<b>Undershirt:</b><BR><a href ='?_src_=prefs;preference=undershirt;task=input'>[undershirt]</a><BR>")
-			dat += user.client.select_lang("<b>Носки:</b><BR><a href ='?_src_=prefs;preference=socks;task=input'>[socks]</a><BR>",
+			dat += user.client.select_lang("<b>РќРѕСЃРєРё:</b><BR><a href ='?_src_=prefs;preference=socks;task=input'>[socks]</a><BR>",
 									"<b>Socks:</b><BR><a href ='?_src_=prefs;preference=socks;task=input'>[socks]</a><BR>")
 			dat += "<b>Backpack:</b><BR><a href ='?_src_=prefs;preference=bag;task=input'>[GLOB.backbaglist[backbag]]</a><BR></td>"*/
 
@@ -226,7 +226,7 @@ var/list/preferences_datums = list()
 
 				dat += "<td valign='top' width='16%'>"
 
-				dat += user.client.select_lang("<h3>Цвет кожи</h3>",
+				dat += user.client.select_lang("<h3>Р¦РІРµС‚ РєРѕР¶Рё</h3>",
 											"<h3>Skin tone</h3>")
 
 				dat += "<a href='?_src_=prefs;preference=s_tone;task=input'>[skin_tone]</a><BR>"
@@ -237,23 +237,23 @@ var/list/preferences_datums = list()
 
 				dat += "<td valign='top' width='16%'>"
 
-				dat += user.client.select_lang("<h3>Стрижка</h3>",
+				dat += user.client.select_lang("<h3>РЎС‚СЂРёР¶РєР°</h3>",
 											"<h3>Haircut</h3>")
 
 				dat += "<a href='?_src_=prefs;preference=hair_style;task=input'>[hair_style]</a><BR>"
 				//dat += "<a href='?_src_=prefs;preference=previous_hair_style;task=input'>&lt;</a> <a href='?_src_=prefs;preference=next_hair_style;task=input'>&gt;</a><BR>"
-				dat += user.client.select_lang("<span style='border:1px solid #161616; background-color: #[hair_color];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=hair;task=input'>Изменить</a><BR>",
+				dat += user.client.select_lang("<span style='border:1px solid #161616; background-color: #[hair_color];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=hair;task=input'>РР·РјРµРЅРёС‚СЊ</a><BR>",
 								"<span style='border:1px solid #161616; background-color: #[hair_color];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=hair;task=input'>Change</a><BR>")
 
 
 				dat += "</td><td valign='top' width='16%'>"
 
-				dat += user.client.select_lang("<h3>Растительность на лице</h3>",
+				dat += user.client.select_lang("<h3>Р Р°СЃС‚РёС‚РµР»СЊРЅРѕСЃС‚СЊ РЅР° Р»РёС†Рµ</h3>",
 											"<h3>Facial hair</h3>")
 
 				dat += "<a href='?_src_=prefs;preference=facial_hair_style;task=input'>[facial_hair_style]</a><BR>"
 				//dat += "<a href='?_src_=prefs;preference=previous_facehair_style;task=input'>&lt;</a> <a href='?_src_=prefs;preference=next_facehair_style;task=input'>&gt;</a><BR>"
-				dat += user.client.select_lang("<span style='border: 1px solid #161616; background-color: #[facial_hair_color];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=facial;task=input'>Изменить</a><BR>",
+				dat += user.client.select_lang("<span style='border: 1px solid #161616; background-color: #[facial_hair_color];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=facial;task=input'>РР·РјРµРЅРёС‚СЊ</a><BR>",
 										"<span style='border: 1px solid #161616; background-color: #[facial_hair_color];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=facial;task=input'>Change</a><BR>")
 
 				dat += "</td>"
@@ -262,10 +262,10 @@ var/list/preferences_datums = list()
 
 				dat += "<td valign='top' width='16%'>"
 
-				dat += user.client.select_lang("<h3>Цвет глаз</h3>",
+				dat += user.client.select_lang("<h3>Р¦РІРµС‚ РіР»Р°Р·</h3>",
 											"<h3>Eye colour</h3>")
 
-				dat += user.client.select_lang("<span style='border: 1px solid #161616; background-color: #[eye_color];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=eyes;task=input'>Изменить</a><BR>",
+				dat += user.client.select_lang("<span style='border: 1px solid #161616; background-color: #[eye_color];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=eyes;task=input'>РР·РјРµРЅРёС‚СЊ</a><BR>",
 										"<span style='border: 1px solid #161616; background-color: #[eye_color];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=eyes;task=input'>Change</a><BR>")
 
 				dat += "</td>"
@@ -445,30 +445,30 @@ var/list/preferences_datums = list()
 					if(user.client.get_donation("Custom Beer"))
 						dat += "<br><br><b>Favourite beer: </b><a href ='?_src_=prefs;preference=beer;task=input'>[custom_beer]</a>"
 				if("Russian")
-					dat += "<h2>Жизнь</h2>"
-					dat += "<b>Образование: </b><a href ='?_src_=prefs;preference=education;task=input'>[get_education_runame(education)]</a> <a href ='?_src_=prefs;preference=e_info;task=output'>\[?\]</a><br>"
-					dat += "<b>Профессия: </b><a href ='?_src_=prefs;preference=profession;task=input'>[get_profession_runame(profession)]</a> <a href ='?_src_=prefs;preference=p_info;task=output'>\[?\]</a><br>"
-					dat += "<b>Образ жизни: </b><a href ='?_src_=prefs;preference=lifestyle;task=input'>[get_lifestyle_runame(lifestyle)]</a> <a href ='?_src_=prefs;preference=l_info;task=output'>\[?\]</a><br>"
-					dat += "<b>Черта: </b><a href ='?_src_=prefs;preference=trait;task=input'>[get_trait_runame(trait)]</a> <a href ='?_src_=prefs;preference=t_info;task=output'>\[?\]</a>"
+					dat += "<h2>Р–РёР·РЅСЊ</h2>"
+					dat += "<b>РћР±СЂР°Р·РѕРІР°РЅРёРµ: </b><a href ='?_src_=prefs;preference=education;task=input'>[get_education_runame(education)]</a> <a href ='?_src_=prefs;preference=e_info;task=output'>\[?\]</a><br>"
+					dat += "<b>РџСЂРѕС„РµСЃСЃРёСЏ: </b><a href ='?_src_=prefs;preference=profession;task=input'>[get_profession_runame(profession)]</a> <a href ='?_src_=prefs;preference=p_info;task=output'>\[?\]</a><br>"
+					dat += "<b>РћР±СЂР°Р· Р¶РёР·РЅРё: </b><a href ='?_src_=prefs;preference=lifestyle;task=input'>[get_lifestyle_runame(lifestyle)]</a> <a href ='?_src_=prefs;preference=l_info;task=output'>\[?\]</a><br>"
+					dat += "<b>Р§РµСЂС‚Р°: </b><a href ='?_src_=prefs;preference=trait;task=input'>[get_trait_runame(trait)]</a> <a href ='?_src_=prefs;preference=t_info;task=output'>\[?\]</a>"
 					if(user.client.get_donation("Custom Beer"))
-						dat += "<br><br><b>Любимое пиво: </b><a href ='?_src_=prefs;preference=beer;task=input'>[get_beer_runame(custom_beer)]</a>"
+						dat += "<br><br><b>Р›СЋР±РёРјРѕРµ РїРёРІРѕ: </b><a href ='?_src_=prefs;preference=beer;task=input'>[get_beer_runame(custom_beer)]</a>"
 			dat += "</tr></table>"
 
 
 	dat += "<hr><center>"
 
 	if(!IsGuestKey(user.key) && !saved)
-		dat += user.client.select_lang("<a href='?_src_=prefs;preference=save'>Сохранить настройки</a> ",
+		dat += user.client.select_lang("<a href='?_src_=prefs;preference=save'>РЎРѕС…СЂР°РЅРёС‚СЊ РЅР°СЃС‚СЂРѕР№РєРё</a> ",
 								"<a href='?_src_=prefs;preference=save'>Save Setup</a> ")
 
-	dat += user.client.select_lang("<a href='?_src_=prefs;preference=reset_all'>Сбросить настройки</a>",
+	dat += user.client.select_lang("<a href='?_src_=prefs;preference=reset_all'>РЎР±СЂРѕСЃРёС‚СЊ РЅР°СЃС‚СЂРѕР№РєРё</a>",
 							"<a href='?_src_=prefs;preference=reset_all'>Reset Setup</a>")
 	dat += "</center>"
 
 	//user << browse(dat, "window=preferences;size=560x560")
 	var/datum/browser/popup
 	if(user.client.language == "Russian")
-		popup = new(user, "preferences", "<div align='center'>Настройки</div>", 640, 750)
+		popup = new(user, "preferences", "<div align='center'>РќР°СЃС‚СЂРѕР№РєРё</div>", 640, 750)
 	else
 		popup = new(user, "preferences", "<div align='center'>Character Setup</div>", 640, 750)
 	popup.set_content(dat)
@@ -950,7 +950,7 @@ var/list/preferences_datums = list()
 				if("e_info")
 					var/datum/traits/education/E = GLOB.education_list[education]
 					if(user.client.language == "Russian")
-						user << sanitize_russian("<span class='info'><b>Образование: [E.name_ru]</b><br>\
+						user << sanitize_russian("<span class='info'><b>РћР±СЂР°Р·РѕРІР°РЅРёРµ: [E.name_ru]</b><br>\
 								[E.info_ru]</span>")
 					else
 						user << "<span class='info'><b>Education: [E.name]</b><br>\
@@ -958,7 +958,7 @@ var/list/preferences_datums = list()
 				if("p_info")
 					var/datum/traits/profession/P = GLOB.profession_list[profession]
 					if(user.client.language == "Russian")
-						user << sanitize_russian("<span class='info'><b>Профессия: [P.name_ru]</b><br>\
+						user << sanitize_russian("<span class='info'><b>РџСЂРѕС„РµСЃСЃРёСЏ: [P.name_ru]</b><br>\
 								[P.info_ru]</span>")
 					else
 						user << "<span class='info'><b>Profession: [P.name]</b><br>\
@@ -966,7 +966,7 @@ var/list/preferences_datums = list()
 				if("l_info")
 					var/datum/traits/lifestyle/L = GLOB.lifestyle_list[lifestyle]
 					if(user.client.language == "Russian")
-						user << sanitize_russian("<span class='info'><b>Образ жизни: [L.name_ru]</b><br>\
+						user << sanitize_russian("<span class='info'><b>РћР±СЂР°Р· Р¶РёР·РЅРё: [L.name_ru]</b><br>\
 								[L.info_ru]</span>")
 					else
 						user << "<span class='info'><b>Lifestyle: [L.name]</b><br>\
@@ -974,7 +974,7 @@ var/list/preferences_datums = list()
 				if("t_info")
 					var/datum/traits/trait/T = GLOB.trait_list[trait]
 					if(user.client.language == "Russian")
-						user << sanitize_russian("<span class='info'><b>Черта: [T.name_ru]</b><br>\
+						user << sanitize_russian("<span class='info'><b>Р§РµСЂС‚Р°: [T.name_ru]</b><br>\
 								[T.info_ru]</span>")
 					else
 						user << "<span class='info'><b>Trait: [T.name]</b><br>\
@@ -1072,8 +1072,8 @@ var/list/preferences_datums = list()
 					if(!saved)
 						switch(user.client.language)
 							if("Russian")
-								switch(alert("Ты действительно хочешь сохранить персонажа? Внести изменениЯ будет нельзЯ!","Сохранение персонажа","Да","Нет"))
-									if("Да")
+								switch(alert("РўС‹ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅРѕ С…РѕС‡РµС€СЊ СЃРѕС…СЂР°РЅРёС‚СЊ РїРµСЂСЃРѕРЅР°Р¶Р°? Р’РЅРµСЃС‚Рё РёР·РјРµРЅРµРЅРёРЇ Р±СѓРґРµС‚ РЅРµР»СЊР·РЇ!","РЎРѕС…СЂР°РЅРµРЅРёРµ РїРµСЂСЃРѕРЅР°Р¶Р°","Р”Р°","РќРµС‚"))
+									if("Р”Р°")
 										save_character()
 										save_preferences()
 										if(user.client.loadout)
@@ -1089,8 +1089,8 @@ var/list/preferences_datums = list()
 				if("reset_all")
 					switch(user.client.language)
 						if("Russian")
-							switch(alert("Ты действительно хочешь сбросить персонажа? Отменить изменение будет нельзЯ!","Сохранение персонажа","Да","Нет"))
-								if("Да")
+							switch(alert("РўС‹ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅРѕ С…РѕС‡РµС€СЊ СЃР±СЂРѕСЃРёС‚СЊ РїРµСЂСЃРѕРЅР°Р¶Р°? РћС‚РјРµРЅРёС‚СЊ РёР·РјРµРЅРµРЅРёРµ Р±СѓРґРµС‚ РЅРµР»СЊР·РЇ!","РЎРѕС…СЂР°РЅРµРЅРёРµ РїРµСЂСЃРѕРЅР°Р¶Р°","Р”Р°","РќРµС‚"))
+								if("Р”Р°")
 									random_character()
 									real_name = random_unique_name(gender)
 									saved = 0

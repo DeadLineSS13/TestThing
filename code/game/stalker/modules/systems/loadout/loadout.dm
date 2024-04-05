@@ -89,22 +89,22 @@ GLOBAL_LIST_EMPTY(available_uniform)
 	var/exp_percents = experience/(100+level*100)*100
 	if(path)
 		new /savefile(path)
-		dat += user.client.select_lang("<p>Твой ранг: <b>[get_rank("Russian")]</b>. <br />Ты заработал <b>[exp_percents]%</b> опыта для достижения следующего ранга.</p>",
+		dat += user.client.select_lang("<p>РўРІРѕР№ СЂР°РЅРі: <b>[get_rank("Russian")]</b>. <br />РўС‹ Р·Р°СЂР°Р±РѕС‚Р°Р» <b>[exp_percents]%</b> РѕРїС‹С‚Р° РґР»СЏ РґРѕСЃС‚РёР¶РµРЅРёСЏ СЃР»РµРґСѓСЋС‰РµРіРѕ СЂР°РЅРіР°.</p>",
 										"<p>Your rank is <b>[get_rank()]</b>. <br />You have earned <b>[exp_percents]%</b> of the experience required to earn next rank.</p>")
 		dat += "<p>"
 		if(money_points)
-			dat += user.client.select_lang("<strong>[money_points]</strong> очков перенесено с предыдущей игры<br>", "<strong>[money_points]</strong> points were saved from the previous game<br>")
-		dat += user.client.select_lang("У тебя ещё <strong>[points]</strong> очков снаряжения, а твоя одежда: <a href ='?_src_=loadout;preference=uniform;task=input'>[uniform]</a><br>",
+			dat += user.client.select_lang("<strong>[money_points]</strong> РѕС‡РєРѕРІ РїРµСЂРµРЅРµСЃРµРЅРѕ СЃ РїСЂРµРґС‹РґСѓС‰РµР№ РёРіСЂС‹<br>", "<strong>[money_points]</strong> points were saved from the previous game<br>")
+		dat += user.client.select_lang("РЈ С‚РµР±СЏ РµС‰С‘ <strong>[points]</strong> РѕС‡РєРѕРІ СЃРЅР°СЂСЏР¶РµРЅРёСЏ, Р° С‚РІРѕСЏ РѕРґРµР¶РґР°: <a href ='?_src_=loadout;preference=uniform;task=input'>[uniform]</a><br>",
 									"You have <strong>[points]</strong> more loadout points and your uniform is: <a href ='?_src_=loadout;preference=uniform;task=input'>[uniform]</a><br>")
-		dat += user.client.select_lang("На твоей спине: <a href ='?_src_=loadout;preference=backpack;task=input'>[get_ru_name(backpack)]</a>",
+		dat += user.client.select_lang("РќР° С‚РІРѕРµР№ СЃРїРёРЅРµ: <a href ='?_src_=loadout;preference=backpack;task=input'>[get_ru_name(backpack)]</a>",
 									"On your back is: <a href ='?_src_=loadout;preference=backpack;task=input'>[backpack]</a>")
 		dat += "</p>"
 		dat += "<table style=\"width: 500px; text-align: center;\"><tbody><tr>"
 		dat += user.client.select_lang("<td style=\"width: 500px;\">\
-										<strong><a href=?_src_=loadout;task=switch;preference=weapon>Оружие</a>&nbsp;&nbsp;&nbsp;\
-										<a href=?_src_=loadout;task=switch;preference=gear>Снаряжение</a>&nbsp;&nbsp;&nbsp;\
-										<a href=?_src_=loadout;task=switch;preference=ammo>Боеприпасы</a>&nbsp;&nbsp;&nbsp;\
-										<a href=?_src_=loadout;task=switch;preference=meds>Медикаменты</a>",
+										<strong><a href=?_src_=loadout;task=switch;preference=weapon>РћСЂСѓР¶РёРµ</a>&nbsp;&nbsp;&nbsp;\
+										<a href=?_src_=loadout;task=switch;preference=gear>РЎРЅР°СЂСЏР¶РµРЅРёРµ</a>&nbsp;&nbsp;&nbsp;\
+										<a href=?_src_=loadout;task=switch;preference=ammo>Р‘РѕРµРїСЂРёРїР°СЃС‹</a>&nbsp;&nbsp;&nbsp;\
+										<a href=?_src_=loadout;task=switch;preference=meds>РњРµРґРёРєР°РјРµРЅС‚С‹</a>",
 
 										"<td style=\"width: 500px;\">\
 										<strong><a href=?_src_=loadout;task=switch;preference=weapon>Weapon</a>&nbsp;&nbsp;&nbsp;\
@@ -113,7 +113,7 @@ GLOBAL_LIST_EMPTY(available_uniform)
 										<a href=?_src_=loadout;task=switch;preference=meds>Medicine</a>")
 
 		if(parent.get_donation("Custom Item"))
-			dat += user.client.select_lang("&nbsp;&nbsp;&nbsp;<a href=?_src_=loadout;task=switch;preference=donate>Личное</a>",
+			dat += user.client.select_lang("&nbsp;&nbsp;&nbsp;<a href=?_src_=loadout;task=switch;preference=donate>Р›РёС‡РЅРѕРµ</a>",
 										"&nbsp;&nbsp;&nbsp;<a href=?_src_=loadout;task=switch;preference=donate>Personal</a>")
 
 		dat += "</strong></td></tr></tbody></table>"
@@ -123,18 +123,18 @@ GLOBAL_LIST_EMPTY(available_uniform)
 		dat += "<tr>"
 		dat += "<td style=\"width: 250px;\">"
 		if(loadout_equipment.len)
-			dat += user.client.select_lang("<strong>Твоё снаряжение:</strong><br />",
+			dat += user.client.select_lang("<strong>РўРІРѕС‘ СЃРЅР°СЂСЏР¶РµРЅРёРµ:</strong><br />",
 										"<strong>Your equipment:</strong><br />")
 		else
-			dat += user.client.select_lang("<strong>Ты ничего не взял!</strong><br />",
+			dat += user.client.select_lang("<strong>РўС‹ РЅРёС‡РµРіРѕ РЅРµ РІР·СЏР»!</strong><br />",
 										"<strong>You didnt take anything!</strong><br />")
 		dat += "</td>"
 		dat += "<td style=\"width: 250px;\">"
 		if(accessable_loadout.len)
-			dat += user.client.select_lang("<strong>Доступное снаряжение:</strong><br />",
+			dat += user.client.select_lang("<strong>Р”РѕСЃС‚СѓРїРЅРѕРµ СЃРЅР°СЂСЏР¶РµРЅРёРµ:</strong><br />",
 										"<strong>Available equipment:</strong><br />")
 		else
-			dat += user.client.select_lang("<strong>Ты не можешь ничего взять!</strong><br />",
+			dat += user.client.select_lang("<strong>РўС‹ РЅРµ РјРѕР¶РµС€СЊ РЅРёС‡РµРіРѕ РІР·СЏС‚СЊ!</strong><br />",
 										"<strong>You cant take anything!</strong><br />")
 		dat += "</td>"
 		dat += "</tr>"
@@ -147,7 +147,7 @@ GLOBAL_LIST_EMPTY(available_uniform)
 				dat += user.client.select_lang("<td style=\"width: 150px; text-align: left;\"><strong>[LE.name_ru]</strong></td>",
 												"<td style=\"width: 150px; text-align: left;\"><strong>[LE.name]</strong></td>")
 				dat += "<td style=\"width: 20px; text-align: center;\">[LE.cost]</td>"
-				dat += user.client.select_lang("<td style=\"width: 60px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=remove;task=input;item=\ref[LE]'>Убрать</a></strong></td>",
+				dat += user.client.select_lang("<td style=\"width: 60px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=remove;task=input;item=\ref[LE]'>РЈР±СЂР°С‚СЊ</a></strong></td>",
 												"<td style=\"width: 60px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=remove;task=input;item=\ref[LE]'>Remove</a></strong></td>")
 				dat += "</tr>"
 			dat += "</tbody>"
@@ -163,32 +163,32 @@ GLOBAL_LIST_EMPTY(available_uniform)
 				for(var/datum/loadout_equip/weapon/LE in accessable_loadout)
 					dat += user.client.select_lang("<tr><td style=\"width: 160px; text-align: left;\"><strong>[LE.name_ru]</strong></td><td style=\"width: 20px; text-align: center;\">[LE.cost]</td>",
 													"<td style=\"width: 160px; text-align: left;\"><strong>[LE.name]</strong></td><td style=\"width: 20px; text-align: center;\">[LE.cost]</td>")
-					dat += user.client.select_lang("<td style=\"width: 50px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=pick;task=input;item=\ref[LE]'>Взять</a></strong></td></tr>",
+					dat += user.client.select_lang("<td style=\"width: 50px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=pick;task=input;item=\ref[LE]'>Р’Р·СЏС‚СЊ</a></strong></td></tr>",
 												"<td style=\"width: 50px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=pick;task=input;item=\ref[LE]'>Take</a></strong></td></tr>")
 			if(tab == "gear")
 				for(var/datum/loadout_equip/gear/LE in accessable_loadout)
 					dat += user.client.select_lang("<tr><td style=\"width: 160px; text-align: left;\"><strong>[LE.name_ru]</strong></td><td style=\"width: 20px; text-align: center;\">[LE.cost]</td>",
 													"<td style=\"width: 160px; text-align: left;\"><strong>[LE.name]</strong></td><td style=\"width: 20px; text-align: center;\">[LE.cost]</td>")
-					dat += user.client.select_lang("<td style=\"width: 50px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=pick;task=input;item=\ref[LE]'>Взять</a></strong></td></tr>",
+					dat += user.client.select_lang("<td style=\"width: 50px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=pick;task=input;item=\ref[LE]'>Р’Р·СЏС‚СЊ</a></strong></td></tr>",
 												"<td style=\"width: 50px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=pick;task=input;item=\ref[LE]'>Take</a></strong></td></tr>")
 			if(tab == "ammo")
 				for(var/datum/loadout_equip/ammo/LE in accessable_loadout)
 					dat += user.client.select_lang("<tr><td style=\"width: 160px; text-align: left;\"><strong>[LE.name_ru]</strong></td><td style=\"width: 20px; text-align: center;\">[LE.cost]</td>",
 													"<td style=\"width: 160px; text-align: left;\"><strong>[LE.name]</strong></td><td style=\"width: 20px; text-align: center;\">[LE.cost]</td>")
-					dat += user.client.select_lang("<td style=\"width: 50px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=pick;task=input;item=\ref[LE]'>Взять</a></strong></td></tr>",
+					dat += user.client.select_lang("<td style=\"width: 50px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=pick;task=input;item=\ref[LE]'>Р’Р·СЏС‚СЊ</a></strong></td></tr>",
 												"<td style=\"width: 50px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=pick;task=input;item=\ref[LE]'>Take</a></strong></td></tr>")
 			if(tab == "meds")
 				for(var/datum/loadout_equip/meds/LE in accessable_loadout)
 					dat += user.client.select_lang("<tr><td style=\"width: 160px; text-align: left;\"><strong>[LE.name_ru]</strong></td><td style=\"width: 20px; text-align: center;\">[LE.cost]</td>",
 													"<td style=\"width: 160px; text-align: left;\"><strong>[LE.name]</strong></td><td style=\"width: 20px; text-align: center;\">[LE.cost]</td>")
-					dat += user.client.select_lang("<td style=\"width: 50px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=pick;task=input;item=\ref[LE]'>Взять</a></strong></td></tr>",
+					dat += user.client.select_lang("<td style=\"width: 50px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=pick;task=input;item=\ref[LE]'>Р’Р·СЏС‚СЊ</a></strong></td></tr>",
 												"<td style=\"width: 50px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=pick;task=input;item=\ref[LE]'>Take</a></strong></td></tr>")
 
 			if(tab == "donate")
 				for(var/datum/loadout_equip/donate/LE in accessable_loadout)
 					dat += user.client.select_lang("<tr><td style=\"width: 160px; text-align: left;\"><strong>[LE.name_ru]</strong></td><td style=\"width: 20px; text-align: center;\">[LE.cost]</td>",
 													"<td style=\"width: 160px; text-align: left;\"><strong>[LE.name]</strong></td><td style=\"width: 20px; text-align: center;\">[LE.cost]</td>")
-					dat += user.client.select_lang("<td style=\"width: 50px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=pick;task=input;item=\ref[LE]'>Взять</a></strong></td></tr>",
+					dat += user.client.select_lang("<td style=\"width: 50px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=pick;task=input;item=\ref[LE]'>Р’Р·СЏС‚СЊ</a></strong></td></tr>",
 												"<td style=\"width: 50px; text-align: center;\"><strong><a href ='?_src_=loadout;preference=pick;task=input;item=\ref[LE]'>Take</a></strong></td></tr>")
 
 
@@ -197,7 +197,7 @@ GLOBAL_LIST_EMPTY(available_uniform)
 
 	var/datum/browser/popup
 	if(user.client.language == "Russian")
-		popup = new(user, "loadout", "<div align='center'>Экипировка</div>", 560, 700)
+		popup = new(user, "loadout", "<div align='center'>Р­РєРёРїРёСЂРѕРІРєР°</div>", 560, 700)
 	else
 		popup = new(user, "loadout", "<div align='center'>Loadout</div>", 560, 700)
 	popup.set_content(dat)
@@ -230,7 +230,7 @@ GLOBAL_LIST_EMPTY(available_uniform)
 				if("backpack")
 					var/new_backpack
 					if(user.client.language == "Russian")
-						new_backpack = input(user, "Выбери себе рюкзак:", "Рюкзак") as null|anything in list("рюкзак", "сумка")
+						new_backpack = input(user, "Р’С‹Р±РµСЂРё СЃРµР±Рµ СЂСЋРєР·Р°Рє:", "Р СЋРєР·Р°Рє") as null|anything in list("СЂСЋРєР·Р°Рє", "СЃСѓРјРєР°")
 						new_backpack = get_en_name(new_backpack)
 					else
 						new_backpack = input(user, "Choose your backpack:", "Backpack") as null|anything in list("backpack", "satchel")
@@ -257,23 +257,23 @@ GLOBAL_LIST_EMPTY(available_uniform)
 /datum/loadout/proc/get_ru_name(name)
 	switch(name)
 		if("sweater")
-			return "свитер"
+			return "СЃРІРёС‚РµСЂ"
 		if("sweater dark")
-			return "тёмный свитер"
+			return "С‚С‘РјРЅС‹Р№ СЃРІРёС‚РµСЂ"
 		if("tracksuit")
-			return "спортивный костюм"
+			return "СЃРїРѕСЂС‚РёРІРЅС‹Р№ РєРѕСЃС‚СЋРј"
 		if("telnashka")
-			return "тельняшка"
+			return "С‚РµР»СЊРЅСЏС€РєР°"
 		if("backpack")
-			return "рюкзак"
+			return "СЂСЋРєР·Р°Рє"
 		if("satchel")
-			return "сумка"
+			return "СЃСѓРјРєР°"
 
 /datum/loadout/proc/get_en_name(name)
 	switch(name)
-		if("рюкзак")
+		if("СЂСЋРєР·Р°Рє")
 			return "backpack"
-		if("сумка")
+		if("СЃСѓРјРєР°")
 			return "satchel"
 
 /datum/loadout/proc/load_path(ckey,filename="loadout.sav")
@@ -364,27 +364,27 @@ GLOBAL_LIST_EMPTY(available_uniform)
 	if(language == "Russian")
 		switch(level)
 			if(0)
-				return "Безымянный"
+				return "Р‘РµР·С‹РјСЏРЅРЅС‹Р№"
 			if(1)
-				return "Отмычка"
+				return "РћС‚РјС‹С‡РєР°"
 			if(2)
-				return "Новичок"
+				return "РќРѕРІРёС‡РѕРє"
 			if(3)
-				return "Бродяга"
+				return "Р‘СЂРѕРґСЏРіР°"
 			if(4)
-				return "Ходок"
+				return "РҐРѕРґРѕРє"
 			if(5)
-				return "Опытный"
+				return "РћРїС‹С‚РЅС‹Р№"
 			if(6)
-				return "Закалённый"
+				return "Р—Р°РєР°Р»С‘РЅРЅС‹Р№"
 			if(7)
-				return "Ветеран"
+				return "Р’РµС‚РµСЂР°РЅ"
 			if(8)
-				return "Эксперт"
+				return "Р­РєСЃРїРµСЂС‚"
 			if(9)
-				return "Профессионал"
+				return "РџСЂРѕС„РµСЃСЃРёРѕРЅР°Р»"
 			if(10)
-				return "Мастер"
+				return "РњР°СЃС‚РµСЂ"
 
 
 /mob/living/carbon/human/proc/convert_equip_tomoney()

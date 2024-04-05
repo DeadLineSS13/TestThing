@@ -13,13 +13,13 @@ SUBSYSTEM_DEF(stat)
 /datum/controller/subsystem/stat/proc/show_stat()
 	var/msg
 	msg += "ROUND STATISTIC<br>"
-	msg += "Шагов сделано: [total_steps]<br>"
-	msg += "Предметов продано: [items_sold]<br>"
-	msg += "Предметов куплено: [items_bought]<br>"
-	msg += "Заработано денег игроками: [money_earned_by_players]<br>"
-	msg += "Артефактов собрано: [artefacts_picked]<br>"
-	msg += "Аномалий активировано: [anomalies_triggered]<br>"
-	msg += "Выбросов произошло : [blowouts_happened]<br>"
+	msg += "РЁР°РіРѕРІ СЃРґРµР»Р°РЅРѕ: [total_steps]<br>"
+	msg += "РџСЂРµРґРјРµС‚РѕРІ РїСЂРѕРґР°РЅРѕ: [items_sold]<br>"
+	msg += "РџСЂРµРґРјРµС‚РѕРІ РєСѓРїР»РµРЅРѕ: [items_bought]<br>"
+	msg += "Р—Р°СЂР°Р±РѕС‚Р°РЅРѕ РґРµРЅРµРі РёРіСЂРѕРєР°РјРё: [money_earned_by_players]<br>"
+	msg += "РђСЂС‚РµС„Р°РєС‚РѕРІ СЃРѕР±СЂР°РЅРѕ: [artefacts_picked]<br>"
+	msg += "РђРЅРѕРјР°Р»РёР№ Р°РєС‚РёРІРёСЂРѕРІР°РЅРѕ: [anomalies_triggered]<br>"
+	msg += "Р’С‹Р±СЂРѕСЃРѕРІ РїСЂРѕРёР·РѕС€Р»Рѕ : [blowouts_happened]<br>"
 
 	world << msg
 

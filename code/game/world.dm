@@ -137,7 +137,7 @@ GLOBAL_VAR(restart_counter)
 //	log_runtime(GLOB.revdata.get_log_message())
 
 /world/Topic(T, addr, master, key)
-//	TGS_TOPIC	//redirect to server tools if necessary
+	TGS_TOPIC	//redirect to server tools if necessary
 
 	var/static/list/topic_handlers = TopicHandlers()
 
