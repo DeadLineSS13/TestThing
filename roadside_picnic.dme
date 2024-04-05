@@ -60,6 +60,8 @@
 #include "code\__defines\stat_tracking.dm"
 #include "code\__defines\subsystems.dm"
 #include "code\__defines\tablecrafting.dm"
+#include "code\__defines\tgs.config.dm"
+#include "code\__defines\tgs.dm"
 #include "code\__defines\tgui.dm"
 #include "code\__defines\tick.dm"
 #include "code\__defines\time.dm"
