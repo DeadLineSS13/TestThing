@@ -13,9 +13,9 @@ var/list/quest_list_all = list()
 
 /datum/data/stalker_quests
 	var/name_en = "Quest"
-	var/name_ru = "Квест"
+	var/name_ru = "РљРІРµСЃС‚"
 	var/desc_en = "Typical quest"
-	var/desc_ru = "Типичный квест"
+	var/desc_ru = "РўРёРїРёС‡РЅС‹Р№ РєРІРµСЃС‚"
 	var/reward = 0
 	var/experience = 50
 	var/obj/item/needed = null
@@ -27,10 +27,10 @@ var/list/quest_list_all = list()
 
 /datum/data/stalker_quests/findartifact
 	name_en = "Bring a specific anomalous object"
-	name_ru = "Добыть специфичный аномальный объект"
+	name_ru = "Р”РѕР±С‹С‚СЊ СЃРїРµС†РёС„РёС‡РЅС‹Р№ Р°РЅРѕРјР°Р»СЊРЅС‹Р№ РѕР±СЉРµРєС‚"
 	reward = 100000
 	desc_en = "Some pricks from the 'great land' are willing to pay a very good price for a specific rare object. They know how it should look, here's the photo of a similiar item, so if you find one by any chance - bring it here, you'll be paid well."
-	desc_ru = "Моим поставщикам с 'большой земли' необходим определенный объект из тех, что растут лишь в местных аномальных полях. Они предоставили фото другого подобного аномального образования в качестве ориентира, так что если по пути попадется такой - приноси, щедро заплачу."
+	desc_ru = "РњРѕРёРј РїРѕСЃС‚Р°РІС‰РёРєР°Рј СЃ 'Р±РѕР»СЊС€РѕР№ Р·РµРјР»Рё' РЅРµРѕР±С…РѕРґРёРј РѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ РѕР±СЉРµРєС‚ РёР· С‚РµС…, С‡С‚Рѕ СЂР°СЃС‚СѓС‚ Р»РёС€СЊ РІ РјРµСЃС‚РЅС‹С… Р°РЅРѕРјР°Р»СЊРЅС‹С… РїРѕР»СЏС…. РћРЅРё РїСЂРµРґРѕСЃС‚Р°РІРёР»Рё С„РѕС‚Рѕ РґСЂСѓРіРѕРіРѕ РїРѕРґРѕР±РЅРѕРіРѕ Р°РЅРѕРјР°Р»СЊРЅРѕРіРѕ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ РІ РєР°С‡РµСЃС‚РІРµ РѕСЂРёРµРЅС‚РёСЂР°, С‚Р°Рє С‡С‚Рѕ РµСЃР»Рё РїРѕ РїСѓС‚Рё РїРѕРїР°РґРµС‚СЃСЏ С‚Р°РєРѕР№ - РїСЂРёРЅРѕСЃРё, С‰РµРґСЂРѕ Р·Р°РїР»Р°С‡Сѓ."
 	needed = /obj/item/weapon/kitchen/knife/tourist
 	icon = 'icons/stalker/artefacts.dmi'
 	icon_state = "flash"

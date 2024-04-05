@@ -3,9 +3,9 @@
 
 /obj/machinery/stalker/sidormat
 	name = "Jaba"
-	name_ru = "Жаба"
+	name_ru = "Р–Р°Р±Р°"
 	desc = "Local trader."
-	desc_ru = "Местный торговец."
+	desc_ru = "РњРµСЃС‚РЅС‹Р№ С‚РѕСЂРіРѕРІРµС†."
 	icon = 'icons/stalker/sidorovich.dmi'
 	icon_state = "jaba"
 	density = 1
@@ -65,29 +65,29 @@
 	switch(current_tab)
 		if(0)
 			if(!message)
-				var/hello_word = pick("Ну здарова","Привет","Здарова","Здравствуй","Заходи","Ну не стой на пороге, рассказывай")
-				var/intro_word = pick("С чем пожаловал?","Чего нужно?","Ну как оно?","Чего хотел?","Ты по делу или просто поболтать?")
+				var/hello_word = pick("РќСѓ Р·РґР°СЂРѕРІР°","РџСЂРёРІРµС‚","Р—РґР°СЂРѕРІР°","Р—РґСЂР°РІСЃС‚РІСѓР№","Р—Р°С…РѕРґРё","РќСѓ РЅРµ СЃС‚РѕР№ РЅР° РїРѕСЂРѕРіРµ, СЂР°СЃСЃРєР°Р·С‹РІР°Р№")
+				var/intro_word = pick("РЎ С‡РµРј РїРѕР¶Р°Р»РѕРІР°Р»?","Р§РµРіРѕ РЅСѓР¶РЅРѕ?","РќСѓ РєР°Рє РѕРЅРѕ?","Р§РµРіРѕ С…РѕС‚РµР»?","РўС‹ РїРѕ РґРµР»Сѓ РёР»Рё РїСЂРѕСЃС‚Рѕ РїРѕР±РѕР»С‚Р°С‚СЊ?")
 				var/hello_word_en = pick("Hello", "Hi","Welcome")
 				var/intro_word_en = pick("How is it?","What do you need?")
 				message = H.client.select_lang("[hello_word], [H.real_name]. [intro_word]",
 												"[hello_word_en],[H.real_name]. [intro_word_en]")
 		if(1)
 			if(!message)
-				var/trade_word = pick("Торговаться пришел? Ну, давай посмотрим, что там у тебя.","Опять консервных банок насобирал?","Ну и что на этот раз притащил?","Ну-ка, поглядим, что тут у тебя.")
-				var/asking_word = pick("Надеюсь, ты не забыл, что","Надеюсь, ты еще помнишь, что","Если ты забыл, то","Не забудь, что")
+				var/trade_word = pick("РўРѕСЂРіРѕРІР°С‚СЊСЃСЏ РїСЂРёС€РµР»? РќСѓ, РґР°РІР°Р№ РїРѕСЃРјРѕС‚СЂРёРј, С‡С‚Рѕ С‚Р°Рј Сѓ С‚РµР±СЏ.","РћРїСЏС‚СЊ РєРѕРЅСЃРµСЂРІРЅС‹С… Р±Р°РЅРѕРє РЅР°СЃРѕР±РёСЂР°Р»?","РќСѓ Рё С‡С‚Рѕ РЅР° СЌС‚РѕС‚ СЂР°Р· РїСЂРёС‚Р°С‰РёР»?","РќСѓ-РєР°, РїРѕРіР»СЏРґРёРј, С‡С‚Рѕ С‚СѓС‚ Сѓ С‚РµР±СЏ.")
+				var/asking_word = pick("РќР°РґРµСЋСЃСЊ, С‚С‹ РЅРµ Р·Р°Р±С‹Р», С‡С‚Рѕ","РќР°РґРµСЋСЃСЊ, С‚С‹ РµС‰Рµ РїРѕРјРЅРёС€СЊ, С‡С‚Рѕ","Р•СЃР»Рё С‚С‹ Р·Р°Р±С‹Р», С‚Рѕ","РќРµ Р·Р°Р±СѓРґСЊ, С‡С‚Рѕ")
 				var/trade_word_en = pick("Lets look what you've got.")
 				var/asking_word_en = pick("I hope you remember that you need to")
-				message = H.client.select_lang("[trade_word] [asking_word] хабар надо складывать на <b>левом</b> столе, а забирать на <b>правом</b>.",
+				message = H.client.select_lang("[trade_word] [asking_word] С…Р°Р±Р°СЂ РЅР°РґРѕ СЃРєР»Р°РґС‹РІР°С‚СЊ РЅР° <b>Р»РµРІРѕРј</b> СЃС‚РѕР»Рµ, Р° Р·Р°Р±РёСЂР°С‚СЊ РЅР° <b>РїСЂР°РІРѕРј</b>.",
 												"[trade_word_en] [asking_word_en] put habar for sale on the <b>left</b> table and take it on the <b>right</b>")
 		if(2)
 			if(!message)
-				var/quest_word = pick("Задание? Сейчас посмотрю, что у меня есть на примете.","Задание нужно? Ну смотри, вот список. Берешься?","Задание, говоришь? Ну давай посмотрим. Только помни, работа должна быть качественной")
+				var/quest_word = pick("Р—Р°РґР°РЅРёРµ? РЎРµР№С‡Р°СЃ РїРѕСЃРјРѕС‚СЂСЋ, С‡С‚Рѕ Сѓ РјРµРЅСЏ РµСЃС‚СЊ РЅР° РїСЂРёРјРµС‚Рµ.","Р—Р°РґР°РЅРёРµ РЅСѓР¶РЅРѕ? РќСѓ СЃРјРѕС‚СЂРё, РІРѕС‚ СЃРїРёСЃРѕРє. Р‘РµСЂРµС€СЊСЃСЏ?","Р—Р°РґР°РЅРёРµ, РіРѕРІРѕСЂРёС€СЊ? РќСѓ РґР°РІР°Р№ РїРѕСЃРјРѕС‚СЂРёРј. РўРѕР»СЊРєРѕ РїРѕРјРЅРё, СЂР°Р±РѕС‚Р° РґРѕР»Р¶РЅР° Р±С‹С‚СЊ РєР°С‡РµСЃС‚РІРµРЅРЅРѕР№")
 				var/quest_word_en = pick("Let's see what we've got here...")
 				message = H.client.select_lang("[quest_word]",
 												"[quest_word_en]")
 		if(3)
 			if(!message)
-				var/help_word = pick("Совета хочешь? Ну тогда вникай", "Бесплатный только сыр в мышеловке. Шучу... парочку советов могу тебе подкинуть.")
+				var/help_word = pick("РЎРѕРІРµС‚Р° С…РѕС‡РµС€СЊ? РќСѓ С‚РѕРіРґР° РІРЅРёРєР°Р№", "Р‘РµСЃРїР»Р°С‚РЅС‹Р№ С‚РѕР»СЊРєРѕ СЃС‹СЂ РІ РјС‹С€РµР»РѕРІРєРµ. РЁСѓС‡Сѓ... РїР°СЂРѕС‡РєСѓ СЃРѕРІРµС‚РѕРІ РјРѕРіСѓ С‚РµР±Рµ РїРѕРґРєРёРЅСѓС‚СЊ.")
 				var/help_word_en = pick("Okay, listen to me")
 				message = H.client.select_lang("[help_word]",
 												"[help_word_en]")
@@ -199,23 +199,23 @@
 	dat += "<td width = 72><img src=ded width=64 height=64></td>"
 	dat += "<td width=500>[message]"
 	dat += "<br><table>"
-	dat += "<td width = 150>На счету: [num2text(balance, 8)] RU</td>"
+	dat += "<td width = 150>РќР° СЃС‡РµС‚Сѓ: [num2text(balance, 8)] RU</td>"
 	if(current_tab == 1)
-		dat += "<td width = 120><A href='?src=\ref[src];choice=estimate'><b>Оценить хабар</b></A></td>"
-		dat += "<td width = 100><A href='?src=\ref[src];choice=take'><b>Сбыть хабар</b></A></td>"
-		dat += "<td width = 130><A href='?src=\ref[src];choice=cash'><b>Выдать наличку</b></A></td>"
+		dat += "<td width = 120><A href='?src=\ref[src];choice=estimate'><b>РћС†РµРЅРёС‚СЊ С…Р°Р±Р°СЂ</b></A></td>"
+		dat += "<td width = 100><A href='?src=\ref[src];choice=take'><b>РЎР±С‹С‚СЊ С…Р°Р±Р°СЂ</b></A></td>"
+		dat += "<td width = 130><A href='?src=\ref[src];choice=cash'><b>Р’С‹РґР°С‚СЊ РЅР°Р»РёС‡РєСѓ</b></A></td>"
 	if(H.current_quest && current_tab == 2)
-		dat += "<td><A href='?src=\ref[src];choice=take_quest'><b>Сдать квест</b></A></td>"
+		dat += "<td><A href='?src=\ref[src];choice=take_quest'><b>РЎРґР°С‚СЊ РєРІРµСЃС‚</b></A></td>"
 	dat += "</table>"
 	dat += "<td valign=\"top\" width=40><div align=right><a href='?src=\ref[src];choice=close'><b>X</b></A><div></td>"
 	dat += "</td></table></div>"
 
 	dat += "<div align=\"center\"><table id = \"navbar\">"
-	dat += H.client.select_lang("<td valign = \"center\"><a href='?src=\ref[src];choice=shop' [current_tab == 1 ? "class='linkOn'" : ""]>Магазин</a></td>",
+	dat += H.client.select_lang("<td valign = \"center\"><a href='?src=\ref[src];choice=shop' [current_tab == 1 ? "class='linkOn'" : ""]>РњР°РіР°Р·РёРЅ</a></td>",
 								"<td valign = \"center\"><a href='?src=\ref[src];choice=shop' [current_tab == 1 ? "class='linkOn'" : ""]>Shop</a></td>")
-	dat += H.client.select_lang("<td valign = \"center\"><a href='?src=\ref[src];choice=quests' [current_tab == 2 ? "class='linkOn'" : ""]>Задания</a></td>",
+	dat += H.client.select_lang("<td valign = \"center\"><a href='?src=\ref[src];choice=quests' [current_tab == 2 ? "class='linkOn'" : ""]>Р—Р°РґР°РЅРёСЏ</a></td>",
 								"<td valign = \"center\"><a href='?src=\ref[src];choice=quests' [current_tab == 2 ? "class='linkOn'" : ""]>Quests</a></td>")
-	dat += H.client.select_lang("<td valign = \"center\"><a href='?src=\ref[src];choice=help' [current_tab == 3 ? "class='linkOn'" : ""]>Помощь</a></td>",
+	dat += H.client.select_lang("<td valign = \"center\"><a href='?src=\ref[src];choice=help' [current_tab == 3 ? "class='linkOn'" : ""]>РџРѕРјРѕС‰СЊ</a></td>",
 								"<td valign = \"center\"><a href='?src=\ref[src];choice=help' [current_tab == 3 ? "class='linkOn'" : ""]>Help</a></td>")
 	dat += "</table></div>"
 
@@ -236,7 +236,7 @@
 				dat += "<td valign = \"top\"><div align=\"left\">"
 				dat += "<table id =\"table-shop\" width='400' height = '[global_sidormat_list[category].len*20]'>"
 				for(var/datum/data/stalker_equipment/prize in global_sidormat_list[category])
-					dat += H.client.select_lang("<tr><td width=240>[prize.name_ru]</td><td><center>[prize.cost]</center></td><td><center>[prize.assortment_level]</center></td><td><A href='?src=\ref[src];purchase=\ref[prize]'><center>Купить</center></A></td></tr>",
+					dat += H.client.select_lang("<tr><td width=240>[prize.name_ru]</td><td><center>[prize.cost]</center></td><td><center>[prize.assortment_level]</center></td><td><A href='?src=\ref[src];purchase=\ref[prize]'><center>РљСѓРїРёС‚СЊ</center></A></td></tr>",
 												"<tr><td width=240>[prize.name_en]</td><td><center>[prize.cost]</center></td><td><center>[prize.assortment_level]</center></td><td><A href='?src=\ref[src];purchase=\ref[prize]'><center>Buy</center></A></td></tr>")
 				dat += "</table>"
 				dat += "</div></td>"
@@ -244,38 +244,38 @@
 			dat += "</div>"
 		if(2)
 			if(quest_category)
-				dat += H.client.select_lang("<br><b>Название: </b>[quest_category.name_ru]<br><br>",
+				dat += H.client.select_lang("<br><b>РќР°Р·РІР°РЅРёРµ: </b>[quest_category.name_ru]<br><br>",
 						"<br><b>Name: </b>[quest_category.name_en]<br><br>")
-				dat += H.client.select_lang("<b>Описание: </b>[quest_category.desc_ru]<br><br>",
+				dat += H.client.select_lang("<b>РћРїРёСЃР°РЅРёРµ: </b>[quest_category.desc_ru]<br><br>",
 						"<b>Description: </b>[quest_category.desc_en]<br>")
 				if(quest_category.icon)
 					var/icon/I = icon(quest_category.icon, quest_category.icon_state, frame = 1)
 					H << browse_rsc(I, quest_category.icon_state)
 					dat += "<table><tr>"
-					dat += H.client.select_lang("<td><b>Фотография: </b></td><td><table border = 1; bordercolor = #9e6852><tr><td><img src = [quest_category.icon_state]></table></td></tr></td>",
+					dat += H.client.select_lang("<td><b>Р¤РѕС‚РѕРіСЂР°С„РёСЏ: </b></td><td><table border = 1; bordercolor = #9e6852><tr><td><img src = [quest_category.icon_state]></table></td></tr></td>",
 											"<td><b>Photo: </b></td><td><table border = 1; bordercolor = #9e6852><tr><td><img src = [quest_category.icon_state]></table></td></tr></td>")
 					dat += "</tr></table><br>"
-				dat += H.client.select_lang("<b>Награда: </b>[quest_category.reward]<br><br>",
+				dat += H.client.select_lang("<b>РќР°РіСЂР°РґР°: </b>[quest_category.reward]<br><br>",
 											"<b>Reward: </b>[quest_category.reward]<br><br>")
 
-				dat += "<A href='?src=\ref[src];choice=give_quest'><b>Взять квест</b></A>         "
-				dat += "      <A href='?src=\ref[src];choice=quest_back'><b>Назад</b></A>"
+				dat += "<A href='?src=\ref[src];choice=give_quest'><b>Р’Р·СЏС‚СЊ РєРІРµСЃС‚</b></A>         "
+				dat += "      <A href='?src=\ref[src];choice=quest_back'><b>РќР°Р·Р°Рґ</b></A>"
 			else
-//				dat += "<br><A href='?src=\ref[src];choice=quest_forkill'>Заказать убийство   </A>"
+//				dat += "<br><A href='?src=\ref[src];choice=quest_forkill'>Р—Р°РєР°Р·Р°С‚СЊ СѓР±РёР№СЃС‚РІРѕ   </A>"
 				if(H.current_quest)
-					dat += "<A href='?src=\ref[src];choice=quest_refuse'><b>Отказаться от задания</b></A>"
+					dat += "<A href='?src=\ref[src];choice=quest_refuse'><b>РћС‚РєР°Р·Р°С‚СЊСЃСЏ РѕС‚ Р·Р°РґР°РЅРёСЏ</b></A>"
 				dat += "<br><table border = '0'><tr></tr>"
 				for(var/datum/data/stalker_quests/q in quest_list_available)
-					dat += H.client.select_lang("<tr><td>[q.name_ru]</td><td><A href='?src=\ref[src];inform=\ref[q]'>Подробнее</A><td></tr>",
+					dat += H.client.select_lang("<tr><td>[q.name_ru]</td><td><A href='?src=\ref[src];inform=\ref[q]'>РџРѕРґСЂРѕР±РЅРµРµ</A><td></tr>",
 												"<tr><td>[q.name_ru]</td><td><A href='?src=\ref[src];inform=\ref[q]'>Information</A><td></tr>")
 				dat += "</table>"
 		if(3)
-			dat += "    Слушай сюда, мужик. Здесь - ЗОНА, и поэтому никаких поблажек не будет. Мир внутри этой охраняемой вояками территории жесток и опасен, всё, что ты увидишь - захочет тебя убить, \
-					поэтому всегда держи ухо востро. Если с тварями и аномалиями все мутно и непонятно по причине неизведанности, то человек, во все века - сука та еще, и сука злая. Все хотят выжить, \
-					заработать и потешить свои отклонения, так что большинство не побрезгует пристрелить мимо проходящего обалдуя, если тот зазевался, поэтому никогда, сука, никогда не теряй бдительности. \
-					В то же время в одиночку ты и пары дней не протянешь по ту сторону колючей проволоки, так что неплохо было бы тебе завести пару знакомств в местном баре и бродяжничать уже группой. \
-					Если всё еще есть желание рисковать жизнью - не забудь закупиться у меня необходимой снарягой: оружие, патроны к нему, еда и медикаменты. Это самое важное, что может тебе пригодиться. \
-					Если у тебя кончится сральная бумага в Зоне - подотрешься, может, и лопухом, а вот если обнаружишь, что патроны кончились - то все, ты труп."
+			dat += "    РЎР»СѓС€Р°Р№ СЃСЋРґР°, РјСѓР¶РёРє. Р—РґРµСЃСЊ - Р—РћРќРђ, Рё РїРѕСЌС‚РѕРјСѓ РЅРёРєР°РєРёС… РїРѕР±Р»Р°Р¶РµРє РЅРµ Р±СѓРґРµС‚. РњРёСЂ РІРЅСѓС‚СЂРё СЌС‚РѕР№ РѕС…СЂР°РЅСЏРµРјРѕР№ РІРѕСЏРєР°РјРё С‚РµСЂСЂРёС‚РѕСЂРёРё Р¶РµСЃС‚РѕРє Рё РѕРїР°СЃРµРЅ, РІСЃС‘, С‡С‚Рѕ С‚С‹ СѓРІРёРґРёС€СЊ - Р·Р°С…РѕС‡РµС‚ С‚РµР±СЏ СѓР±РёС‚СЊ, \
+					РїРѕСЌС‚РѕРјСѓ РІСЃРµРіРґР° РґРµСЂР¶Рё СѓС…Рѕ РІРѕСЃС‚СЂРѕ. Р•СЃР»Рё СЃ С‚РІР°СЂСЏРјРё Рё Р°РЅРѕРјР°Р»РёСЏРјРё РІСЃРµ РјСѓС‚РЅРѕ Рё РЅРµРїРѕРЅСЏС‚РЅРѕ РїРѕ РїСЂРёС‡РёРЅРµ РЅРµРёР·РІРµРґР°РЅРЅРѕСЃС‚Рё, С‚Рѕ С‡РµР»РѕРІРµРє, РІРѕ РІСЃРµ РІРµРєР° - СЃСѓРєР° С‚Р° РµС‰Рµ, Рё СЃСѓРєР° Р·Р»Р°СЏ. Р’СЃРµ С…РѕС‚СЏС‚ РІС‹Р¶РёС‚СЊ, \
+					Р·Р°СЂР°Р±РѕС‚Р°С‚СЊ Рё РїРѕС‚РµС€РёС‚СЊ СЃРІРѕРё РѕС‚РєР»РѕРЅРµРЅРёСЏ, С‚Р°Рє С‡С‚Рѕ Р±РѕР»СЊС€РёРЅСЃС‚РІРѕ РЅРµ РїРѕР±СЂРµР·РіСѓРµС‚ РїСЂРёСЃС‚СЂРµР»РёС‚СЊ РјРёРјРѕ РїСЂРѕС…РѕРґСЏС‰РµРіРѕ РѕР±Р°Р»РґСѓСЏ, РµСЃР»Рё С‚РѕС‚ Р·Р°Р·РµРІР°Р»СЃСЏ, РїРѕСЌС‚РѕРјСѓ РЅРёРєРѕРіРґР°, СЃСѓРєР°, РЅРёРєРѕРіРґР° РЅРµ С‚РµСЂСЏР№ Р±РґРёС‚РµР»СЊРЅРѕСЃС‚Рё. \
+					Р’ С‚Рѕ Р¶Рµ РІСЂРµРјСЏ РІ РѕРґРёРЅРѕС‡РєСѓ С‚С‹ Рё РїР°СЂС‹ РґРЅРµР№ РЅРµ РїСЂРѕС‚СЏРЅРµС€СЊ РїРѕ С‚Сѓ СЃС‚РѕСЂРѕРЅСѓ РєРѕР»СЋС‡РµР№ РїСЂРѕРІРѕР»РѕРєРё, С‚Р°Рє С‡С‚Рѕ РЅРµРїР»РѕС…Рѕ Р±С‹Р»Рѕ Р±С‹ С‚РµР±Рµ Р·Р°РІРµСЃС‚Рё РїР°СЂСѓ Р·РЅР°РєРѕРјСЃС‚РІ РІ РјРµСЃС‚РЅРѕРј Р±Р°СЂРµ Рё Р±СЂРѕРґСЏР¶РЅРёС‡Р°С‚СЊ СѓР¶Рµ РіСЂСѓРїРїРѕР№. \
+					Р•СЃР»Рё РІСЃС‘ РµС‰Рµ РµСЃС‚СЊ Р¶РµР»Р°РЅРёРµ СЂРёСЃРєРѕРІР°С‚СЊ Р¶РёР·РЅСЊСЋ - РЅРµ Р·Р°Р±СѓРґСЊ Р·Р°РєСѓРїРёС‚СЊСЃСЏ Сѓ РјРµРЅСЏ РЅРµРѕР±С…РѕРґРёРјРѕР№ СЃРЅР°СЂСЏРіРѕР№: РѕСЂСѓР¶РёРµ, РїР°С‚СЂРѕРЅС‹ Рє РЅРµРјСѓ, РµРґР° Рё РјРµРґРёРєР°РјРµРЅС‚С‹. Р­С‚Рѕ СЃР°РјРѕРµ РІР°Р¶РЅРѕРµ, С‡С‚Рѕ РјРѕР¶РµС‚ С‚РµР±Рµ РїСЂРёРіРѕРґРёС‚СЊСЃСЏ. \
+					Р•СЃР»Рё Сѓ С‚РµР±СЏ РєРѕРЅС‡РёС‚СЃСЏ СЃСЂР°Р»СЊРЅР°СЏ Р±СѓРјР°РіР° РІ Р—РѕРЅРµ - РїРѕРґРѕС‚СЂРµС€СЊСЃСЏ, РјРѕР¶РµС‚, Рё Р»РѕРїСѓС…РѕРј, Р° РІРѕС‚ РµСЃР»Рё РѕР±РЅР°СЂСѓР¶РёС€СЊ, С‡С‚Рѕ РїР°С‚СЂРѕРЅС‹ РєРѕРЅС‡РёР»РёСЃСЊ - С‚Рѕ РІСЃРµ, С‚С‹ С‚СЂСѓРї."
 
 	dat += "</html>"
 
@@ -337,7 +337,7 @@
 				return
 			H.money -= input
 			GiveCash(input)
-			say("Вот твои [input] рублей.", "Here are your [input] roubles.")
+			say("Р’РѕС‚ С‚РІРѕРё [input] СЂСѓР±Р»РµР№.", "Here are your [input] roubles.")
 		if("take_quest")
 			QuestTake(H)
 		if("give_quest")
@@ -371,9 +371,9 @@
 				return
 
 			var/datum/data/stalker_quests/kill = new(src)
-			kill.name_ru = "Заказ на убийство"
+			kill.name_ru = "Р—Р°РєР°Р· РЅР° СѓР±РёР№СЃС‚РІРѕ"
 			kill.name_en = "Killing quest"
-			kill.desc_ru = "Необходимо в срочном порядке убить сталкера по прозвищу [name_kill]. Заказчик - [H.name]"
+			kill.desc_ru = "РќРµРѕР±С…РѕРґРёРјРѕ РІ СЃСЂРѕС‡РЅРѕРј РїРѕСЂСЏРґРєРµ СѓР±РёС‚СЊ СЃС‚Р°Р»РєРµСЂР° РїРѕ РїСЂРѕР·РІРёС‰Сѓ [name_kill]. Р—Р°РєР°Р·С‡РёРє - [H.name]"
 			kill.desc_en = "You should kill as fast as possible stalker named [name_kill]. Orderer - [H.name]"
 			kill.reward = price - price/20
 			kill.name_kill = name_kill
@@ -488,12 +488,12 @@
 	H.current_quest = quest_category
 	quest_list_available -= quest_category
 	if(H.mind)
-		H.mind.store_quest(H.client.select_lang("Задание: [quest_category.name_ru]<BR>", "Quest: [quest_category.name_en]<BR>"))
-		H.mind.store_quest(H.client.select_lang("Подробности: [quest_category.desc_ru]<BR>","Description: [quest_category.desc_en]<BR>"))
-		H.mind.store_quest(H.client.select_lang("Награда: [quest_category.reward] рублей<BR>","Reward: [quest_category.reward] roubles<BR>"))
+		H.mind.store_quest(H.client.select_lang("Р—Р°РґР°РЅРёРµ: [quest_category.name_ru]<BR>", "Quest: [quest_category.name_en]<BR>"))
+		H.mind.store_quest(H.client.select_lang("РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё: [quest_category.desc_ru]<BR>","Description: [quest_category.desc_en]<BR>"))
+		H.mind.store_quest(H.client.select_lang("РќР°РіСЂР°РґР°: [quest_category.reward] СЂСѓР±Р»РµР№<BR>","Reward: [quest_category.reward] roubles<BR>"))
 //	var/datum/data/stalker_quests/quest_category_old = quest_category
 //	spawn(9000)
-//		quest_list_available += quest_category_old							//Сделать реролл квестов иначе
+//		quest_list_available += quest_category_old							//РЎРґРµР»Р°С‚СЊ СЂРµСЂРѕР»Р» РєРІРµСЃС‚РѕРІ РёРЅР°С‡Рµ
 	quest_category = null
 
 /obj/machinery/stalker/sidormat/proc/QuestTake(mob/living/carbon/human/H)
@@ -543,9 +543,9 @@
 	var/total_cost = GetOnTableCost(ontable)
 
 	if(total_cost)
-		say("<b>Habar estimate price is [total_cost] roubles.</b>","<b>За это я бы дал тебе [total_cost] рублей, но посмотрим по обстоятельствам.</b>")
+		say("<b>Habar estimate price is [total_cost] roubles.</b>","<b>Р—Р° СЌС‚Рѕ СЏ Р±С‹ РґР°Р» С‚РµР±Рµ [total_cost] СЂСѓР±Р»РµР№, РЅРѕ РїРѕСЃРјРѕС‚СЂРёРј РїРѕ РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІР°Рј.</b>")
 	else
-		say("<b>I won't buy this shit!</b>","<b>Я это дерьмо покупать не буду!</b>")
+		say("<b>I won't buy this shit!</b>","<b>РЇ СЌС‚Рѕ РґРµСЂСЊРјРѕ РїРѕРєСѓРїР°С‚СЊ РЅРµ Р±СѓРґСѓ!</b>")
 
 
 /obj/machinery/stalker/sidormat/proc/SellItems()
@@ -611,7 +611,7 @@
 		CHECK_TICK
 
 	if(total_cost)
-		say("<b>Habar was successfully sold for [real_cost] roubles.</b>","<b>Хабар был успешно продан за [real_cost] рублей.</b>")
+		say("<b>Habar was successfully sold for [real_cost] roubles.</b>","<b>РҐР°Р±Р°СЂ Р±С‹Р» СѓСЃРїРµС€РЅРѕ РїСЂРѕРґР°РЅ Р·Р° [real_cost] СЂСѓР±Р»РµР№.</b>")
 
 	SSstat.money_earned_by_players += real_cost
 

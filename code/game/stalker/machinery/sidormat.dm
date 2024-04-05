@@ -31,7 +31,7 @@ var/obj/sidor_enter/sidorEnter = null
 			return R
 		else if(R.occupant.stat == DEAD)
 			return R
-	world << "<b>Матрица Сидоровичей дала сбой: Недостаточно комнат!</b>"
+	world << "<b>РњР°С‚СЂРёС†Р° РЎРёРґРѕСЂРѕРІРёС‡РµР№ РґР°Р»Р° СЃР±РѕР№: РќРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ РєРѕРјРЅР°С‚!</b>"
 	return
 
 
@@ -49,7 +49,7 @@ var/obj/sidor_enter/sidorEnter = null
 		occupant = null
 		A << sound(null)
 /*
-/obj/effect/step_trigger/sound_effect/sidor_enter //Сидор приветствует и прощается с игроком, путем проигрывания аудиозаписей
+/obj/effect/step_trigger/sound_effect/sidor_enter //РЎРёРґРѕСЂ РїСЂРёРІРµС‚СЃС‚РІСѓРµС‚ Рё РїСЂРѕС‰Р°РµС‚СЃСЏ СЃ РёРіСЂРѕРєРѕРј, РїСѓС‚РµРј РїСЂРѕРёРіСЂС‹РІР°РЅРёСЏ Р°СѓРґРёРѕР·Р°РїРёСЃРµР№
 	sound = "sidor_enter"
 	var/sound1 = "sidor_exit"
 	var/sound2 = 'sound/stalker/mobs/sidor/sidor_music.ogg'
@@ -214,11 +214,11 @@ var/obj/sidor_enter/sidorEnter = null
 	switch(H.client.language)
 		if("English")
 
-	///////////////////////////////////////////////////////////АНГЛИЙСКИЙ СИДОРОМАТ///////////////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////РђРќР“Р›РР™РЎРљРР™ РЎРР”РћР РћРњРђРў///////////////////////////////////////////////////////////////////////
 
 			dat +="<div class='statusDisplay'>"
 			dat += "Balance: [num2text(balance, 8)] RU<br>"
-			dat += "<br><br>INSTRUCTION: Put habar for sale on the <b>left</b> table.<br>" // Забирать деньги и купленные вещи - на <b>правом</b>.
+			dat += "<br><br>INSTRUCTION: Put habar for sale on the <b>left</b> table.<br>" // Р—Р°Р±РёСЂР°С‚СЊ РґРµРЅСЊРіРё Рё РєСѓРїР»РµРЅРЅС‹Рµ РІРµС‰Рё - РЅР° <b>РїСЂР°РІРѕРј</b>.
 			if(!(switches & SHOW_FACTION_EQUIPMENT))
 				dat +="<A href='?src=\ref[src];choice=take'><b>Sell habar</b></A><br>"
 //			if(door_device && sk.fields["degree"])
@@ -240,18 +240,18 @@ var/obj/sidor_enter/sidorEnter = null
 			dat += "</div>"
 
 		if("Russian")
-		///////////////////////////////////////////////////////////РУССКИЙ СИДОРОМАТ///////////////////////////////////////////////////////////////////////
+		///////////////////////////////////////////////////////////Р РЈРЎРЎРљРР™ РЎРР”РћР РћРњРђРў///////////////////////////////////////////////////////////////////////
 
 			dat +="<div class='statusDisplay'>"
-			dat += "На счету: [num2text(balance, 8)] RU<br>"
-			dat += "<br><br>ИНСТРУКЦИЯ: Хабар складывать - на <b>левом</b> столе.<br>" //Забирать деньги и купленные вещи - на <b>правом</b>.
+			dat += "РќР° СЃС‡РµС‚Сѓ: [num2text(balance, 8)] RU<br>"
+			dat += "<br><br>РРќРЎРўР РЈРљР¦РРЇ: РҐР°Р±Р°СЂ СЃРєР»Р°РґС‹РІР°С‚СЊ - РЅР° <b>Р»РµРІРѕРј</b> СЃС‚РѕР»Рµ.<br>" //Р—Р°Р±РёСЂР°С‚СЊ РґРµРЅСЊРіРё Рё РєСѓРїР»РµРЅРЅС‹Рµ РІРµС‰Рё - РЅР° <b>РїСЂР°РІРѕРј</b>.
 			if(!(switches & SHOW_FACTION_EQUIPMENT))
-				dat +="<A href='?src=\ref[src];choice=take'><b>Сбыть хабар</b></A><br>"
+				dat +="<A href='?src=\ref[src];choice=take'><b>РЎР±С‹С‚СЊ С…Р°Р±Р°СЂ</b></A><br>"
 //			if(door_device && sk.fields["degree"])
-//				dat +="<A href='?src=\ref[src];basement_toggle=1'><b>Открыть/Закрыть хранилище</b></A><br>"
+//				dat +="<A href='?src=\ref[src];basement_toggle=1'><b>РћС‚РєСЂС‹С‚СЊ/Р—Р°РєСЂС‹С‚СЊ С…СЂР°РЅРёР»РёС‰Рµ</b></A><br>"
 			dat += "</div>"
 			dat += "<div class='lenta_scroll'>"
-			dat += "<BR><table border='0' width='400'>" //<b>Список предметов:</b>
+			dat += "<BR><table border='0' width='400'>" //<b>РЎРїРёСЃРѕРє РїСЂРµРґРјРµС‚РѕРІ:</b>
 			for(var/L in global_sidormat_list)
 				if(L == "Unbuyable" && !(switches & SELL_UNBUYABLE))
 					continue
@@ -260,7 +260,7 @@ var/obj/sidor_enter/sidorEnter = null
 //					if((KPK.faction_s == prize.faction && (KPK.faction_s in special_factions || (switches & SHOW_FACTION_EQUIPMENT))) || prize.faction == "Everyone")
 						//if(rating >= prize.rating)
 					if(get_assortment_level(H) >= prize.assortment_level)
-						dat += "<tr><td>[prize.name_ru]</td><td>[prize.cost]</td><td><A href='?src=\ref[src];purchase=\ref[prize]'>Купить</A></td></tr>"
+						dat += "<tr><td>[prize.name_ru]</td><td>[prize.cost]</td><td><A href='?src=\ref[src];purchase=\ref[prize]'>РљСѓРїРёС‚СЊ</A></td></tr>"
 			dat += "</table>"
 			dat += "</div>"
 

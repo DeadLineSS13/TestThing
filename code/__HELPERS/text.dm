@@ -38,7 +38,7 @@
 
 //Removes a few problematic characters
 // /proc/sanitize_simple(t,list/repl_chars = list("\n"="#","\t"="#"))
-/proc/sanitize_simple(var/t,var/list/repl_chars = list("\n"="#", "\t"="#", /*"ÿ"="ÿ", "&ampÿ"="ÿ"*/))
+/proc/sanitize_simple(var/t,var/list/repl_chars = list("\n"="#", "\t"="#", /*"ï¿½"="ï¿½", "&ampï¿½"="ï¿½"*/))
 	for(var/char in repl_chars)
 		var/index = findtext(t, char)
 		while(index)
@@ -46,23 +46,23 @@
 			index = findtext(t, char, index+1)
 	return t
 
-/proc/sanitize_russian(var/msg, var/html = 0)
+/proc/sanitize_russian(msg, html = 0)
 //	if (istext(msg))
 //		if (html)
-//			return replacetext(msg, "ÿ", "&#x44F;")//"&#1103;")
-//		return replacetext(msg, "ÿ", "ÿ")
+//			return replacetext(msg, "ï¿½", "&#x44F;")//"&#1103;")
+//		return replacetext(msg, "ï¿½", "ï¿½")
 	return msg
 
 proc/russian_html2text(msg)
-//	return replacetext(msg, "&#x44F;", "ÿ")
+//	return replacetext(msg, "&#x44F;", "ï¿½")
 	return msg
 
 proc/russian_text2html(msg)
-//	return replacetext(msg, "ÿ", "&#x44F;")//"&#1103;")
+//	return replacetext(msg, "ï¿½", "&#x44F;")//"&#1103;")
 	return msg
 
 proc/russian_reverse_text(msg)
-//	return replacetext(replacetext(msg, "&#x44F;", "ÿ"), "ÿ", "&#x44F;")
+//	return replacetext(replacetext(msg, "&#x44F;", "ï¿½"), "ï¿½", "&#x44F;")
 	return msg
 
 //Runs byond's sanitization proc along-side sanitize_simple
@@ -450,8 +450,8 @@ var/list/binary = list("0","1")
 	if(html)
 		rep = "&#x44F;"
 	else
-		rep = "ÿ"
-	var/list/c = text2list(msg, "ÿ")
+		rep = "ï¿½"
+	var/list/c = text2list(msg, "ï¿½")
 	if(c.len == 1)
 		c = text2list(msg, rep)
 		if(c.len == 1)
@@ -470,10 +470,10 @@ var/list/binary = list("0","1")
 	if(html)
 		rep = "&#x44F;"
 	else
-		rep = "ÿ"
-	var/list/c = text2list(msg, "ÿ")
+		rep = "ï¿½"
+	var/list/c = text2list(msg, "ï¿½")
 	if(c.len == 1)
-		c = text2list(msg, "ÿ")
+		c = text2list(msg, "ï¿½")
 		if(c.len == 1)
 			c = text2list(msg, "&#x4FF")
 			if(c.len == 1)
@@ -496,7 +496,7 @@ var/list/binary = list("0","1")
 		else if (a == 184)
 			t += ascii2text(168)
 		else t += ascii2text(a)
-	t = replacetext(t,"ÿ","ß")
+	t = replacetext(t,"ï¿½","ï¿½")
 	return t
 
 

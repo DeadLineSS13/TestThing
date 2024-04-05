@@ -43,7 +43,7 @@
 	var/gender_specific //Something that can be worn by either gender, but looks different on each
 	var/color_src = MUTCOLORS	//Currently only used by mutantparts so don't worry about hair and stuff. This is the source that this accessory will get its color from. Default is MUTCOLOR, but can also be HAIR, FACEHAIR, EYECOLOR and 0 if none.
 	var/hasinner		//Decides if this sprite has an "inner" part, such as the fleshy parts on ears.
-	var/desc_ru		//Описательная часть, для надписи а-ля "У него Х Y и Z Y", где X цвет волос, Z цвет бороды, Y дескрипт (первый от волос, другой от бороды)
+	var/desc_ru		//РћРїРёСЃР°С‚РµР»СЊРЅР°СЏ С‡Р°СЃС‚СЊ, РґР»СЏ РЅР°РґРїРёСЃРё Р°-Р»СЏ "РЈ РЅРµРіРѕ РҐ Y Рё Z Y", РіРґРµ X С†РІРµС‚ РІРѕР»РѕСЃ, Z С†РІРµС‚ Р±РѕСЂРѕРґС‹, Y РґРµСЃРєСЂРёРїС‚ (РїРµСЂРІС‹Р№ РѕС‚ РІРѕР»РѕСЃ, РґСЂСѓРіРѕР№ РѕС‚ Р±РѕСЂРѕРґС‹)
 	var/desc
 
 //////////////////////
@@ -54,199 +54,199 @@
 
 /datum/sprite_accessory/hair/short
 	name = "Korotkie so strijkoy"	  // try to capatilize the names please~
-	desc_ru = "ые короткие волосы"
+	desc_ru = "С‹Рµ РєРѕСЂРѕС‚РєРёРµ РІРѕР»РѕСЃС‹"
 	desc = "short hair"
 	icon_state = "hair_a" // you do not need to define _s or _l sub-states, game automatically does this for you
 
 /datum/sprite_accessory/hair/cut
 	name = "Korotkie bez strijki"
-	desc_ru = "ые короткие волосы"
+	desc_ru = "С‹Рµ РєРѕСЂРѕС‚РєРёРµ РІРѕР»РѕСЃС‹"
 	desc = "short hair"
 	icon_state = "hair_c"
 
 /datum/sprite_accessory/hair/longer
 	name = "Dlinnie"
-	desc_ru = "ые длинные волосы"
+	desc_ru = "С‹Рµ РґР»РёРЅРЅС‹Рµ РІРѕР»РѕСЃС‹"
 	desc = "long hair"
 	icon_state = "hair_vlong"
 
 /datum/sprite_accessory/hair/chub
 	name = "Chub"
-	desc_ru = "ый чуб"
+	desc_ru = "С‹Р№ С‡СѓР±"
 	desc = "forelock"
 	icon_state = "hair_chub"
 
 /datum/sprite_accessory/hair/longfringe
 	name = "Medovor"
-	desc_ru = "ые длинные волосы"
+	desc_ru = "С‹Рµ РґР»РёРЅРЅС‹Рµ РІРѕР»РѕСЃС‹"
 	desc = "long hair"
 	icon_state = "hair_longfringe"
 
 /datum/sprite_accessory/hair/longestalt
 	name = "Medovor 2: Assnation"
-	desc_ru = "ые длинные волосы"
+	desc_ru = "С‹Рµ РґР»РёРЅРЅС‹Рµ РІРѕР»РѕСЃС‹"
 	desc = "long hair"
 	icon_state = "hair_vlongfringe"
 
 /datum/sprite_accessory/hair/gentle
 	name = "Do plech"
-	desc_ru = "ые длинные волосы"
+	desc_ru = "С‹Рµ РґР»РёРЅРЅС‹Рµ РІРѕР»РѕСЃС‹"
 	desc = "long hair"
 	icon_state = "hair_gentle"
 
 /datum/sprite_accessory/hair/ponytail1
 	name = "Hvostik"
-	desc_ru = "ые волосы хвостиком"
+	desc_ru = "С‹Рµ РІРѕР»РѕСЃС‹ С…РІРѕСЃС‚РёРєРѕРј"
 	desc = "ponytail"
 	icon_state = "hair_ponytail"
 
 /datum/sprite_accessory/hair/ponytail2
 	name = "Hvostik pyshniy "
-	desc_ru = "ые волосы хвостиком"
+	desc_ru = "С‹Рµ РІРѕР»РѕСЃС‹ С…РІРѕСЃС‚РёРєРѕРј"
 	desc = "ponytail"
 	icon_state = "hair_ponytail2"
 
 /datum/sprite_accessory/hair/pompadour
 	name = "Pompadurchik"
-	desc_ru = "ый помпадур"
+	desc_ru = "С‹Р№ РїРѕРјРїР°РґСѓСЂ"
 	desc = "pompadour"
 	icon_state = "hair_pompadour"
 
 /datum/sprite_accessory/hair/bedhead
 	name = "Sprosonya"
-	desc_ru = "ые растрепанные волосы"
+	desc_ru = "С‹Рµ СЂР°СЃС‚СЂРµРїР°РЅРЅС‹Рµ РІРѕР»РѕСЃС‹"
 	desc = "disheveled hair"
 	icon_state = "hair_bedhead"
 
 /datum/sprite_accessory/hair/bedhead2
 	name = "Sprosonya tolko kruche"
-	desc_ru = "ые растрепанные волосы"
+	desc_ru = "С‹Рµ СЂР°СЃС‚СЂРµРїР°РЅРЅС‹Рµ РІРѕР»РѕСЃС‹"
 	desc = "disheveled hair"
 	icon_state = "hair_bedheadv2"
 
 /datum/sprite_accessory/hair/bobcurl
 	name = "Pyshnie"
-	desc_ru = "ую пышную прическу"
+	desc_ru = "СѓСЋ РїС‹С€РЅСѓСЋ РїСЂРёС‡РµСЃРєСѓ"
 	desc = "curly hair"
 	icon_state = "hair_bobcurl"
 
 /datum/sprite_accessory/hair/buzz
 	name = "Natsik"
-	desc_ru = "ые бритые виски"
+	desc_ru = "С‹Рµ Р±СЂРёС‚С‹Рµ РІРёСЃРєРё"
 	desc = "hair with shaved sideburns"
 	icon_state = "hair_buzzcut"
 
 /datum/sprite_accessory/hair/crew
 	name = "Soldatik"
-	desc_ru = "ая армейская стрижка"
+	desc_ru = "Р°СЏ Р°СЂРјРµР№СЃРєР°СЏ СЃС‚СЂРёР¶РєР°"
 	desc = "army haircut"
 	icon_state = "hair_crewcut"
 
 /datum/sprite_accessory/hair/combover
 	name = "Zachyos"
-	desc_ru = "ый зачес"
+	desc_ru = "С‹Р№ Р·Р°С‡РµСЃ"
 	desc = "combover"
 	icon_state = "hair_combover"
 
 /datum/sprite_accessory/hair/dreadlocks
 	name = "Metla"
-	desc_ru = "ые волосы 'метлой'"
+	desc_ru = "С‹Рµ РІРѕР»РѕСЃС‹ 'РјРµС‚Р»РѕР№'"
 	desc = "dreads"
 	icon_state = "hair_dreads"
 
 /datum/sprite_accessory/hair/afro
 	name = "Urbanist"
-	desc_ru = "ые пышные волосы"
+	desc_ru = "С‹Рµ РїС‹С€РЅС‹Рµ РІРѕР»РѕСЃС‹"
 	desc = "afro haircut"
 	icon_state = "hair_afro"
 
 /datum/sprite_accessory/hair/fag
 	name = "Chelka"
-	desc_ru = "ая челка"
+	desc_ru = "Р°СЏ С‡РµР»РєР°"
 	desc = "fringe"
 	icon_state = "hair_f"
 
 /datum/sprite_accessory/hair/feather
 	name = "Rastrepanniy"
-	desc_ru = "ые растрепанные волосы"
+	desc_ru = "С‹Рµ СЂР°СЃС‚СЂРµРїР°РЅРЅС‹Рµ РІРѕР»РѕСЃС‹"
 	desc = "disheveled hair"
 	icon_state = "hair_feather"
 
 /datum/sprite_accessory/hair/jensen
 	name = "Korotkie baki"
-	desc_ru = "ая прическа с длинными баками"
+	desc_ru = "Р°СЏ РїСЂРёС‡РµСЃРєР° СЃ РґР»РёРЅРЅС‹РјРё Р±Р°РєР°РјРё"
 	desc = "hair with long sideburns"
 	icon_state = "hair_jensen"
 
 /datum/sprite_accessory/hair/gelled
 	name = "Zalizanniy nazad"
-	desc_ru = "ые зализанные волосы"
+	desc_ru = "С‹Рµ Р·Р°Р»РёР·Р°РЅРЅС‹Рµ РІРѕР»РѕСЃС‹"
 	desc = "gelled back hair"
 	icon_state = "hair_gelled"
 
 /datum/sprite_accessory/hair/spiky
 	name = "Torchok"
-	desc_ru = "ые торчащие волосы"
+	desc_ru = "С‹Рµ С‚РѕСЂС‡Р°С‰РёРµ РІРѕР»РѕСЃС‹"
 	desc = "spiky hair"
 	icon_state = "hair_spikey"
 
 /datum/sprite_accessory/hair/lowbraid
 	name = "Hipster"
-	desc_ru = "ые моднявые волосы"
+	desc_ru = "С‹Рµ РјРѕРґРЅСЏРІС‹Рµ РІРѕР»РѕСЃС‹"
 	desc = "hipster haircut"
 	icon_state = "hair_hbraid"
 
 /datum/sprite_accessory/hair/skinhead
 	name = "Korotkiy ejik"
-	desc_ru = "ые, почти выбритые волосы"
+	desc_ru = "С‹Рµ, РїРѕС‡С‚Рё РІС‹Р±СЂРёС‚С‹Рµ РІРѕР»РѕСЃС‹"
 	desc = "almost shaved hair"
 	icon_state = "hair_skinhead"
 
 /datum/sprite_accessory/hair/longbangs
 	name = "Neuhojenny"
-	desc_ru = "ые неухоженные волосы"
+	desc_ru = "С‹Рµ РЅРµСѓС…РѕР¶РµРЅРЅС‹Рµ РІРѕР»РѕСЃС‹"
 	desc = "unkempt hair"
 	icon_state = "hair_lbangs"
 
 /datum/sprite_accessory/hair/balding
 	name = "Lyseyushiy"
-	desc_ru = "ые лысеющие волосы"
+	desc_ru = "С‹Рµ Р»С‹СЃРµСЋС‰РёРµ РІРѕР»РѕСЃС‹"
 	desc = "balding hair"
 	icon_state = "hair_e"
 
 /datum/sprite_accessory/hair/bald
 	name = "Lysiy"
-	desc_ru = "лысая голова"
+	desc_ru = "Р»С‹СЃР°СЏ РіРѕР»РѕРІР°"
 	desc = "bald head"
 	icon_state = "bald"
 
 /datum/sprite_accessory/hair/parted
 	name = "Probor"
-	desc_ru = "ая прическа с пробором"
+	desc_ru = "Р°СЏ РїСЂРёС‡РµСЃРєР° СЃ РїСЂРѕР±РѕСЂРѕРј"
 	desc = "parted hair"
 	icon_state = "hair_part"
 
 /datum/sprite_accessory/hair/swept
 	name = "Silniy zachyos"
-	desc_ru = "ый, сильно зачесанный причесон"
+	desc_ru = "С‹Р№, СЃРёР»СЊРЅРѕ Р·Р°С‡РµСЃР°РЅРЅС‹Р№ РїСЂРёС‡РµСЃРѕРЅ"
 	desc = "swept hair"
 	icon_state = "hair_swept"
 
 /datum/sprite_accessory/hair/business
 	name = "Agent"
-	desc_ru = "ые волосы в 'официальной' прическе"
+	desc_ru = "С‹Рµ РІРѕР»РѕСЃС‹ РІ 'РѕС„РёС†РёР°Р»СЊРЅРѕР№' РїСЂРёС‡РµСЃРєРµ"
 	desc = "business hair"
 	icon_state = "hair_business"
 
 /datum/sprite_accessory/hair/business3
 	name = "Zamestitel"
-	desc_ru = "ые волосы в 'официальной' прическе"
+	desc_ru = "С‹Рµ РІРѕР»РѕСЃС‹ РІ 'РѕС„РёС†РёР°Р»СЊРЅРѕР№' РїСЂРёС‡РµСЃРєРµ"
 	desc = "business hair"
 	icon_state = "hair_business3"
 
 /datum/sprite_accessory/hair/business4
 	name = "Zamestitel rangom pomenshe"
-	desc_ru = "ые волосы в 'официальной' прическе"
+	desc_ru = "С‹Рµ РІРѕР»РѕСЃС‹ РІ 'РѕС„РёС†РёР°Р»СЊРЅРѕР№' РїСЂРёС‡РµСЃРєРµ"
 	desc = "business hair"
 	icon_state = "hair_business4"
 
@@ -259,92 +259,92 @@
 
 /datum/sprite_accessory/facial_hair/shaved
 	name = "Britiy"
-	desc_ru = "наголо бритое лицо"
+	desc_ru = "РЅР°РіРѕР»Рѕ Р±СЂРёС‚РѕРµ Р»РёС†Рѕ"
 	desc = "shaved face"
 	icon_state = "bald"
 	gender = NEUTER
 
 /datum/sprite_accessory/facial_hair/hogan
 	name = "Kozatskie usi"
-	desc_ru = "ые длинные усы"
+	desc_ru = "С‹Рµ РґР»РёРЅРЅС‹Рµ СѓСЃС‹"
 	desc = "long moustache"
 	icon_state = "facial_hogan" //-Neek
 
 /datum/sprite_accessory/facial_hair/vandyke
 	name = "Usiki s kozlinoy borodkoy"
-	desc_ru = "ые усики с бородкой"
+	desc_ru = "С‹Рµ СѓСЃРёРєРё СЃ Р±РѕСЂРѕРґРєРѕР№"
 	desc = "moustache with a goatee"
 	icon_state = "facial_vandyke"
 
 /datum/sprite_accessory/facial_hair/chaplin
 	name = "Mamin Hitler"
-	desc_ru = "ые маленькие усики"
+	desc_ru = "С‹Рµ РјР°Р»РµРЅСЊРєРёРµ СѓСЃРёРєРё"
 	desc = "small moustache"
 	icon_state = "facial_chaplin"
 
 /datum/sprite_accessory/facial_hair/selleck
 	name = "Batini usi"
-	desc_ru = "ые усы"
+	desc_ru = "С‹Рµ СѓСЃС‹"
 	desc = "moustache"
 	icon_state = "facial_selleck"
 
 /datum/sprite_accessory/facial_hair/neckbeard
 	name = "Boroda bez usov"
-	desc_ru = "ая бородка"
+	desc_ru = "Р°СЏ Р±РѕСЂРѕРґРєР°"
 	desc = "neckbeard"
 	icon_state = "facial_neckbeard"
 
 /datum/sprite_accessory/facial_hair/fullbeard
 	name = "Boroda obyknovennaya"
-	desc_ru = "ая борода"
+	desc_ru = "Р°СЏ Р±РѕСЂРѕРґР°"
 	desc = "beard"
 	icon_state = "facial_fullbeard"
 
 /datum/sprite_accessory/facial_hair/longbeard
 	name = "Boroda gustaya"
-	desc_ru = "ая густая борода"
+	desc_ru = "Р°СЏ РіСѓСЃС‚Р°СЏ Р±РѕСЂРѕРґР°"
 	desc = "long beard"
 	icon_state = "facial_longbeard"
 
 /datum/sprite_accessory/facial_hair/vlongbeard
 	name = "Boroda otshelnika"
-	desc_ru = "ая заросшая борода"
+	desc_ru = "Р°СЏ Р·Р°СЂРѕСЃС€Р°СЏ Р±РѕСЂРѕРґР°"
 	desc = "unkempt beard"
 	icon_state = "facial_wise"
 
 /datum/sprite_accessory/facial_hair/chinstrap
 	name = "Porosl pod podborodkom"
-	desc_ru = "ая поросль под подбородком"
+	desc_ru = "Р°СЏ РїРѕСЂРѕСЃР»СЊ РїРѕРґ РїРѕРґР±РѕСЂРѕРґРєРѕРј"
 	desc = "chinstrap"
 	icon_state = "facial_chin"
 
 /datum/sprite_accessory/facial_hair/hip
 	name = "Borodka i baki"
-	desc_ru = "ая бородка с баками"
+	desc_ru = "Р°СЏ Р±РѕСЂРѕРґРєР° СЃ Р±Р°РєР°РјРё"
 	desc = "goatee with the sideburns"
 	icon_state = "facial_hip"
 
 /datum/sprite_accessory/facial_hair/gt
 	name = "Boroda korotkaya"
-	desc_ru = "ая маленькая борода"
+	desc_ru = "Р°СЏ РјР°Р»РµРЅСЊРєР°СЏ Р±РѕСЂРѕРґР°"
 	desc = "small beard"
 	icon_state = "facial_gt"
 
 /datum/sprite_accessory/facial_hair/jensen
 	name = "Shetina staraya"
-	desc_ru = "ая длинная щетина"
+	desc_ru = "Р°СЏ РґР»РёРЅРЅР°СЏ С‰РµС‚РёРЅР°"
 	desc = "unshaved face"
 	icon_state = "facial_jensen"
 
 /datum/sprite_accessory/facial_hair/fiveoclock
 	name = "Shetina legkaya"
-	desc_ru = "ая короткая щетина"
+	desc_ru = "Р°СЏ РєРѕСЂРѕС‚РєР°СЏ С‰РµС‚РёРЅР°"
 	desc = "unshaved face"
 	icon_state = "facial_fiveoclock"
 
 /datum/sprite_accessory/facial_hair/fu
 	name = "Kozatskie usi shirokie"
-	desc_ru = "ые длинные усища"
+	desc_ru = "С‹Рµ РґР»РёРЅРЅС‹Рµ СѓСЃРёС‰Р°"
 	desc = "long moustache"
 	icon_state = "facial_fumanchu"
 
@@ -437,7 +437,7 @@
 
 
 ///////////////////////////////////////////////////
-//Цвета волос/бород//
+//Р¦РІРµС‚Р° РІРѕР»РѕСЃ/Р±РѕСЂРѕРґ//
 //////////////////////////////////////////////////
 
 /proc/init_hair_color_subtypes(prototype, list/L)
@@ -484,77 +484,77 @@
 	return L
 
 /datum/hair_color
-	var/desc_ru = "черн"
+	var/desc_ru = "С‡РµСЂРЅ"
 	var/desc = "black "
-	var/name = "white"			//Название цвета
-	var/color = "#ffffff"		//Цвет в HEX
+	var/name = "white"			//РќР°Р·РІР°РЅРёРµ С†РІРµС‚Р°
+	var/color = "#ffffff"		//Р¦РІРµС‚ РІ HEX
 	var/donate = 0
 
 /datum/hair_color/black1
 	name = "Black, type 1"
-	desc_ru = "черн"
+	desc_ru = "С‡РµСЂРЅ"
 	desc = "black "
 	color = "#111111"
 
 /datum/hair_color/black2
 	name = "Black, type 2"
-	desc_ru = "черн"
+	desc_ru = "С‡РµСЂРЅ"
 	desc = "black "
 	color = "#222222"
 
 /datum/hair_color/blond1
 	name = "Blond, type 1"
-	desc_ru = "светл"
+	desc_ru = "СЃРІРµС‚Р»"
 	desc = "blond "
 	color = "#ffcc66"
 
 /datum/hair_color/blond2
 	name = "Blond, type 2"
-	desc_ru = "светл"
+	desc_ru = "СЃРІРµС‚Р»"
 	desc = "blond "
 	color = "#ffcc99"
 
 /datum/hair_color/brown1
 	name = "Brown, type 1"
-	desc_ru = "темн"
+	desc_ru = "С‚РµРјРЅ"
 	desc = "dark "
 	color = "#996633"
 
 /datum/hair_color/brown2
 	name = "Brown, type 2"
-	desc_ru = "темн"
+	desc_ru = "С‚РµРјРЅ"
 	desc = "dark "
 	color = "#663300"
 
 /datum/hair_color/grey1
 	name = "Grey, type 1"
-	desc_ru = "седоват"
+	desc_ru = "СЃРµРґРѕРІР°С‚"
 	desc = "grey "
 	color = "#777777"
 
 /datum/hair_color/grey2
 	name = "Grey, type 2"
-	desc_ru = "седоват"
+	desc_ru = "СЃРµРґРѕРІР°С‚"
 	desc = "grey "
 	color = "#999999"
 
 /datum/hair_color/redpetuh
 	name = "Red cock"
-	desc_ru = "кислотно-красноват"
+	desc_ru = "РєРёСЃР»РѕС‚РЅРѕ-РєСЂР°СЃРЅРѕРІР°С‚"
 	desc = "toxic-red "
 	color = "#aa0000"
 	donate = 1
 
 /datum/hair_color/bluefag
 	name = "Blue nose"
-	desc_ru = "кислотно-синеват"
+	desc_ru = "РєРёСЃР»РѕС‚РЅРѕ-СЃРёРЅРµРІР°С‚"
 	desc = "toxic-blue "
 	color = "#0000aa"
 	donate = 1
 
 /datum/hair_color/purplefrog
 	name = "Purple frog"
-	desc_ru = "кислотно-фиолетов"
+	desc_ru = "РєРёСЃР»РѕС‚РЅРѕ-С„РёРѕР»РµС‚РѕРІ"
 	desc = "toxic-purple "
 	color = "#aa00aa"
 	donate = 1

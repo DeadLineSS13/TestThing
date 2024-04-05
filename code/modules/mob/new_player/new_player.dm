@@ -33,7 +33,7 @@
 		return
 
 	if(isblowout)
-		usr << usr.client.select_lang("<span class='danger'>В зоне идёт выброс!</span>","<span class='danger'>The blowout is ongoing in the Zone!</span>")
+		usr << usr.client.select_lang("<span class='danger'>Р’ Р·РѕРЅРµ РёРґС‘С‚ РІС‹Р±СЂРѕСЃ!</span>","<span class='danger'>The blowout is ongoing in the Zone!</span>")
 /*
 	if(!client.holder)
 		for(var/datum/data/record/sk in GLOB.data_core.stalkers)
@@ -41,7 +41,7 @@
 				if(client && (client.prefs.chat_toggles & CHAT_LANGUAGE))
 					usr << "<span class='warning'>Change your name!</span>"
 				else
-					usr << "<span class='warning'>Смени-ка имя.</span>"
+					usr << "<span class='warning'>РЎРјРµРЅРё-РєР° РёРјСЏ.</span>"
 				return
 */
 	if(SSticker.queued_players.len || (relevant_cap && living_player_count() >= relevant_cap && !(ckey(key) in admin_datums)))
@@ -190,7 +190,7 @@
 			return
 
 		if(isblowout)
-			usr << usr.client.select_lang("<span class='danger'>В зоне идёт выброс!</span>","<span class='danger'>The blowout is ongoing in the Zone!</span>")
+			usr << usr.client.select_lang("<span class='danger'>Р’ Р·РѕРЅРµ РёРґС‘С‚ РІС‹Р±СЂРѕСЃ!</span>","<span class='danger'>The blowout is ongoing in the Zone!</span>")
 /*
 		if(!client.holder)
 			for(var/datum/data/record/sk in GLOB.data_core.stalkers)
@@ -198,7 +198,7 @@
 					if(client && (client.prefs.chat_toggles & CHAT_LANGUAGE))
 						usr << "<span class='warning'>Change your name!</span>"
 					else
-						usr << "<span class='warning'>Смени-ка имя.</span>"
+						usr << "<span class='warning'>РЎРјРµРЅРё-РєР° РёРјСЏ.</span>"
 					return
 */
 		if(href_list["late_join"] == "override")
@@ -357,7 +357,7 @@
 					if(job.limit_per_player > GLOB.jobnamelatejoincount[usr.client.ckey + rank])
 						GLOB.jobnamelatejoincount[usr.client.ckey + rank]++
 					else
-						usr << "Лимит твоих возрождений для роли [rank] исчерпан."
+						usr << "Р›РёРјРёС‚ С‚РІРѕРёС… РІРѕР·СЂРѕР¶РґРµРЅРёР№ РґР»СЏ СЂРѕР»Рё [rank] РёСЃС‡РµСЂРїР°РЅ."
 						return
 	if(SSbr_zone.ON)
 		if(world.time > SSticker.round_start_time+600)
@@ -385,7 +385,7 @@
 				qdel(src)
 				return 1
 
-	if(!client)			//Кто-то нажал несколько раз на лес
+	if(!client)			//РљС‚Рѕ-С‚Рѕ РЅР°Р¶Р°Р» РЅРµСЃРєРѕР»СЊРєРѕ СЂР°Р· РЅР° Р»РµСЃ
 		return
 
 	client.prefs.loaded[client.prefs.default_slot] = 1
