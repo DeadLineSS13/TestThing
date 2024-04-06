@@ -1,6 +1,6 @@
 #if !defined(MAP_FILE)
 
-        #include "map_files\Stalker\testmap.dmm"
+        #include "map_files\Stalker\testmap2.dmm"
 
         #define MAP_FILE "testmap.dmm"
         #define MAP_NAME "testmap2"
